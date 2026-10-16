@@ -1,0 +1,287 @@
+{
+ "summary": {
+  "grok": {
+   "triage": 1.0,
+   "summary": 0.6875,
+   "tweet": 0.9375,
+   "regex": 1.0,
+   "json": 1.0,
+   "format_ok_summary_tweet": 1.0,
+   "overall": 0.925,
+   "usd_per_item": 0.003502612,
+   "sec_per_item": 7.439
+  },
+  "qwen3_0.6b": {
+   "triage": 0.25,
+   "summary": 0.375,
+   "tweet": 0.375,
+   "regex": 0.0,
+   "json": 1.0,
+   "format_ok_summary_tweet": 0.25,
+   "overall": 0.4,
+   "sec_per_item": 3.868,
+   "tok_per_s": 6.579627714581179
+  },
+  "smollm2_360m": {
+   "triage": 0.25,
+   "summary": 0.5,
+   "tweet": 0.1875,
+   "regex": 0.25,
+   "json": 1.0,
+   "format_ok_summary_tweet": 0.125,
+   "overall": 0.4375,
+   "sec_per_item": 1.974,
+   "tok_per_s": 13.576494427558256
+  },
+  "_judge_usd_total": 0.04456652,
+  "_answer_usd_total": 0.07005224
+ },
+ "per_item": {
+  "grok": {
+   "triage0": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "triage1": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "triage2": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "triage3": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "summary0": {
+    "score": 1.0,
+    "format_ok": 1.0
+   },
+   "summary1": {
+    "score": 0.75,
+    "format_ok": 1.0
+   },
+   "summary2": {
+    "score": 0.75,
+    "format_ok": 1.0
+   },
+   "summary3": {
+    "score": 0.25,
+    "format_ok": 1.0
+   },
+   "tweet0": {
+    "score": 1.0,
+    "format_ok": 1.0
+   },
+   "tweet1": {
+    "score": 1.0,
+    "format_ok": 1.0
+   },
+   "tweet2": {
+    "score": 1.0,
+    "format_ok": 1.0
+   },
+   "tweet3": {
+    "score": 0.75,
+    "format_ok": 1.0
+   },
+   "regex0": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "regex1": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "regex2": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "regex3": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json0": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json1": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json2": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json3": {
+    "score": 1.0,
+    "format_ok": null
+   }
+  },
+  "qwen3_0.6b": {
+   "triage0": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "triage1": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "triage2": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "triage3": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "summary0": {
+    "score": 0.25,
+    "format_ok": 0.0
+   },
+   "summary1": {
+    "score": 0.25,
+    "format_ok": 0.0
+   },
+   "summary2": {
+    "score": 0.25,
+    "format_ok": 0.0
+   },
+   "summary3": {
+    "score": 0.75,
+    "format_ok": 1.0
+   },
+   "tweet0": {
+    "score": 0.25,
+    "format_ok": 0.0
+   },
+   "tweet1": {
+    "score": 0.75,
+    "format_ok": 1.0
+   },
+   "tweet2": {
+    "score": 0.25,
+    "format_ok": 0.0
+   },
+   "tweet3": {
+    "score": 0.25,
+    "format_ok": 0.0
+   },
+   "regex0": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "regex1": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "regex2": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "regex3": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "json0": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json1": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json2": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json3": {
+    "score": 1.0,
+    "format_ok": null
+   }
+  },
+  "smollm2_360m": {
+   "triage0": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "triage1": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "triage2": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "triage3": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "summary0": {
+    "score": 0.5,
+    "format_ok": 0.0
+   },
+   "summary1": {
+    "score": 0.5,
+    "format_ok": 0.0
+   },
+   "summary2": {
+    "score": 0.5,
+    "format_ok": 1.0
+   },
+   "summary3": {
+    "score": 0.5,
+    "format_ok": 0.0
+   },
+   "tweet0": {
+    "score": 0.5,
+    "format_ok": 0.0
+   },
+   "tweet1": {
+    "score": 0.0,
+    "format_ok": 0.0
+   },
+   "tweet2": {
+    "score": 0.0,
+    "format_ok": 0.0
+   },
+   "tweet3": {
+    "score": 0.25,
+    "format_ok": 0.0
+   },
+   "regex0": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "regex1": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "regex2": {
+    "score": 0.0,
+    "format_ok": null
+   },
+   "regex3": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json0": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json1": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json2": {
+    "score": 1.0,
+    "format_ok": null
+   },
+   "json3": {
+    "score": 1.0,
+    "format_ok": null
+   }
+  }
+ }
+}

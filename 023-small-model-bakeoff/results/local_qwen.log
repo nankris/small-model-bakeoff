@@ -1,0 +1,21 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<01:02,  4.94it/s]Loading weights:  23%|██▎       | 70/311 [00:00<00:00, 283.77it/s]Loading weights:  44%|████▎     | 136/311 [00:00<00:00, 421.01it/s]Loading weights:  66%|██████▌   | 204/311 [00:00<00:00, 487.43it/s]Loading weights:  83%|████████▎ | 259/311 [00:01<00:00, 125.21it/s]Loading weights:  95%|█████████▌| 296/311 [00:02<00:00, 91.03it/s] Loading weights: 100%|██████████| 311/311 [00:02<00:00, 126.20it/s]
+qwen3_0.6b triage0 1.51 'Product update'
+qwen3_0.6b triage1 0.91 'Product update'
+qwen3_0.6b triage2 0.93 'Product update'
+qwen3_0.6b triage3 1.26 'Product update'
+qwen3_0.6b summary0 3.97 'The city council extended metro evening service by two hours'
+qwen3_0.6b summary1 3.74 'Researchers trained a small language model on synthetic text'
+qwen3_0.6b summary2 4.12 'A local bakery composted its unsold bread and sold the compo'
+qwen3_0.6b summary3 3.44 'The monsoon delayed sowing in several districts, with short-'
+qwen3_0.6b tweet0 7.23 '- Tested a 0.6B model vs a frontier model on 40 math problem'
+qwen3_0.6b tweet1 4.34 'Batched 20 items per API call instead of 1 → cost dropped 8x'
+qwen3_0.6b tweet2 2.31 '#TechBlog #AgentCompaction 27% cheaper than doing nothing, n'
+qwen3_0.6b tweet3 3.26 '#TFIDFLogisticRegression #TechBlog 87.5% accuracy in 1.5s wi'
+qwen3_0.6b regex0 0.77 '/regex/'
+qwen3_0.6b regex1 0.85 '/regex/'
+qwen3_0.6b regex2 1.24 '#([a-zA-Z0-9_])'
+qwen3_0.6b regex3 1.12 '/regex/1.2.3'
+qwen3_0.6b json0 10.59 '```json\n{\n  "company": "Acme Analytics",\n  "role": "Senior D'
+qwen3_0.6b json1 6.01 '```json\n{\n  "company": "Brightpath Labs",\n  "role": "Machine'
+qwen3_0.6b json2 8.74 '```json\n{\n  "company": "Nimbus Health",\n  "role": "AI Resear'
+qwen3_0.6b json3 11.02 '```json\n{\n  "company": "Kestrel Fintech",\n  "role": "Applied'

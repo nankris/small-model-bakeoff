@@ -1,0 +1,20 @@
+{"id": "triage0", "task": "triage", "text": "Product update", "gen_tokens": 3, "wall_s": 1.51}
+{"id": "triage1", "task": "triage", "text": "Product update", "gen_tokens": 3, "wall_s": 0.91}
+{"id": "triage2", "task": "triage", "text": "Product update", "gen_tokens": 3, "wall_s": 0.93}
+{"id": "triage3", "task": "triage", "text": "Product update", "gen_tokens": 3, "wall_s": 1.26}
+{"id": "summary0", "task": "summary", "text": "The city council extended metro evening service by two hours on weekdays, with a 40% increase in ridership and a small rise in parking fees, though some residents raised concerns about noise.", "gen_tokens": 40, "wall_s": 3.97}
+{"id": "summary1", "task": "summary", "text": "Researchers trained a small language model on synthetic textbooks and found it outperformed larger models on basic coding tests, but struggled with real-world questions, warning synthetic data may overlook gaps in real-world use.", "gen_tokens": 41, "wall_s": 3.74}
+{"id": "summary2", "task": "summary", "text": "A local bakery composted its unsold bread and sold the compost to community gardens, cutting food waste by half and earning enough to hire a delivery helper, now sharing the process with three other shops.", "gen_tokens": 41, "wall_s": 4.12}
+{"id": "summary3", "task": "summary", "text": "The monsoon delayed sowing in several districts, with short-duration seed varieties helping farmers, and the agriculture department expanding seed access and SMS alerts.", "gen_tokens": 30, "wall_s": 3.44}
+{"id": "tweet0", "task": "tweet", "text": "- Tested a 0.6B model vs a frontier model on 40 math problems.  \n**#TechFrontier**  \n**57.5%** vs **100%** frontier model.  \n**#TechFrontier**", "gen_tokens": 53, "wall_s": 7.23}
+{"id": "tweet1", "task": "tweet", "text": "Batched 20 items per API call instead of 1 \u2192 cost dropped 8x \u2192 accuracy unchanged (89% vs 90.5%)  \n\n#TechBlogTweet", "gen_tokens": 39, "wall_s": 4.34}
+{"id": "tweet2", "task": "tweet", "text": "#TechBlog #AgentCompaction 27% cheaper than doing nothing, no facts lost in any method.", "gen_tokens": 24, "wall_s": 2.31}
+{"id": "tweet3", "task": "tweet", "text": "#TFIDFLogisticRegression #TechBlog 87.5% accuracy in 1.5s within 3 points of a frontier LLM", "gen_tokens": 33, "wall_s": 3.26}
+{"id": "regex0", "task": "regex", "text": "/regex/", "gen_tokens": 4, "wall_s": 0.77}
+{"id": "regex1", "task": "regex", "text": "/regex/", "gen_tokens": 4, "wall_s": 0.85}
+{"id": "regex2", "task": "regex", "text": "#([a-zA-Z0-9_])", "gen_tokens": 11, "wall_s": 1.24}
+{"id": "regex3", "task": "regex", "text": "/regex/1.2.3", "gen_tokens": 9, "wall_s": 1.12}
+{"id": "json0", "task": "json", "text": "```json\n{\n  \"company\": \"Acme Analytics\",\n  \"role\": \"Senior Data Scientist\",\n  \"city\": \"Pune\",\n  \"min_years\": 6\n}\n```", "gen_tokens": 41, "wall_s": 10.59}
+{"id": "json1", "task": "json", "text": "```json\n{\n  \"company\": \"Brightpath Labs\",\n  \"role\": \"Machine Learning Engineer\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 4\n}\n```", "gen_tokens": 41, "wall_s": 6.01}
+{"id": "json2", "task": "json", "text": "```json\n{\n  \"company\": \"Nimbus Health\",\n  \"role\": \"AI Research Scientist\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 5\n}\n```", "gen_tokens": 43, "wall_s": 8.74}
+{"id": "json3", "task": "json", "text": "```json\n{\n  \"company\": \"Kestrel Fintech\",\n  \"role\": \"Applied Scientist\",\n  \"city\": \"Chennai\",\n  \"min_years\": 3\n}\n```", "gen_tokens": 43, "wall_s": 11.02}

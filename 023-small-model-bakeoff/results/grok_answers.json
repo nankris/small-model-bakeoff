@@ -1,0 +1,122 @@
+{
+ "triage1": {
+  "text": "Job alert",
+  "cost": 0.00339456,
+  "latency": 4.91,
+  "exit": 0
+ },
+ "triage0": {
+  "text": "AI research",
+  "cost": 0.00339728,
+  "latency": 4.99,
+  "exit": 0
+ },
+ "triage3": {
+  "text": "Product update",
+  "cost": 0.00344828,
+  "latency": 5.1,
+  "exit": 0
+ },
+ "triage2": {
+  "text": "Promotion",
+  "cost": 0.00337348,
+  "latency": 5.14,
+  "exit": 0
+ },
+ "summary1": {
+  "text": "A small model trained only on synthetic textbooks beat much larger models on basic coding tests but failed outside those topics.",
+  "cost": 0.00335988,
+  "latency": 3.97,
+  "exit": 0
+ },
+ "tweet0": {
+  "text": "We ran a 0.6B model against a frontier model on 40 math problems: 57.5% with 5 votes vs 100%. The frontier model did the whole set for 15 cents. #AI",
+  "cost": 0.00344148,
+  "latency": 5.17,
+  "exit": 0
+ },
+ "summary2": {
+  "text": "A bakery composted unsold bread, halved waste in six months, funded a delivery helper, and will share the process with three shops.",
+  "cost": 0.00337756,
+  "latency": 5.96,
+  "exit": 0
+ },
+ "summary3": {
+  "text": "A late monsoon delayed sowing, though short-duration seeds limited harm and will expand next season with SMS weather alerts.",
+  "cost": 0.00371484,
+  "latency": 6.88,
+  "exit": 0
+ },
+ "tweet1": {
+  "text": "Batching 20 items per API call instead of 1 cut our cost 8x. Accuracy stayed basically the same: 89% vs 90.5%. #Engineering",
+  "cost": 0.00341768,
+  "latency": 3.35,
+  "exit": 0
+ },
+ "regex0": {
+  "text": "^[1-9][0-9]{5}$",
+  "cost": 0.00376924,
+  "latency": 5.22,
+  "exit": 0
+ },
+ "regex1": {
+  "text": "^\\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
+  "cost": 0.00382772,
+  "latency": 5.91,
+  "exit": 0
+ },
+ "summary0": {
+  "text": "The city council will extend weekday metro evenings by two hours next month, funded by higher station parking fees despite noise concerns.",
+  "cost": 0.00338096,
+  "latency": 18.54,
+  "exit": 0
+ },
+ "regex2": {
+  "text": "^#[A-Za-z][A-Za-z0-9_]*$",
+  "cost": 0.00393312,
+  "latency": 6.18,
+  "exit": 0
+ },
+ "regex3": {
+  "text": "^\\d+\\.\\d+\\.\\d+$",
+  "cost": 0.00369376,
+  "latency": 5.54,
+  "exit": 0
+ },
+ "tweet3": {
+  "text": "A TF-IDF + logistic regression model hit 87.5% accuracy on news topics in 1.5 seconds\u2014within 3 points of a frontier LLM. Small models still punch above their weight. #MachineLearning",
+  "cost": 0.00343944,
+  "latency": 14.71,
+  "exit": 0
+ },
+ "json1": {
+  "text": "{\"company\": \"Brightpath Labs\", \"role\": \"Machine Learning Engineer\", \"city\": \"Hyderabad\", \"min_years\": 4}",
+  "cost": 0.00344216,
+  "latency": 3.08,
+  "exit": 0
+ },
+ "json2": {
+  "text": "{\"company\": \"Nimbus Health\", \"role\": \"AI Research Scientist\", \"city\": \"Bengaluru\", \"min_years\": 5}",
+  "cost": 0.00343128,
+  "latency": 2.94,
+  "exit": 0
+ },
+ "json3": {
+  "text": "{\"company\": \"Kestrel Fintech\", \"role\": \"Applied Scientist\", \"city\": \"Chennai\", \"min_years\": 3}",
+  "cost": 0.00337008,
+  "latency": 2.74,
+  "exit": 0
+ },
+ "json0": {
+  "text": "{\"company\":\"Acme Analytics\",\"role\":\"Senior Data Scientist\",\"city\":\"Pune\",\"min_years\":6}",
+  "cost": 0.00337416,
+  "latency": 13.04,
+  "exit": 0
+ },
+ "tweet2": {
+  "text": "We compared agent context compaction methods: a manual handoff note was 27% cheaper than doing nothing, and no method lost facts. #AIAgents",
+  "cost": 0.00346528,
+  "latency": 25.41,
+  "exit": 0
+ }
+}

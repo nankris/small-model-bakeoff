@@ -1,0 +1,50 @@
+{
+ "tweet0": {
+  "qwen3_0.6b": 2,
+  "grok": 5,
+  "smollm2_360m": 3,
+  "_raw": "A: 2\nB: 5\nC: 3"
+ },
+ "summary1": {
+  "grok": 4,
+  "qwen3_0.6b": 2,
+  "smollm2_360m": 3,
+  "_raw": "A: 4\nB: 2\nC: 3"
+ },
+ "summary2": {
+  "qwen3_0.6b": 2,
+  "smollm2_360m": 3,
+  "grok": 4,
+  "_raw": "A: 2\nB: 3\nC: 4"
+ },
+ "summary3": {
+  "smollm2_360m": 3,
+  "grok": 2,
+  "qwen3_0.6b": 4,
+  "_raw": "A: 3\nB: 2\nC: 4"
+ },
+ "summary0": {
+  "smollm2_360m": 3,
+  "qwen3_0.6b": 2,
+  "grok": 5,
+  "_raw": "A: 3\nB: 2\nC: 5"
+ },
+ "tweet1": {
+  "grok": 5,
+  "qwen3_0.6b": 4,
+  "smollm2_360m": 1,
+  "_raw": "A: 5\nB: 4\nC: 1"
+ },
+ "tweet3": {
+  "qwen3_0.6b": 2,
+  "grok": 4,
+  "smollm2_360m": 2,
+  "_raw": "A: 2\nB: 4\nC: 2"
+ },
+ "tweet2": {
+  "grok": 5,
+  "qwen3_0.6b": 2,
+  "smollm2_360m": 1,
+  "_raw": "A: 5\nB: 2\nC: 1"
+ }
+}

@@ -1,0 +1,22 @@
+[
+ {
+  "model": "smollm2_360m",
+  "params_m": 361.8,
+  "load_s": 19.8,
+  "rss_after_load_mb": 2706,
+  "peak_rss_mb": 2706,
+  "python_torch_baseline_mb": 445,
+  "measured_ist": "2026-10-15 ~03:35",
+  "note": "max RSS of child process: fp32 load + 1 greedy generation (120 new tokens), 2 threads; includes ~445 MB Python+torch+transformers import and safetensors pages mapped during load"
+ },
+ {
+  "model": "qwen3_0.6b",
+  "params_m": 596.0,
+  "load_s": 6.8,
+  "rss_after_load_mb": 5099,
+  "peak_rss_mb": 5099,
+  "python_torch_baseline_mb": 445,
+  "measured_ist": "2026-10-15 ~03:35",
+  "note": "max RSS of child process: fp32 load + 1 greedy generation (120 new tokens), 2 threads; includes ~445 MB Python+torch+transformers import and safetensors pages mapped during load"
+ }
+]
