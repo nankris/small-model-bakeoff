@@ -1,0 +1,3242 @@
+[
+  {
+    "model": "grok",
+    "id": "triage0",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage0",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex0",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex0",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json0",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json0",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage1",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage1",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex1",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex1",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json1",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json1",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage2",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage2",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex2",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex2",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json2",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json2",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage3",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage3",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex3",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex3",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json3",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json3",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage4",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage4",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex4",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex4",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json4",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json4",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage5",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage5",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex5",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex5",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json5",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json5",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage6",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage6",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex6",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex6",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json6",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json6",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage7",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage7",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex7",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex7",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json7",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json7",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage8",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage8",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex8",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex8",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json8",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json8",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage9",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage9",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex9",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex9",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json9",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json9",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage10",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage10",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex10",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex10",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json10",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json10",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage11",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage11",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex11",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex11",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json11",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json11",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage12",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage12",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex12",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex12",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json12",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json12",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage13",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage13",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex13",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex13",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json13",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json13",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage14",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage14",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex14",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex14",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json14",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json14",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage15",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage15",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex15",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex15",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json15",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json15",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage16",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage16",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex16",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex16",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json16",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json16",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage17",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage17",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex17",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex17",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json17",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json17",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage18",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage18",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex18",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex18",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json18",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json18",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage19",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage19",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex19",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex19",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json19",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json19",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage20",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage20",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex20",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex20",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json20",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json20",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage21",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage21",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex21",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex21",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json21",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json21",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage22",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage22",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex22",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex22",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json22",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json22",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage23",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage23",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex23",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex23",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json23",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json23",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage24",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage24",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex24",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex24",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json24",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json24",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage25",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage25",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex25",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex25",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json25",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json25",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage26",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage26",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex26",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex26",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json26",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json26",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage27",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage27",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex27",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex27",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json27",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json27",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage28",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage28",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex28",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex28",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json28",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json28",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage29",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage29",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex29",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex29",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json29",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json29",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage30",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage30",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex30",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex30",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json30",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json30",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage31",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage31",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex31",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex31",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json31",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json31",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage32",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage32",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex32",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex32",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json32",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json32",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage33",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage33",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex33",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex33",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json33",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json33",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage34",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage34",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex34",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex34",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json34",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json34",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage35",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage35",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex35",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex35",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json35",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json35",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage36",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage36",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex36",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex36",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json36",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json36",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage37",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage37",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex37",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex37",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json37",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json37",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage38",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage38",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex38",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex38",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json38",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json38",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage39",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage39",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex39",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex39",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json39",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json39",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage40",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage40",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex40",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex40",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json40",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json40",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage41",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage41",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex41",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex41",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json41",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json41",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage42",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage42",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex42",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex42",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json42",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json42",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage43",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage43",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex43",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex43",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json43",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json43",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage44",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage44",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex44",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex44",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json44",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json44",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage45",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage45",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex45",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex45",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json45",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json45",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage46",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage46",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex46",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex46",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json46",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json46",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage47",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage47",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex47",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex47",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json47",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json47",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage48",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage48",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex48",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex48",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json48",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json48",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage49",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage49",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex49",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex49",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json49",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json49",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage50",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage50",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex50",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex50",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json50",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json50",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage51",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage51",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex51",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex51",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json51",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json51",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage52",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage52",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex52",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex52",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json52",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json52",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage53",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage53",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex53",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex53",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json53",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json53",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage54",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage54",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex54",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex54",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json54",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json54",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage55",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage55",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex55",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex55",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json55",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json55",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage56",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage56",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex56",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex56",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json56",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json56",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage57",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage57",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex57",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex57",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json57",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json57",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage58",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage58",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex58",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex58",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json58",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json58",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage59",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage59",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex59",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex59",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json59",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json59",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "sessions": [
+    {
+      "session": "r3023",
+      "gpu_requested_order": [
+        "L4",
+        "T4",
+        "A100",
+        "CPU"
+      ],
+      "gpu_allocated": "L4",
+      "started": true,
+      "elapsed_s": 890.2,
+      "cu_rate_per_h": 1.54,
+      "cu_estimated": 0.3808,
+      "cu_cap": 4.6,
+      "reason": "complete",
+      "balance_before": 175.96,
+      "balance_after": 175.43,
+      "rate_before": 1.54,
+      "rate_after": 1.54,
+      "active_after": 1,
+      "ts": 1792090391.3608096
+    }
+  ],
+  "cu_estimated_total": 0.3808,
+  "gpu_allocated": "L4",
+  "qwen_meta": {
+    "gpu": "NVIDIA L4, 23034 MiB",
+    "repo": "Qwen/Qwen3-4B",
+    "quant": "nf4",
+    "cuda": true,
+    "model_key": "qwen3_4b_q4",
+    "n_todo": 30
+  },
+  "balance_before_first": 175.96,
+  "balance_after_last": 175.43,
+  "reason": "complete"
+}
