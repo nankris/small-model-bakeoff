@@ -1,0 +1,152 @@
+[
+  {
+    "id": "triage0",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "triage1",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "triage2",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "triage3",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "triage4",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "triage5",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "summary0",
+    "model": "grok",
+    "success": 0
+  },
+  {
+    "id": "summary1",
+    "model": "grok",
+    "success": 0
+  },
+  {
+    "id": "summary2",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "summary3",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "summary4",
+    "model": "grok",
+    "success": 0
+  },
+  {
+    "id": "summary5",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "tweet0",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "tweet1",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "tweet2",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "tweet3",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "tweet4",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "tweet5",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "regex0",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "regex1",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "regex2",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "regex3",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "regex4",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "regex5",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "json0",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "json1",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "json2",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "json3",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "json4",
+    "model": "grok",
+    "success": 1
+  },
+  {
+    "id": "json5",
+    "model": "grok",
+    "success": 1
+  }
+]

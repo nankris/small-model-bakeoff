@@ -1,0 +1,17 @@
+{
+  "session": "tig023r-v2",
+  "requested_gpu": "L4",
+  "actual_gpu": null,
+  "allocation_attempts": 3,
+  "allocation_error": "Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime.",
+  "stop_result": "Session 'tig023r-v2' not found.",
+  "balance_before": 179.84,
+  "balance_after": 179.58,
+  "experiment_CU": 0.0,
+  "account_active_assignments_after": 2,
+  "account_rate_after": 3.08,
+  "other_sessions_touched": false,
+  "balance_after_intermediate": 179.84,
+  "account_balance_delta": 0.26,
+  "attribution_note": "No experiment runtime was allocated. Account balance decreased while two unrelated assignments remained active; account delta is not this experiment CU."
+}

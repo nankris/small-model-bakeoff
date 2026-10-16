@@ -1,0 +1,30 @@
+{"model": "grok", "id": "triage0", "text": "AI research", "exit": 0, "stderr": "", "wall_s": 14.90908670425415}
+{"model": "grok", "id": "summary0", "text": "Alder\u2019s translation pilot cut weekday processing time 18%, with no weekend gains, so officials will expand it to three sites rather than citywide.", "exit": 0, "stderr": "", "wall_s": 18.080146312713623}
+{"model": "grok", "id": "tweet0", "text": "Retrieval lifted translation accuracy from 50% to 60% on 100 examples, while latency rose from 2 to 4 seconds. #MachineTranslation", "exit": 0, "stderr": "", "wall_s": 17.478107690811157}
+{"model": "grok", "id": "regex0", "text": "\\AAB-[0-9]{2}\\Z", "exit": 0, "stderr": "", "wall_s": 18.51741313934326}
+{"model": "grok", "id": "json0", "text": "{\"company\":\"Alder district 0 Labs\",\"role\":\"Data Scientist\",\"city\":\"Pune\",\"min_years\":0}", "exit": 0, "stderr": "", "wall_s": 17.315210819244385}
+{"model": "grok", "id": "triage1", "text": "Job alert", "exit": 0, "stderr": "", "wall_s": 26.79218602180481}
+{"model": "grok", "id": "summary1", "text": "A 13-week robotics pilot cut weekday processing time 19 percent, with no weekend gain, so officials will expand it to four sites rather than citywide.", "exit": 0, "stderr": "", "wall_s": 31.220773696899414}
+{"model": "grok", "id": "tweet1", "text": "Tested a robotics model on 110 examples: accuracy rose from 51% to 61% with retrieval, while latency increased from 3 to 5 seconds. #Robotics", "exit": 0, "stderr": "", "wall_s": 31.66071844100952}
+{"model": "grok", "id": "regex1", "text": "^xy:[0-9]{3}$", "exit": 0, "stderr": "", "wall_s": 33.11118030548096}
+{"model": "grok", "id": "json1", "text": "{\"company\":\"Birch district 1 Labs\",\"role\":\"ML Engineer\",\"city\":\"Delhi\",\"min_years\":1}", "exit": 0, "stderr": "", "wall_s": 33.70813250541687}
+{"model": "grok", "id": "triage2", "text": "Promotion", "exit": 0, "stderr": "", "wall_s": 26.617066383361816}
+{"model": "grok", "id": "summary2", "text": "Cedar district 2\u2019s 14-week forecasting pilot cut processing time 20 percent on weekdays only, with no weekend improvement.", "exit": 0, "stderr": "", "wall_s": 23.441707372665405}
+{"model": "grok", "id": "tweet2", "text": "Tested a forecasting model on 120 examples: accuracy rose from 52% to 62% with retrieval, while latency increased from 4 to 6 seconds. #Forecasting", "exit": 0, "stderr": "", "wall_s": 22.441182613372803}
+{"model": "grok", "id": "regex2", "text": "\\AQZ_[0-9]{4}\\Z", "exit": 0, "stderr": "", "wall_s": 24.877872467041016}
+{"model": "grok", "id": "json2", "text": "{\"company\": \"Cedar district 2 Labs\", \"role\": \"Research Engineer\", \"city\": \"Chennai\", \"min_years\": 2}", "exit": 0, "stderr": "", "wall_s": 23.818298816680908}
+{"model": "grok", "id": "triage3", "text": "Product update", "exit": 0, "stderr": "", "wall_s": 19.927623510360718}
+{"model": "grok", "id": "summary3", "text": "A 15-week Dover district 3 pilot cut processing time 21 percent on weekdays only, with no weekend gain.", "exit": 0, "stderr": "", "wall_s": 21.942083835601807}
+{"model": "grok", "id": "tweet3", "text": "Search model tested on 130 examples: accuracy rose from 53% to 63% with retrieval; latency increased from 5 to 7 seconds. #SearchML", "exit": 0, "stderr": "", "wall_s": 20.87739109992981}
+{"model": "grok", "id": "regex3", "text": "^rt-[0-9]{5}$", "exit": 0, "stderr": "", "wall_s": 29.470199823379517}
+{"model": "grok", "id": "json3", "text": "{\"company\":\"Dover district 3 Labs\",\"role\":\"Data Scientist\",\"city\":\"Bengaluru\",\"min_years\":3}", "exit": 0, "stderr": "", "wall_s": 22.464791774749756}
+{"model": "grok", "id": "triage4", "text": "AI research", "exit": 0, "stderr": "", "wall_s": 23.837912797927856}
+{"model": "grok", "id": "summary4", "text": "A 16-week coding-service pilot cut weekday processing time 22 percent, with no weekend gain, so officials will expand it to seven sites, not citywide.", "exit": 0, "stderr": "", "wall_s": 25.754626989364624}
+{"model": "grok", "id": "tweet4", "text": "Tested a coding model on 140 examples: accuracy rose from 54% to 64% with retrieval, while latency increased from 6 to 8 seconds. #Retrieval", "exit": 0, "stderr": "", "wall_s": 24.37211537361145}
+{"model": "grok", "id": "regex4", "text": "^LM:[0-9]{6}$", "exit": 0, "stderr": "", "wall_s": 31.79786992073059}
+{"model": "grok", "id": "json4", "text": "{\"company\":\"Elm district 4 Labs\",\"role\":\"ML Engineer\",\"city\":\"Hyderabad\",\"min_years\":4}", "exit": 0, "stderr": "", "wall_s": 23.27342653274536}
+{"model": "grok", "id": "triage5", "text": "Job alert", "exit": 0, "stderr": "", "wall_s": 23.286983728408813}
+{"model": "grok", "id": "summary5", "text": "A 17-week speech-service pilot cut processing time 23 percent on weekdays only, with no weekend improvement.", "exit": 0, "stderr": "", "wall_s": 29.5138578414917}
+{"model": "grok", "id": "tweet5", "text": "Tested a speech model on 150 examples: accuracy rose from 55% to 65% with retrieval, while latency increased from 7 to 9 seconds. #SpeechAI", "exit": 0, "stderr": "", "wall_s": 27.416693449020386}
+{"model": "grok", "id": "regex5", "text": "^AB_[0-9]{2}$", "exit": 0, "stderr": "", "wall_s": 31.925450086593628}
+{"model": "grok", "id": "json5", "text": "{\"company\":\"Fern district 5 Labs\",\"role\":\"Research Engineer\",\"city\":\"Pune\",\"min_years\":5}", "exit": 0, "stderr": "", "wall_s": 30.74096441268921}
