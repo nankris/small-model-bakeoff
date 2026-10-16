@@ -1,0 +1,19 @@
+# 023r Small-model bakeoff v2
+
+## Preregistered hypothesis and decision rule (before generation)
+Hypothesis: Grok has higher mean task accuracy than Qwen3-4B Q4 on five daily text chores. Secondary comparisons: Grok versus Qwen3-0.6B and SmolLM2-360M; Qwen3-4B versus each tiny model.
+Round 1: 30 synthetic items per task (150 total), all four arms on identical prompts. Binary success: exact category; all regex tests; exact JSON object; independent blinded Codex pass/fail for summary/tweet faithfulness, coverage and format. Each task has equal weight. Summary must capture main event and material qualification, <=25 words in one sentence; tweet must preserve all three notes, invent nothing, <=280 characters and exactly one hashtag. No model identity given to judge.
+Primary decision: paired, task-stratified bootstrap (20,000 replicates, seed 23023) of Grok minus Qwen3-4B mean accuracy. PROVEN if 95% CI lower bound >0; DISPROVEN if upper bound <0; otherwise inconclusive. If inconclusive, one additional round adds 30 new items per task and recomputes on all 60/task; stop after that regardless. Per-task Wilson 95% CIs and paired difference CIs reported. Secondary comparisons descriptive, no familywise claim. Synthetic template families limit generalization; bootstrap treats items as sampling units.
+
+## Compute and provenance
+Original ../023-small-model-bakeoff left intact. All inputs synthetic/public, no private data. Qwen3-4B Q4 (bitsandbytes NF4, not GGUF Q4_K_M) on Colab L4; other local arms also on L4 for execution convenience (no CPU timing comparison). Greedy decoding, Qwen thinking disabled, 160 output tokens. Grok CLI --no-auto-update -p, tools/search disabled. Codex exec independent judge.
+Budget <=5 CU. Before: balance 179.84 CU, rate 0, active assignments 0. GPU actual: none allocated; final experiment CU: 0.00 (see execution status).
+
+## Actual execution status
+**STILL INCONCLUSIVE — infrastructure blocked; zero completed rounds.** Three `colab new --gpu L4 -s tig023r-v2` attempts returned `Allocation refused (precondition failed)`. `colab stop -s tig023r-v2` was called after failure and at cleanup; session not found. No GPU was allocated (requested: L4). Experiment CU used: **0.00**, account balance **179.84 before / 179.58 at final cleanup** (0.26 account CU consumed while two unrelated assignments were active). Account reported 2 other active assignments / 3.08 CU per hour after the first attempt; those sessions were not accessed or stopped. A100 was not attempted because this was an allocation failure, not model fit failure.
+
+150 round-1 inputs exist (30/task); only a partial Grok arm completed before cancellation. No local-model answers exist. Partial free-text outputs were independently judged using `codex exec` with shuffled anonymous candidates in a temporary empty directory. Partial scores are diagnostic only; the primary paired CI cannot be computed. This is not a completed n>=25/task bakeoff. The two-round statistical rule was never reached; no second round was falsely counted as an evaluation.
+
+To resume when L4 allocation is available: source `/workspace/tools/setup.sh`; run `bash scripts/run_remote.sh 1` (check cumulative CU budget first), `python scripts/grok_answers.py 1` (resumes), `python scripts/judge.py 1`, then `python scripts/analyse.py 1`. If primary CI crosses zero, generate round 2 using `python scripts/make_items.py 2`, repeat those commands for round 2 and analyse with `python scripts/analyse.py 2`. Stop after that. The remote runner requests L4 only and traps cleanup on both success and failure. Its 1h execution timeout is not a substitute for checking the current CU rate and remaining 5-CU budget.
+
+Quantization is planned bitsandbytes NF4 (4-bit weights, FP16 compute), explicitly different from the gap row's proposed llama.cpp GGUF route. No quantization or GPU execution occurred. Scripts syntax-checked locally; the remote model path remains unvalidated.
