@@ -1,0 +1,831 @@
+
+--- start 1792089490.416805 orchestrate.py ['--items', 'items.json']
+2026-10-15 18:38:10 CMD colab usage
+2026-10-15 18:38:12 Current balance: 175.96 compute units
+Usage rate: 1.54/hr
+Active assignments: 1
+2026-10-15 18:38:12 RC 0
+2026-10-15 18:38:12 before balance=175.96 rate=1.54 active=1
+2026-10-15 18:38:12 CMD colab usage
+2026-10-15 18:38:15 Current balance: 175.96 compute units
+Usage rate: 1.54/hr
+Active assignments: 1
+2026-10-15 18:38:15 RC 0
+2026-10-15 18:38:15 CMD colab new --gpu L4 -s r3023
+2026-10-15 18:38:21 [colab] Creating session 'r3023'...
+[colab] Session READY.
+2026-10-15 18:38:21 RC 0
+2026-10-15 18:38:21 allocated L4
+2026-10-15 18:38:21 CMD colab usage
+2026-10-15 18:38:24 Current balance: 175.96 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+2026-10-15 18:38:24 RC 0
+2026-10-15 18:38:24 gpu=L4 incremental_cu_per_h=1.540 source=usage_delta balance=175.96
+2026-10-15 18:38:24 CMD colab upload -s r3023 /workspace/work/tig/023r3-small-model-bakeoff/items.json /content/items.json
+2026-10-15 18:38:27 [colab] Uploaded '/workspace/work/tig/023r3-small-model-bakeoff/items.json' to '/content/items.json'
+2026-10-15 18:38:27 RC 0
+2026-10-15 18:38:27 batch 0 missing 300 est_cu 0.003
+2026-10-15 18:38:27 CMD colab exec -s r3023 -f /workspace/work/tig/023r3-small-model-bakeoff/scripts/remote_infer.py --timeout 1800 --env ITEMS_PATH=/content/items.json --env ANSWERS_PATH=/content/answers.jsonl --env BATCH_SIZE=20 --env PYTHONUNBUFFERED=1 --env MODEL_REPO=Qwen/Qwen3-4B
+BOOT remote_infer
+GPU NVIDIA L4, 23034 MiB cuda True
+TODO 20 already 0
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_auth.py:138: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+  warnings.warn(f"\nError while fetching `HF_TOKEN` secret value from your vault: '{str(e)}'.")
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+config.json:   0%|          | 0.00/726 [00:00<?, ?B/s]
+tokenizer_config.json:   0%|          | 0.00/9.73k [00:00<?, ?B/s]
+vocab.json:   0%|          | 0.00/2.78M [00:00<?, ?B/s]
+merges.txt:   0%|          | 0.00/1.67M [00:00<?, ?B/s]
+tokenizer.json: reconstructing file:   0%|          |  0.00B / 11.4MB           
+tokenizer.json: downloading bytes:           |  0.00B            
+model.safetensors.index.json:   0%|          | 0.00/32.8k [00:00<?, ?B/s]
+Downloading bytes:           |  0.00B            
+Reconstructing (incomplete total...): |          |  0.00B /  0.00B            
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+generation_config.json:   0%|          | 0.00/239 [00:00<?, ?B/s]
+META {"gpu": "NVIDIA L4, 23034 MiB", "repo": "Qwen/Qwen3-4B", "quant": "nf4", "cuda": true, "model_key": "qwen3_4b_q4", "n_todo": 20}
+RESULT {"model": "qwen3_4b_q4", "id": "triage0", "task": "triage", "text": "AI research", "wall_s": 1.914, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage0 exit=0 chars=11 1.914
+RESULT {"model": "qwen3_4b_q4", "id": "summary0", "task": "summary", "text": "Alder district 0's pilot reduced processing time by 18% on weekdays but had no weekend improvement, with a planned expansion to 3 sites in November.", "wall_s": 2.721, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary0 exit=0 chars=148 2.721
+RESULT {"model": "qwen3_4b_q4", "id": "tweet0", "task": "tweet", "text": "Tested translation model on 100 examples: accuracy rose from 50% to 60% with retrieval, latency increased from 2 to 4 seconds #AIperformance", "wall_s": 3.042, "new_tokens": 39, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet0 exit=0 chars=140 3.042
+RESULT {"model": "qwen3_4b_q4", "id": "regex0", "task": "regex", "text": "^AB-\\\\d{2}$", "wall_s": 0.706, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex0 exit=0 chars=11 0.706
+RESULT {"model": "qwen3_4b_q4", "id": "json0", "task": "json", "text": "{\n  \"company\": \"Alder district 0 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Pune\",\n  \"min_years\": 0\n}", "wall_s": 3.015, "new_tokens": 39, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json0 exit=0 chars=104 3.015
+RESULT {"model": "qwen3_4b_q4", "id": "triage1", "task": "triage", "text": "Job alert", "wall_s": 0.256, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage1 exit=0 chars=9 0.256
+RESULT {"model": "qwen3_4b_q4", "id": "summary1", "task": "summary", "text": "Birch District 1's robotics pilot reduced processing time by 19% on weekdays but had no weekend effect, with expansion planned.", "wall_s": 2.341, "new_tokens": 30, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary1 exit=0 chars=127 2.341
+RESULT {"model": "qwen3_4b_q4", "id": "tweet1", "task": "tweet", "text": "Tested robotics model on 110 examples: accuracy rose from 51% to 61% with retrieval, latency increased from 3 to 5 seconds. #AIperformance", "wall_s": 3.087, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet1 exit=0 chars=138 3.087
+RESULT {"model": "qwen3_4b_q4", "id": "regex1", "task": "regex", "text": "^xy:000$", "wall_s": 0.626, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex1 exit=0 chars=8 0.626
+RESULT {"model": "qwen3_4b_q4", "id": "json1", "task": "json", "text": "{\n  \"company\": \"Birch district 1 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Delhi\",\n  \"min_years\": 1\n}", "wall_s": 3.1, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json1 exit=0 chars=102 3.1
+RESULT {"model": "qwen3_4b_q4", "id": "triage2", "task": "triage", "text": "Job alert", "wall_s": 0.246, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage2 exit=0 chars=9 0.246
+RESULT {"model": "qwen3_4b_q4", "id": "summary2", "task": "summary", "text": "Cedar District 2's pilot reduced processing time by 20% on weekdays but had no weekend improvement, with a planned expansion to 5 sites in November.", "wall_s": 2.711, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary2 exit=0 chars=148 2.711
+RESULT {"model": "qwen3_4b_q4", "id": "tweet2", "task": "tweet", "text": "Tested forecasting model on 120 examples: accuracy rose from 52% to 62% with retrieval, latency increased from 4 to 6 seconds #AIperformance", "wall_s": 3.036, "new_tokens": 39, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet2 exit=0 chars=140 3.036
+RESULT {"model": "qwen3_4b_q4", "id": "regex2", "task": "regex", "text": "^QZ_\\\\d{4}$", "wall_s": 0.782, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex2 exit=0 chars=11 0.782
+RESULT {"model": "qwen3_4b_q4", "id": "json2", "task": "json", "text": "{\n  \"company\": \"Cedar district 2 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Chennai\",\n  \"min_years\": 2\n}", "wall_s": 2.989, "new_tokens": 39, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json2 exit=0 chars=110 2.989
+RESULT {"model": "qwen3_4b_q4", "id": "triage3", "task": "triage", "text": "Product update", "wall_s": 0.248, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage3 exit=0 chars=14 0.248
+RESULT {"model": "qwen3_4b_q4", "id": "summary3", "task": "summary", "text": "Dover district 3's search service pilot reduced processing time by 21% on weekdays but had no weekend improvement, with a planned expansion to 6 sites.", "wall_s": 2.682, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary3 exit=0 chars=151 2.682
+RESULT {"model": "qwen3_4b_q4", "id": "tweet3", "task": "tweet", "text": "Tested search model on 130 examples: accuracy rose from 53% to 63% with retrieval, latency increased from 5 to 7 seconds. #AIperformance", "wall_s": 3.07, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet3 exit=0 chars=136 3.07
+RESULT {"model": "qwen3_4b_q4", "id": "regex3", "task": "regex", "text": "^rt-\\\\d{5}$", "wall_s": 0.698, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex3 exit=0 chars=11 0.698
+RESULT {"model": "qwen3_4b_q4", "id": "json3", "task": "json", "text": "{\n  \"company\": \"Dover district 3 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 3\n}", "wall_s": 3.139, "new_tokens": 41, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json3 exit=0 chars=109 3.139
+BATCH_DONE {"n": 20, "model_key": "qwen3_4b_q4", "repo": "Qwen/Qwen3-4B", "quant": "nf4"}
+An exception has occurred, use %tb to see the full traceback.
+[0;31mSystemExit[0m[0;31m:[0m 0
+
+/usr/local/lib/python3.13/dist-packages/IPython/core/interactiveshell.py:3561: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+2026-10-15 18:40:17 CMD colab download -s r3023 /content/answers.jsonl /workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl
+2026-10-15 18:40:21 [colab] Downloaded '/content/answers.jsonl' to '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl'
+2026-10-15 18:40:21 RC 0
+2026-10-15 18:40:21 after batch 0 rc=0 have 20 still_missing 280
+2026-10-15 18:40:21 SAMPLE triage0 qwen3_4b_q4 'AI research'
+2026-10-15 18:40:21 SAMPLE summary0 qwen3_4b_q4 "Alder district 0's pilot reduced processing time by 18% on weekdays but had no weekend improvement, with a planned expansion to 3 sites in November."
+2026-10-15 18:40:21 SAMPLE tweet0 qwen3_4b_q4 'Tested translation model on 100 examples: accuracy rose from 50% to 60% with retrieval, latency increased from 2 to 4 seconds #AIperformance'
+2026-10-15 18:40:21 CMD colab restart-kernel -s r3023
+2026-10-15 18:40:26 RC 0
+2026-10-15 18:40:26 batch 1 missing 280 est_cu 0.054
+2026-10-15 18:40:26 CMD colab upload -s r3023 /workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl /content/answers.jsonl
+2026-10-15 18:40:29 [colab] Uploaded '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl' to '/content/answers.jsonl'
+2026-10-15 18:40:29 RC 0
+2026-10-15 18:40:29 CMD colab exec -s r3023 -f /workspace/work/tig/023r3-small-model-bakeoff/scripts/remote_infer.py --timeout 1200 --env ITEMS_PATH=/content/items.json --env ANSWERS_PATH=/content/answers.jsonl --env BATCH_SIZE=50 --env PYTHONUNBUFFERED=1 --env MODEL_REPO=Qwen/Qwen3-4B
+BOOT remote_infer
+GPU NVIDIA L4, 23034 MiB cuda True
+TODO 50 already 20
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_auth.py:138: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+  warnings.warn(f"\nError while fetching `HF_TOKEN` secret value from your vault: '{str(e)}'.")
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+META {"gpu": "NVIDIA L4, 23034 MiB", "repo": "Qwen/Qwen3-4B", "quant": "nf4", "cuda": true, "model_key": "qwen3_4b_q4", "n_todo": 50}
+RESULT {"model": "qwen3_4b_q4", "id": "triage4", "task": "triage", "text": "AI research", "wall_s": 0.874, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage4 exit=0 chars=11 0.874
+RESULT {"model": "qwen3_4b_q4", "id": "summary4", "task": "summary", "text": "Elm district 4's coding service reduced processing time by 22% on weekdays but not weekends, with a pilot extension planned.", "wall_s": 2.254, "new_tokens": 29, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary4 exit=0 chars=124 2.254
+RESULT {"model": "qwen3_4b_q4", "id": "tweet4", "task": "tweet", "text": "Tested coding model on 140 examples: accuracy rose from 54% to 64% with retrieval, latency increased from 6 to 8 seconds. #AIperformance", "wall_s": 3.101, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet4 exit=0 chars=136 3.101
+RESULT {"model": "qwen3_4b_q4", "id": "regex4", "task": "regex", "text": "^LM:000000$", "wall_s": 0.848, "new_tokens": 11, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex4 exit=0 chars=11 0.848
+RESULT {"model": "qwen3_4b_q4", "id": "json4", "task": "json", "text": "{\n  \"company\": \"4 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 4\n}", "wall_s": 2.694, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json4 exit=0 chars=91 2.694
+RESULT {"model": "qwen3_4b_q4", "id": "triage5", "task": "triage", "text": "Job alert", "wall_s": 0.244, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage5 exit=0 chars=9 0.244
+RESULT {"model": "qwen3_4b_q4", "id": "summary5", "task": "summary", "text": "Fern district's 5-week pilot improved processing time by 23% on weekdays but not weekends, with plans to expand the test.", "wall_s": 2.296, "new_tokens": 30, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary5 exit=0 chars=121 2.296
+RESULT {"model": "qwen3_4b_q4", "id": "tweet5", "task": "tweet", "text": "Tested speech model on 150 examples: accuracy rose from 55% to 65% with retrieval, latency increased from 7 to 9 seconds #AIperformance", "wall_s": 3.002, "new_tokens": 39, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet5 exit=0 chars=135 3.002
+RESULT {"model": "qwen3_4b_q4", "id": "regex5", "task": "regex", "text": "^AB_^\\d{2}$", "wall_s": 0.696, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex5 exit=0 chars=11 0.696
+RESULT {"model": "qwen3_4b_q4", "id": "json5", "task": "json", "text": "{\n  \"company\": \"Fern district 5 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Pune\",\n  \"min_years\": 5\n}", "wall_s": 2.993, "new_tokens": 39, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json5 exit=0 chars=106 2.993
+RESULT {"model": "qwen3_4b_q4", "id": "triage6", "task": "triage", "text": "Job alert", "wall_s": 0.244, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage6 exit=0 chars=9 0.244
+RESULT {"model": "qwen3_4b_q4", "id": "summary6", "task": "summary", "text": "Alder District 6's pilot reduced processing time by 24% on weekdays but had no weekend improvement, with a planned expansion to 9 sites in November.", "wall_s": 2.715, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary6 exit=0 chars=148 2.715
+RESULT {"model": "qwen3_4b_q4", "id": "tweet6", "task": "tweet", "text": "Tested translation model on 160 examples: accuracy rose from 56% to 66% with retrieval, latency increased from 8 to 10 seconds #AIperformance", "wall_s": 3.066, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet6 exit=0 chars=141 3.066
+RESULT {"model": "qwen3_4b_q4", "id": "regex6", "task": "regex", "text": "^xy-000$", "wall_s": 0.622, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex6 exit=0 chars=8 0.622
+RESULT {"model": "qwen3_4b_q4", "id": "json6", "task": "json", "text": "{\n  \"company\": \"Alder district 6 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Delhi\",\n  \"min_years\": 6\n}", "wall_s": 2.985, "new_tokens": 39, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json6 exit=0 chars=105 2.985
+RESULT {"model": "qwen3_4b_q4", "id": "triage7", "task": "triage", "text": "Product update", "wall_s": 0.246, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage7 exit=0 chars=14 0.246
+RESULT {"model": "qwen3_4b_q4", "id": "summary7", "task": "summary", "text": "Birch district's robotics pilot reduced processing time by 25% on weekdays but had no weekend effect, with a planned expansion to 10 sites.", "wall_s": 2.612, "new_tokens": 34, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary7 exit=0 chars=139 2.612
+RESULT {"model": "qwen3_4b_q4", "id": "tweet7", "task": "tweet", "text": "Tested robotics model on 170 examples: accuracy rose from 57% to 67% with retrieval, latency increased from 9 to 11 seconds. #AIperformance", "wall_s": 3.137, "new_tokens": 41, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet7 exit=0 chars=139 3.137
+RESULT {"model": "qwen3_4b_q4", "id": "regex7", "task": "regex", "text": "^QZ:0000$", "wall_s": 0.777, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex7 exit=0 chars=9 0.777
+RESULT {"model": "qwen3_4b_q4", "id": "json7", "task": "json", "text": "{\n  \"company\": \"Birch district 7 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Chennai\",\n  \"min_years\": 7\n}", "wall_s": 3.068, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json7 exit=0 chars=104 3.068
+RESULT {"model": "qwen3_4b_q4", "id": "triage8", "task": "triage", "text": "AI research", "wall_s": 0.247, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage8 exit=0 chars=11 0.247
+RESULT {"model": "qwen3_4b_q4", "id": "summary8", "task": "summary", "text": "Cedar District 8's pilot reduced processing time by 26% on weekdays but had no weekend improvement, with a planned expansion to 11 sites in November.", "wall_s": 2.766, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary8 exit=0 chars=149 2.766
+RESULT {"model": "qwen3_4b_q4", "id": "tweet8", "task": "tweet", "text": "Tested forecasting model on 180 examples: accuracy rose from 58% to 68% with retrieval, latency increased from 10 to 12 seconds. #AIperformance", "wall_s": 3.217, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet8 exit=0 chars=143 3.217
+RESULT {"model": "qwen3_4b_q4", "id": "regex8", "task": "regex", "text": "^rt_\\d{5}$", "wall_s": 0.623, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex8 exit=0 chars=10 0.623
+RESULT {"model": "qwen3_4b_q4", "id": "json8", "task": "json", "text": "{\n  \"company\": \"Cedar district 8 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 8\n}", "wall_s": 3.168, "new_tokens": 41, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json8 exit=0 chars=112 3.168
+RESULT {"model": "qwen3_4b_q4", "id": "triage9", "task": "triage", "text": "Job alert", "wall_s": 0.246, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage9 exit=0 chars=9 0.246
+RESULT {"model": "qwen3_4b_q4", "id": "summary9", "task": "summary", "text": "Dover district 9's pilot reduced processing time by 27% on weekdays but had no weekend improvement, with a planned expansion to 12 sites.", "wall_s": 2.603, "new_tokens": 34, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary9 exit=0 chars=137 2.603
+RESULT {"model": "qwen3_4b_q4", "id": "tweet9", "task": "tweet", "text": "Tested search model on 190 examples: accuracy rose from 59% to 69% with retrieval, latency increased from 11 to 13 seconds #AIperformance", "wall_s": 3.14, "new_tokens": 41, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet9 exit=0 chars=137 3.14
+RESULT {"model": "qwen3_4b_q4", "id": "regex9", "task": "regex", "text": "^LM-\\\\d{6}$", "wall_s": 0.701, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex9 exit=0 chars=11 0.701
+RESULT {"model": "qwen3_4b_q4", "id": "json9", "task": "json", "text": "{\n  \"company\": \"Dover district 9 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 0\n}", "wall_s": 3.014, "new_tokens": 39, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json9 exit=0 chars=109 3.014
+RESULT {"model": "qwen3_4b_q4", "id": "triage10", "task": "triage", "text": "Job alert", "wall_s": 0.244, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage10 exit=0 chars=9 0.244
+RESULT {"model": "qwen3_4b_q4", "id": "summary10", "task": "summary", "text": "Elm district's 10-week pilot reduced processing time by 28% on weekdays but had no weekend improvement, with a planned expansion to 13 sites.", "wall_s": 2.784, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary10 exit=0 chars=141 2.784
+RESULT {"model": "qwen3_4b_q4", "id": "tweet10", "task": "tweet", "text": "Tested coding model on 200 examples: accuracy rose from 60% to 70% with retrieval, latency increased from 12 to 14 seconds. #AIperformance", "wall_s": 3.251, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet10 exit=0 chars=138 3.251
+RESULT {"model": "qwen3_4b_q4", "id": "regex10", "task": "regex", "text": "^AB:00$", "wall_s": 0.551, "new_tokens": 7, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex10 exit=0 chars=7 0.551
+RESULT {"model": "qwen3_4b_q4", "id": "json10", "task": "json", "text": "{\n  \"company\": \"10 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Pune\",\n  \"min_years\": 1\n}", "wall_s": 2.796, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json10 exit=0 chars=87 2.796
+RESULT {"model": "qwen3_4b_q4", "id": "triage11", "task": "triage", "text": "Product update", "wall_s": 0.246, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage11 exit=0 chars=14 0.246
+RESULT {"model": "qwen3_4b_q4", "id": "summary11", "task": "summary", "text": "Fern district 11's speech service pilot reduced processing time by 29% on weekdays but had no weekend improvement, with a planned expansion to 14 sites.", "wall_s": 2.817, "new_tokens": 37, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary11 exit=0 chars=152 2.817
+RESULT {"model": "qwen3_4b_q4", "id": "tweet11", "task": "tweet", "text": "Tested speech model on 210 examples: accuracy rose from 61% to 71% with retrieval, latency increased from 13 to 15 seconds. #AIperformance", "wall_s": 3.189, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet11 exit=0 chars=138 3.189
+RESULT {"model": "qwen3_4b_q4", "id": "regex11", "task": "regex", "text": "^xy_\\\\d{3}$", "wall_s": 0.694, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex11 exit=0 chars=11 0.694
+RESULT {"model": "qwen3_4b_q4", "id": "json11", "task": "json", "text": "{\n  \"company\": \"Fern district 11 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Delhi\",\n  \"min_years\": 2\n}", "wall_s": 3.058, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json11 exit=0 chars=108 3.058
+RESULT {"model": "qwen3_4b_q4", "id": "triage12", "task": "triage", "text": "AI research", "wall_s": 0.247, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage12 exit=0 chars=11 0.247
+RESULT {"model": "qwen3_4b_q4", "id": "summary12", "task": "summary", "text": "Alder district 12's pilot reduced processing time by 30% on weekdays but had no weekend improvement, with a planned expansion to 15 sites.", "wall_s": 2.687, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary12 exit=0 chars=138 2.687
+RESULT {"model": "qwen3_4b_q4", "id": "tweet12", "task": "tweet", "text": "Tested translation model on 220 examples: accuracy rose from 62% to 72% with retrieval, latency increased from 14 to 16 seconds. #AIperformance", "wall_s": 3.229, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet12 exit=0 chars=143 3.229
+RESULT {"model": "qwen3_4b_q4", "id": "regex12", "task": "regex", "text": "^QZ-\\\\d{4}$", "wall_s": 0.774, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex12 exit=0 chars=11 0.774
+RESULT {"model": "qwen3_4b_q4", "id": "json12", "task": "json", "text": "{\n  \"company\": \"Alder district 12 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Chennai\",\n  \"min_years\": 3\n}", "wall_s": 3.088, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json12 exit=0 chars=108 3.088
+RESULT {"model": "qwen3_4b_q4", "id": "triage13", "task": "triage", "text": "Job alert", "wall_s": 0.253, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage13 exit=0 chars=9 0.253
+RESULT {"model": "qwen3_4b_q4", "id": "summary13", "task": "summary", "text": "Birch District 13's robotics pilot reduced processing time by 31% on weekdays but had no weekend improvement, with a planned expansion to 16 sites.", "wall_s": 2.829, "new_tokens": 37, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary13 exit=0 chars=147 2.829
+RESULT {"model": "qwen3_4b_q4", "id": "tweet13", "task": "tweet", "text": "Tested robotics model on 230 examples: accuracy rose from 63% to 73% with retrieval, latency increased from 15 to 17 seconds #AIperformance", "wall_s": 3.119, "new_tokens": 41, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet13 exit=0 chars=139 3.119
+RESULT {"model": "qwen3_4b_q4", "id": "regex13", "task": "regex", "text": "^rt:00000$", "wall_s": 0.765, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex13 exit=0 chars=10 0.765
+RESULT {"model": "qwen3_4b_q4", "id": "json13", "task": "json", "text": "{\n  \"company\": \"13 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 4\n}", "wall_s": 2.872, "new_tokens": 38, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json13 exit=0 chars=92 2.872
+BATCH_DONE {"n": 50, "model_key": "qwen3_4b_q4", "repo": "Qwen/Qwen3-4B", "quant": "nf4"}
+An exception has occurred, use %tb to see the full traceback.
+[0;31mSystemExit[0m[0;31m:[0m 0
+
+/usr/local/lib/python3.13/dist-packages/IPython/core/interactiveshell.py:3561: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+2026-10-15 18:42:32 CMD colab download -s r3023 /content/answers.jsonl /workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl
+2026-10-15 18:42:35 [colab] Downloaded '/content/answers.jsonl' to '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl'
+2026-10-15 18:42:35 RC 0
+2026-10-15 18:42:35 after batch 1 rc=0 have 70 still_missing 230
+2026-10-15 18:42:35 CMD colab restart-kernel -s r3023
+2026-10-15 18:42:41 RC 0
+2026-10-15 18:42:41 batch 2 missing 230 est_cu 0.111
+2026-10-15 18:42:41 CMD colab upload -s r3023 /workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl /content/answers.jsonl
+2026-10-15 18:42:43 [colab] Uploaded '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl' to '/content/answers.jsonl'
+2026-10-15 18:42:43 RC 0
+2026-10-15 18:42:43 CMD colab exec -s r3023 -f /workspace/work/tig/023r3-small-model-bakeoff/scripts/remote_infer.py --timeout 1200 --env ITEMS_PATH=/content/items.json --env ANSWERS_PATH=/content/answers.jsonl --env BATCH_SIZE=50 --env PYTHONUNBUFFERED=1 --env MODEL_REPO=Qwen/Qwen3-4B
+BOOT remote_infer
+GPU NVIDIA L4, 23034 MiB cuda True
+TODO 50 already 70
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_auth.py:138: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+  warnings.warn(f"\nError while fetching `HF_TOKEN` secret value from your vault: '{str(e)}'.")
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+META {"gpu": "NVIDIA L4, 23034 MiB", "repo": "Qwen/Qwen3-4B", "quant": "nf4", "cuda": true, "model_key": "qwen3_4b_q4", "n_todo": 50}
+RESULT {"model": "qwen3_4b_q4", "id": "triage14", "task": "triage", "text": "Job alert", "wall_s": 0.863, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage14 exit=0 chars=9 0.863
+RESULT {"model": "qwen3_4b_q4", "id": "summary14", "task": "summary", "text": "Cedar District 14's pilot reduced processing time by 32% on weekdays but not weekends, with a planned expansion to 17 sites.", "wall_s": 2.54, "new_tokens": 33, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary14 exit=0 chars=124 2.54
+RESULT {"model": "qwen3_4b_q4", "id": "tweet14", "task": "tweet", "text": "Tested forecasting model on 240 examples: accuracy rose from 64% to 74% with retrieval, latency increased from 16 to 18 seconds. #AIperformance", "wall_s": 3.168, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet14 exit=0 chars=143 3.168
+RESULT {"model": "qwen3_4b_q4", "id": "regex14", "task": "regex", "text": "^LM_000000$", "wall_s": 0.838, "new_tokens": 11, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex14 exit=0 chars=11 0.838
+RESULT {"model": "qwen3_4b_q4", "id": "json14", "task": "json", "text": "{\n  \"company\": \"Cedar district 14 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 5\n}", "wall_s": 3.02, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json14 exit=0 chars=113 3.02
+RESULT {"model": "qwen3_4b_q4", "id": "triage15", "task": "triage", "text": "Product update", "wall_s": 0.242, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage15 exit=0 chars=14 0.242
+RESULT {"model": "qwen3_4b_q4", "id": "summary15", "task": "summary", "text": "Dover district 15's search service pilot reduced processing time by 33% on weekdays but had no weekend improvement, with a planned expansion to 18 sites.", "wall_s": 2.802, "new_tokens": 37, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary15 exit=0 chars=153 2.802
+RESULT {"model": "qwen3_4b_q4", "id": "tweet15", "task": "tweet", "text": "Tested search model on 250 examples: accuracy rose from 65% to 75% with retrieval, latency increased from 17 to 19 seconds. #AIperformance", "wall_s": 3.168, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet15 exit=0 chars=138 3.168
+RESULT {"model": "qwen3_4b_q4", "id": "regex15", "task": "regex", "text": "^AB-\\\\d{2}$", "wall_s": 0.692, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex15 exit=0 chars=11 0.692
+RESULT {"model": "qwen3_4b_q4", "id": "json15", "task": "json", "text": "{\n  \"company\": \"15 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Pune\",\n  \"min_years\": 6\n}", "wall_s": 2.695, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json15 exit=0 chars=90 2.695
+RESULT {"model": "qwen3_4b_q4", "id": "triage16", "task": "triage", "text": "AI research", "wall_s": 0.237, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage16 exit=0 chars=11 0.237
+RESULT {"model": "qwen3_4b_q4", "id": "summary16", "task": "summary", "text": "Elm district 16's coding service reduced processing time by 34% on weekdays but not weekends, with a pilot extension planned.", "wall_s": 2.275, "new_tokens": 30, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary16 exit=0 chars=125 2.275
+RESULT {"model": "qwen3_4b_q4", "id": "tweet16", "task": "tweet", "text": "Tested coding model on 260 examples: accuracy rose from 66% to 76% with retrieval, latency increased from 18 to 20 seconds. #AIperformance", "wall_s": 3.182, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet16 exit=0 chars=138 3.182
+RESULT {"model": "qwen3_4b_q4", "id": "regex16", "task": "regex", "text": "^xy:000$", "wall_s": 0.628, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex16 exit=0 chars=8 0.628
+RESULT {"model": "qwen3_4b_q4", "id": "json16", "task": "json", "text": "{\n  \"company\": \"16 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Delhi\",\n  \"min_years\": 7\n}", "wall_s": 2.745, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json16 exit=0 chars=88 2.745
+RESULT {"model": "qwen3_4b_q4", "id": "triage17", "task": "triage", "text": "Job alert", "wall_s": 0.245, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage17 exit=0 chars=9 0.245
+RESULT {"model": "qwen3_4b_q4", "id": "summary17", "task": "summary", "text": "Fern District 17's speech service pilot reduced processing time by 35% on weekdays but not weekends, with a planned expansion to 20 sites.", "wall_s": 2.646, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary17 exit=0 chars=138 2.646
+RESULT {"model": "qwen3_4b_q4", "id": "tweet17", "task": "tweet", "text": "Tested speech model on 270 examples: accuracy rose from 67% to 77% with retrieval, latency increased from 19 to 21 seconds. #AIperformance", "wall_s": 3.164, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet17 exit=0 chars=138 3.164
+RESULT {"model": "qwen3_4b_q4", "id": "regex17", "task": "regex", "text": "^QZ_\\\\d{4}$", "wall_s": 0.78, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex17 exit=0 chars=11 0.78
+RESULT {"model": "qwen3_4b_q4", "id": "json17", "task": "json", "text": "{\n  \"company\": \"Fern district 17 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Chennai\",\n  \"min_years\": 8\n}", "wall_s": 3.041, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json17 exit=0 chars=110 3.041
+RESULT {"model": "qwen3_4b_q4", "id": "triage18", "task": "triage", "text": "Job alert", "wall_s": 0.236, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage18 exit=0 chars=9 0.236
+RESULT {"model": "qwen3_4b_q4", "id": "summary18", "task": "summary", "text": "Alder district 18's pilot reduced processing time by 36% on weekdays but had no weekend improvement, with expansion planned.", "wall_s": 2.192, "new_tokens": 29, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary18 exit=0 chars=124 2.192
+RESULT {"model": "qwen3_4b_q4", "id": "tweet18", "task": "tweet", "text": "Tested translation model on 280 examples: accuracy rose from 68% to 78% with retrieval, latency increased from 20 to 22 seconds. #AIperformance", "wall_s": 3.16, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet18 exit=0 chars=143 3.16
+RESULT {"model": "qwen3_4b_q4", "id": "regex18", "task": "regex", "text": "^rt-\\\\d{5}$", "wall_s": 0.69, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex18 exit=0 chars=11 0.69
+RESULT {"model": "qwen3_4b_q4", "id": "json18", "task": "json", "text": "{\n  \"company\": \"Alder district 18 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 0\n}", "wall_s": 3.168, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json18 exit=0 chars=110 3.168
+RESULT {"model": "qwen3_4b_q4", "id": "triage19", "task": "triage", "text": "Product update", "wall_s": 0.241, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage19 exit=0 chars=14 0.241
+RESULT {"model": "qwen3_4b_q4", "id": "summary19", "task": "summary", "text": "Birch District 19's robotics pilot reduced processing time by 37% on weekdays but had no weekend improvement, with a planned expansion to 22 sites.", "wall_s": 2.781, "new_tokens": 37, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary19 exit=0 chars=147 2.781
+RESULT {"model": "qwen3_4b_q4", "id": "tweet19", "task": "tweet", "text": "Tested robotics model on 290 examples: accuracy rose from 69% to 79% with retrieval, latency increased from 21 to 23 seconds. #AIperformance", "wall_s": 3.152, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet19 exit=0 chars=140 3.152
+RESULT {"model": "qwen3_4b_q4", "id": "regex19", "task": "regex", "text": "^LM:000000$", "wall_s": 0.836, "new_tokens": 11, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex19 exit=0 chars=11 0.836
+RESULT {"model": "qwen3_4b_q4", "id": "json19", "task": "json", "text": "{\n  \"company\": \"Birch district 19 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 1\n}", "wall_s": 3.109, "new_tokens": 41, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json19 exit=0 chars=107 3.109
+RESULT {"model": "qwen3_4b_q4", "id": "triage20", "task": "triage", "text": "AI research", "wall_s": 0.239, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage20 exit=0 chars=11 0.239
+RESULT {"model": "qwen3_4b_q4", "id": "summary20", "task": "summary", "text": "Cedar District 20's pilot reduced processing time by 38% on weekdays but not weekends, with a planned expansion to 23 sites.", "wall_s": 2.495, "new_tokens": 33, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary20 exit=0 chars=124 2.495
+RESULT {"model": "qwen3_4b_q4", "id": "tweet20", "task": "tweet", "text": "Tested forecasting model on 300 examples: accuracy rose from 70% to 80% with retrieval, latency increased from 22 to 24 seconds. #AIperformance", "wall_s": 3.168, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet20 exit=0 chars=143 3.168
+RESULT {"model": "qwen3_4b_q4", "id": "regex20", "task": "regex", "text": "^AB_^\\d{2}$", "wall_s": 0.695, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex20 exit=0 chars=11 0.695
+RESULT {"model": "qwen3_4b_q4", "id": "json20", "task": "json", "text": "{\n  \"company\": \"Cedar district 20 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Pune\",\n  \"min_years\": 2\n}", "wall_s": 3.027, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json20 exit=0 chars=108 3.027
+RESULT {"model": "qwen3_4b_q4", "id": "triage21", "task": "triage", "text": "Job alert", "wall_s": 0.245, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage21 exit=0 chars=9 0.245
+RESULT {"model": "qwen3_4b_q4", "id": "summary21", "task": "summary", "text": "Dover district 21's pilot reduced processing time by 39% on weekdays but had no weekend improvement, with a planned expansion to 24 sites.", "wall_s": 2.636, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary21 exit=0 chars=138 2.636
+RESULT {"model": "qwen3_4b_q4", "id": "tweet21", "task": "tweet", "text": "Tested search model on 310 examples: accuracy rose from 71% to 81% with retrieval, latency increased from 23 to 25 seconds. #AIperformance", "wall_s": 3.161, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet21 exit=0 chars=138 3.161
+RESULT {"model": "qwen3_4b_q4", "id": "regex21", "task": "regex", "text": "^xy-000$", "wall_s": 0.606, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex21 exit=0 chars=8 0.606
+RESULT {"model": "qwen3_4b_q4", "id": "json21", "task": "json", "text": "{\n  \"company\": \"21 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Delhi\",\n  \"min_years\": 3\n}", "wall_s": 2.727, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json21 exit=0 chars=91 2.727
+RESULT {"model": "qwen3_4b_q4", "id": "triage22", "task": "triage", "text": "Job alert", "wall_s": 0.237, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage22 exit=0 chars=9 0.237
+RESULT {"model": "qwen3_4b_q4", "id": "summary22", "task": "summary", "text": "Elm district 22's coding service cut processing time by 40% on weekdays but not weekends, with a pilot extension planned.", "wall_s": 2.266, "new_tokens": 30, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary22 exit=0 chars=121 2.266
+RESULT {"model": "qwen3_4b_q4", "id": "tweet22", "task": "tweet", "text": "Tested coding model on 320 examples: accuracy rose from 72% to 82% with retrieval, latency increased from 24 to 26 seconds. #AIperformance", "wall_s": 3.122, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet22 exit=0 chars=138 3.122
+RESULT {"model": "qwen3_4b_q4", "id": "regex22", "task": "regex", "text": "^QZ:0000$", "wall_s": 0.754, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex22 exit=0 chars=9 0.754
+RESULT {"model": "qwen3_4b_q4", "id": "json22", "task": "json", "text": "{\n  \"company\": \"22 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Chennai\",\n  \"min_years\": 4\n}", "wall_s": 2.686, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json22 exit=0 chars=90 2.686
+RESULT {"model": "qwen3_4b_q4", "id": "triage23", "task": "triage", "text": "Product update", "wall_s": 0.246, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage23 exit=0 chars=14 0.246
+RESULT {"model": "qwen3_4b_q4", "id": "summary23", "task": "summary", "text": "Fern district 23's speech service pilot reduced processing time by 41% on weekdays but had no weekend improvement, with a planned expansion to 26 sites.", "wall_s": 2.76, "new_tokens": 37, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary23 exit=0 chars=152 2.76
+RESULT {"model": "qwen3_4b_q4", "id": "tweet23", "task": "tweet", "text": "Tested speech model on 330 examples: accuracy rose from 73% to 83% with retrieval, latency increased from 25 to 27 seconds. #AIperformance", "wall_s": 3.123, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet23 exit=0 chars=138 3.123
+RESULT {"model": "qwen3_4b_q4", "id": "regex23", "task": "regex", "text": "^rt_\\d{5}$", "wall_s": 0.606, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex23 exit=0 chars=10 0.606
+RESULT {"model": "qwen3_4b_q4", "id": "json23", "task": "json", "text": "{\n  \"company\": \"23 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 5\n}", "wall_s": 2.845, "new_tokens": 38, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json23 exit=0 chars=98 2.845
+BATCH_DONE {"n": 50, "model_key": "qwen3_4b_q4", "repo": "Qwen/Qwen3-4B", "quant": "nf4"}
+An exception has occurred, use %tb to see the full traceback.
+[0;31mSystemExit[0m[0;31m:[0m 0
+
+/usr/local/lib/python3.13/dist-packages/IPython/core/interactiveshell.py:3561: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+2026-10-15 18:44:43 CMD colab download -s r3023 /content/answers.jsonl /workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl
+2026-10-15 18:44:45 [colab] Downloaded '/content/answers.jsonl' to '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl'
+2026-10-15 18:44:45 RC 0
+2026-10-15 18:44:45 after batch 2 rc=0 have 120 still_missing 180
+2026-10-15 18:44:45 CMD colab restart-kernel -s r3023
+2026-10-15 18:44:49 RC 0
+2026-10-15 18:44:49 batch 3 missing 180 est_cu 0.166
+2026-10-15 18:44:49 CMD colab upload -s r3023 /workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl /content/answers.jsonl
+2026-10-15 18:44:51 [colab] Uploaded '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl' to '/content/answers.jsonl'
+2026-10-15 18:44:51 RC 0
+2026-10-15 18:44:51 CMD colab exec -s r3023 -f /workspace/work/tig/023r3-small-model-bakeoff/scripts/remote_infer.py --timeout 1200 --env ITEMS_PATH=/content/items.json --env ANSWERS_PATH=/content/answers.jsonl --env BATCH_SIZE=50 --env PYTHONUNBUFFERED=1 --env MODEL_REPO=Qwen/Qwen3-4B
+BOOT remote_infer
+GPU NVIDIA L4, 23034 MiB cuda True
+TODO 50 already 120
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_auth.py:138: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+  warnings.warn(f"\nError while fetching `HF_TOKEN` secret value from your vault: '{str(e)}'.")
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+META {"gpu": "NVIDIA L4, 23034 MiB", "repo": "Qwen/Qwen3-4B", "quant": "nf4", "cuda": true, "model_key": "qwen3_4b_q4", "n_todo": 50}
+RESULT {"model": "qwen3_4b_q4", "id": "triage24", "task": "triage", "text": "AI research", "wall_s": 0.871, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage24 exit=0 chars=11 0.871
+RESULT {"model": "qwen3_4b_q4", "id": "summary24", "task": "summary", "text": "Alder district's 24-week pilot reduced processing time by 42% on weekdays but had no weekend improvement, with a planned expansion to 27 sites in November.", "wall_s": 2.907, "new_tokens": 38, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary24 exit=0 chars=155 2.907
+RESULT {"model": "qwen3_4b_q4", "id": "tweet24", "task": "tweet", "text": "Tested translation model on 340 examples: accuracy rose from 74% to 84% with retrieval, latency increased from 26 to 28 seconds. #AIperformance", "wall_s": 3.21, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet24 exit=0 chars=143 3.21
+RESULT {"model": "qwen3_4b_q4", "id": "regex24", "task": "regex", "text": "^LM-\\\\d{6}$", "wall_s": 0.699, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex24 exit=0 chars=11 0.699
+RESULT {"model": "qwen3_4b_q4", "id": "json24", "task": "json", "text": "{\n  \"company\": \"24 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 6\n}", "wall_s": 2.801, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json24 exit=0 chars=95 2.801
+RESULT {"model": "qwen3_4b_q4", "id": "triage25", "task": "triage", "text": "Job alert", "wall_s": 0.245, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage25 exit=0 chars=9 0.245
+RESULT {"model": "qwen3_4b_q4", "id": "summary25", "task": "summary", "text": "Birch district's robotics pilot reduced processing time by 43% on weekdays but had no weekend effect, with a planned expansion to 28 sites.", "wall_s": 2.606, "new_tokens": 34, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary25 exit=0 chars=139 2.606
+RESULT {"model": "qwen3_4b_q4", "id": "tweet25", "task": "tweet", "text": "Tested robotics model on 350 examples: accuracy rose from 75% to 85% with retrieval, latency increased from 27 to 29 seconds. #AIperformance", "wall_s": 3.185, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet25 exit=0 chars=140 3.185
+RESULT {"model": "qwen3_4b_q4", "id": "regex25", "task": "regex", "text": "^AB:00$", "wall_s": 0.542, "new_tokens": 7, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex25 exit=0 chars=7 0.542
+RESULT {"model": "qwen3_4b_q4", "id": "json25", "task": "json", "text": "{\n  \"company\": \"25 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Pune\",\n  \"min_years\": 7\n}", "wall_s": 2.74, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json25 exit=0 chars=87 2.74
+RESULT {"model": "qwen3_4b_q4", "id": "triage26", "task": "triage", "text": "Job alert", "wall_s": 0.242, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage26 exit=0 chars=9 0.242
+RESULT {"model": "qwen3_4b_q4", "id": "summary26", "task": "summary", "text": "Cedar District 26's pilot reduced processing time by 44% on weekdays but not weekends, with a planned expansion to 29 sites.", "wall_s": 2.537, "new_tokens": 33, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary26 exit=0 chars=124 2.537
+RESULT {"model": "qwen3_4b_q4", "id": "tweet26", "task": "tweet", "text": "Tested forecasting model on 360 examples: accuracy rose from 76% to 86% with retrieval, latency increased from 28 to 30 seconds. #AIperformance", "wall_s": 3.2, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet26 exit=0 chars=143 3.2
+RESULT {"model": "qwen3_4b_q4", "id": "regex26", "task": "regex", "text": "^xy_\\\\d{3}$", "wall_s": 0.694, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex26 exit=0 chars=11 0.694
+RESULT {"model": "qwen3_4b_q4", "id": "json26", "task": "json", "text": "{\n  \"company\": \"Cedar district 26 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Delhi\",\n  \"min_years\": 8\n}", "wall_s": 3.052, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json26 exit=0 chars=109 3.052
+RESULT {"model": "qwen3_4b_q4", "id": "triage27", "task": "triage", "text": "Product update", "wall_s": 0.247, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage27 exit=0 chars=14 0.247
+RESULT {"model": "qwen3_4b_q4", "id": "summary27", "task": "summary", "text": "Dover district 27's pilot reduced processing time by 45% on weekdays but not weekends, with a planned expansion to 30 sites.", "wall_s": 2.524, "new_tokens": 33, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary27 exit=0 chars=124 2.524
+RESULT {"model": "qwen3_4b_q4", "id": "tweet27", "task": "tweet", "text": "Tested search model on 370 examples: accuracy rose from 77% to 87% with retrieval, latency increased from 29 to 31 seconds. #AIperformance", "wall_s": 3.269, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet27 exit=0 chars=138 3.269
+RESULT {"model": "qwen3_4b_q4", "id": "regex27", "task": "regex", "text": "^QZ-\\\\d{4}$", "wall_s": 0.786, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex27 exit=0 chars=11 0.786
+RESULT {"model": "qwen3_4b_q4", "id": "json27", "task": "json", "text": "{\n  \"company\": \"27 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Chennai\",\n  \"min_years\": 0\n}", "wall_s": 2.742, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json27 exit=0 chars=93 2.742
+RESULT {"model": "qwen3_4b_q4", "id": "triage28", "task": "triage", "text": "AI research", "wall_s": 0.244, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage28 exit=0 chars=11 0.244
+RESULT {"model": "qwen3_4b_q4", "id": "summary28", "task": "summary", "text": "Elm district 28's coding service reduced processing time by 46% on weekdays but not weekends, with a pilot extension planned.", "wall_s": 2.29, "new_tokens": 30, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary28 exit=0 chars=125 2.29
+RESULT {"model": "qwen3_4b_q4", "id": "tweet28", "task": "tweet", "text": "Tested coding model on 380 examples: accuracy rose from 78% to 88% with retrieval, latency increased from 30 to 32 seconds. #AIperformance", "wall_s": 3.228, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet28 exit=0 chars=138 3.228
+RESULT {"model": "qwen3_4b_q4", "id": "regex28", "task": "regex", "text": "^rt:00000$", "wall_s": 0.768, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex28 exit=0 chars=10 0.768
+RESULT {"model": "qwen3_4b_q4", "id": "json28", "task": "json", "text": "{\n  \"company\": \"28 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 1\n}", "wall_s": 2.877, "new_tokens": 38, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json28 exit=0 chars=92 2.877
+RESULT {"model": "qwen3_4b_q4", "id": "triage29", "task": "triage", "text": "Job alert", "wall_s": 0.239, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage29 exit=0 chars=9 0.239
+RESULT {"model": "qwen3_4b_q4", "id": "summary29", "task": "summary", "text": "Fern district 29's speech service pilot reduced processing time by 47% on weekdays but had no weekend improvement, with a planned expansion to 32 sites.", "wall_s": 2.784, "new_tokens": 37, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary29 exit=0 chars=152 2.784
+RESULT {"model": "qwen3_4b_q4", "id": "tweet29", "task": "tweet", "text": "Tested speech model on 390 examples: accuracy rose from 79% to 89% with retrieval, latency increased from 31 to 33 seconds. #AIperformance", "wall_s": 3.214, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet29 exit=0 chars=138 3.214
+RESULT {"model": "qwen3_4b_q4", "id": "regex29", "task": "regex", "text": "^LM_000000$", "wall_s": 0.851, "new_tokens": 11, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex29 exit=0 chars=11 0.851
+RESULT {"model": "qwen3_4b_q4", "id": "json29", "task": "json", "text": "{\n  \"company\": \"Fern district 29 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 2\n}", "wall_s": 3.057, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json29 exit=0 chars=112 3.057
+RESULT {"model": "qwen3_4b_q4", "id": "triage30", "task": "triage", "text": "Job alert", "wall_s": 0.24, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage30 exit=0 chars=9 0.24
+RESULT {"model": "qwen3_4b_q4", "id": "summary30", "task": "summary", "text": "Alder district's 42-week pilot reduced processing time by 48% on weekdays but had no weekend improvement, with a planned expansion to 33 sites.", "wall_s": 2.779, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary30 exit=0 chars=143 2.779
+RESULT {"model": "qwen3_4b_q4", "id": "tweet30", "task": "tweet", "text": "Tested translation model on 400 examples: accuracy rose from 80% to 90% with retrieval, latency increased from 32 to 34 seconds. #AIperformance", "wall_s": 3.189, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet30 exit=0 chars=143 3.189
+RESULT {"model": "qwen3_4b_q4", "id": "regex30", "task": "regex", "text": "^AB-\\\\d{2}$", "wall_s": 0.69, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex30 exit=0 chars=11 0.69
+RESULT {"model": "qwen3_4b_q4", "id": "json30", "task": "json", "text": "{\n  \"company\": \"Alder district 30 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Pune\",\n  \"min_years\": 3\n}", "wall_s": 3.038, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json30 exit=0 chars=105 3.038
+RESULT {"model": "qwen3_4b_q4", "id": "triage31", "task": "triage", "text": "Product update", "wall_s": 0.246, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage31 exit=0 chars=14 0.246
+RESULT {"model": "qwen3_4b_q4", "id": "summary31", "task": "summary", "text": "Birch district's robotics pilot reduced processing time by 49% on weekdays but had no weekend effect, with expansion planned.", "wall_s": 2.14, "new_tokens": 28, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary31 exit=0 chars=125 2.14
+RESULT {"model": "qwen3_4b_q4", "id": "tweet31", "task": "tweet", "text": "Tested robotics model on 410 examples: accuracy rose from 81% to 91% with retrieval, latency increased from 33 to 35 seconds. #AIperformance", "wall_s": 3.204, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet31 exit=0 chars=140 3.204
+RESULT {"model": "qwen3_4b_q4", "id": "regex31", "task": "regex", "text": "^xy:000$", "wall_s": 0.623, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex31 exit=0 chars=8 0.623
+RESULT {"model": "qwen3_4b_q4", "id": "json31", "task": "json", "text": "{\n  \"company\": \"31 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Delhi\",\n  \"min_years\": 4\n}", "wall_s": 2.748, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json31 exit=0 chars=88 2.748
+RESULT {"model": "qwen3_4b_q4", "id": "triage32", "task": "triage", "text": "AI research", "wall_s": 0.247, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage32 exit=0 chars=11 0.247
+RESULT {"model": "qwen3_4b_q4", "id": "summary32", "task": "summary", "text": "Cedar District 32's pilot reduced processing time by 50% on weekdays but not weekends, with a planned expansion to 35 sites.", "wall_s": 2.525, "new_tokens": 33, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary32 exit=0 chars=124 2.525
+RESULT {"model": "qwen3_4b_q4", "id": "tweet32", "task": "tweet", "text": "Tested forecasting model on 420 examples: accuracy rose from 82% to 92% with retrieval, latency increased from 34 to 36 seconds. #AIperformance", "wall_s": 3.201, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet32 exit=0 chars=143 3.201
+RESULT {"model": "qwen3_4b_q4", "id": "regex32", "task": "regex", "text": "^QZ_\\\\d{4}$", "wall_s": 0.776, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex32 exit=0 chars=11 0.776
+RESULT {"model": "qwen3_4b_q4", "id": "json32", "task": "json", "text": "{\n  \"company\": \"32 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Chennai\",\n  \"min_years\": 5\n}", "wall_s": 2.748, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json32 exit=0 chars=96 2.748
+RESULT {"model": "qwen3_4b_q4", "id": "triage33", "task": "triage", "text": "Job alert", "wall_s": 0.245, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage33 exit=0 chars=9 0.245
+RESULT {"model": "qwen3_4b_q4", "id": "summary33", "task": "summary", "text": "Dover district 33's pilot cut processing time by 51% on weekdays but had no weekend improvement, with a planned expansion to 36 sites.", "wall_s": 2.679, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary33 exit=0 chars=134 2.679
+RESULT {"model": "qwen3_4b_q4", "id": "tweet33", "task": "tweet", "text": "Tested search model on 430 examples: accuracy rose from 83% to 93% with retrieval, latency increased from 35 to 37 seconds. #AIperformance", "wall_s": 3.198, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet33 exit=0 chars=138 3.198
+RESULT {"model": "qwen3_4b_q4", "id": "regex33", "task": "regex", "text": "^rt-\\\\d{5}$", "wall_s": 0.696, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex33 exit=0 chars=11 0.696
+RESULT {"model": "qwen3_4b_q4", "id": "json33", "task": "json", "text": "{\n  \"company\": \"33 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 6\n}", "wall_s": 2.894, "new_tokens": 38, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json33 exit=0 chars=95 2.894
+BATCH_DONE {"n": 50, "model_key": "qwen3_4b_q4", "repo": "Qwen/Qwen3-4B", "quant": "nf4"}
+An exception has occurred, use %tb to see the full traceback.
+[0;31mSystemExit[0m[0;31m:[0m 0
+
+/usr/local/lib/python3.13/dist-packages/IPython/core/interactiveshell.py:3561: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+2026-10-15 18:46:59 CMD colab download -s r3023 /content/answers.jsonl /workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl
+2026-10-15 18:47:01 [colab] Downloaded '/content/answers.jsonl' to '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl'
+2026-10-15 18:47:01 RC 0
+2026-10-15 18:47:01 after batch 3 rc=0 have 170 still_missing 130
+2026-10-15 18:47:01 CMD colab restart-kernel -s r3023
+2026-10-15 18:47:04 RC 0
+2026-10-15 18:47:04 batch 4 missing 130 est_cu 0.224
+2026-10-15 18:47:04 CMD colab upload -s r3023 /workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl /content/answers.jsonl
+2026-10-15 18:47:06 [colab] Uploaded '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl' to '/content/answers.jsonl'
+2026-10-15 18:47:06 RC 0
+2026-10-15 18:47:06 CMD colab exec -s r3023 -f /workspace/work/tig/023r3-small-model-bakeoff/scripts/remote_infer.py --timeout 1200 --env ITEMS_PATH=/content/items.json --env ANSWERS_PATH=/content/answers.jsonl --env BATCH_SIZE=50 --env PYTHONUNBUFFERED=1 --env MODEL_REPO=Qwen/Qwen3-4B
+BOOT remote_infer
+GPU NVIDIA L4, 23034 MiB cuda True
+TODO 50 already 170
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_auth.py:138: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+  warnings.warn(f"\nError while fetching `HF_TOKEN` secret value from your vault: '{str(e)}'.")
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+META {"gpu": "NVIDIA L4, 23034 MiB", "repo": "Qwen/Qwen3-4B", "quant": "nf4", "cuda": true, "model_key": "qwen3_4b_q4", "n_todo": 50}
+RESULT {"model": "qwen3_4b_q4", "id": "triage34", "task": "triage", "text": "Job alert", "wall_s": 0.858, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage34 exit=0 chars=9 0.858
+RESULT {"model": "qwen3_4b_q4", "id": "summary34", "task": "summary", "text": "Elm district 34's coding service reduced processing time by 52% on weekdays but had no weekend improvement, with a pilot extension planned.", "wall_s": 2.432, "new_tokens": 32, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary34 exit=0 chars=139 2.432
+RESULT {"model": "qwen3_4b_q4", "id": "tweet34", "task": "tweet", "text": "Tested coding model on 440 examples: accuracy rose from 84% to 94% with retrieval, latency increased from 36 to 38 seconds. #AIperformance", "wall_s": 3.205, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet34 exit=0 chars=138 3.205
+RESULT {"model": "qwen3_4b_q4", "id": "regex34", "task": "regex", "text": "^LM:000000$", "wall_s": 0.838, "new_tokens": 11, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex34 exit=0 chars=11 0.838
+RESULT {"model": "qwen3_4b_q4", "id": "json34", "task": "json", "text": "{\n  \"company\": \"34 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 7\n}", "wall_s": 2.724, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json34 exit=0 chars=92 2.724
+RESULT {"model": "qwen3_4b_q4", "id": "triage35", "task": "triage", "text": "Product update", "wall_s": 0.243, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage35 exit=0 chars=14 0.243
+RESULT {"model": "qwen3_4b_q4", "id": "summary35", "task": "summary", "text": "Fern district's 47-week pilot improved processing time by 53% on weekdays but had no weekend improvement, with a planned expansion to 38 sites.", "wall_s": 2.718, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary35 exit=0 chars=143 2.718
+RESULT {"model": "qwen3_4b_q4", "id": "tweet35", "task": "tweet", "text": "Tested speech model on 450 examples: accuracy rose from 85% to 95% with retrieval, latency increased from 37 to 39 seconds. #AIperformance", "wall_s": 3.174, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet35 exit=0 chars=138 3.174
+RESULT {"model": "qwen3_4b_q4", "id": "regex35", "task": "regex", "text": "^AB_^\\d{2}$", "wall_s": 0.69, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex35 exit=0 chars=11 0.69
+RESULT {"model": "qwen3_4b_q4", "id": "json35", "task": "json", "text": "{\n  \"company\": \"Fern district 35 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Pune\",\n  \"min_years\": 8\n}", "wall_s": 3.017, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json35 exit=0 chars=107 3.017
+RESULT {"model": "qwen3_4b_q4", "id": "triage36", "task": "triage", "text": "AI research", "wall_s": 0.242, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage36 exit=0 chars=11 0.242
+RESULT {"model": "qwen3_4b_q4", "id": "summary36", "task": "summary", "text": "Alder district 36's pilot reduced processing time by 54% on weekdays but had no weekend improvement, with a planned expansion to 39 sites.", "wall_s": 2.65, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary36 exit=0 chars=138 2.65
+RESULT {"model": "qwen3_4b_q4", "id": "tweet36", "task": "tweet", "text": "Tested translation model on 460 examples: accuracy rose from 86% to 96% with retrieval, latency increased from 38 to 40 seconds. #AIperformance", "wall_s": 3.176, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet36 exit=0 chars=143 3.176
+RESULT {"model": "qwen3_4b_q4", "id": "regex36", "task": "regex", "text": "^xy-000$", "wall_s": 0.613, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex36 exit=0 chars=8 0.613
+RESULT {"model": "qwen3_4b_q4", "id": "json36", "task": "json", "text": "{\n  \"company\": \"Alder district 36 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Delhi\",\n  \"min_years\": 0\n}", "wall_s": 3.012, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json36 exit=0 chars=106 3.012
+RESULT {"model": "qwen3_4b_q4", "id": "triage37", "task": "triage", "text": "Job alert", "wall_s": 0.243, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage37 exit=0 chars=9 0.243
+RESULT {"model": "qwen3_4b_q4", "id": "summary37", "task": "summary", "text": "Birch district's robotics pilot reduced processing time by 55% on weekdays but had no weekend effect, with expansion planned.", "wall_s": 2.156, "new_tokens": 28, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary37 exit=0 chars=125 2.156
+RESULT {"model": "qwen3_4b_q4", "id": "tweet37", "task": "tweet", "text": "Tested robotics model on 470 examples: accuracy rose from 87% to 97% with retrieval, latency increased from 39 to 41 seconds. #AIperformance", "wall_s": 3.214, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet37 exit=0 chars=140 3.214
+RESULT {"model": "qwen3_4b_q4", "id": "regex37", "task": "regex", "text": "^QZ:0000$", "wall_s": 0.79, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex37 exit=0 chars=9 0.79
+RESULT {"model": "qwen3_4b_q4", "id": "json37", "task": "json", "text": "{\n  \"company\": \"37 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Chennai\",\n  \"min_years\": 1\n}", "wall_s": 2.729, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json37 exit=0 chars=90 2.729
+RESULT {"model": "qwen3_4b_q4", "id": "triage38", "task": "triage", "text": "Job alert", "wall_s": 0.237, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage38 exit=0 chars=9 0.237
+RESULT {"model": "qwen3_4b_q4", "id": "summary38", "task": "summary", "text": "Cedar District 38's pilot improved weekday processing by 56% but failed weekends, with expansion planned.", "wall_s": 1.881, "new_tokens": 25, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary38 exit=0 chars=105 1.881
+RESULT {"model": "qwen3_4b_q4", "id": "tweet38", "task": "tweet", "text": "Tested forecasting model on 480 examples: accuracy rose from 88% to 98% with retrieval, latency increased from 40 to 42 seconds. #AIperformance", "wall_s": 3.108, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet38 exit=0 chars=143 3.108
+RESULT {"model": "qwen3_4b_q4", "id": "regex38", "task": "regex", "text": "^rt_\\d{5}$", "wall_s": 0.604, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex38 exit=0 chars=10 0.604
+RESULT {"model": "qwen3_4b_q4", "id": "json38", "task": "json", "text": "{\n  \"company\": \"Cedar district 38 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 2\n}", "wall_s": 3.156, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json38 exit=0 chars=113 3.156
+RESULT {"model": "qwen3_4b_q4", "id": "triage39", "task": "triage", "text": "Product update", "wall_s": 0.239, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage39 exit=0 chars=14 0.239
+RESULT {"model": "qwen3_4b_q4", "id": "summary39", "task": "summary", "text": "Dover district 39's pilot cut processing time by 57% on weekdays but not weekends, with extension planned.", "wall_s": 2.026, "new_tokens": 27, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary39 exit=0 chars=106 2.026
+RESULT {"model": "qwen3_4b_q4", "id": "tweet39", "task": "tweet", "text": "Tested search model on 490 examples: accuracy rose from 89% to 99% with retrieval, latency increased from 41 to 43 seconds. #AIperformance", "wall_s": 3.168, "new_tokens": 42, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet39 exit=0 chars=138 3.168
+RESULT {"model": "qwen3_4b_q4", "id": "regex39", "task": "regex", "text": "^LM-\\\\d{6}$", "wall_s": 0.704, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex39 exit=0 chars=11 0.704
+RESULT {"model": "qwen3_4b_q4", "id": "json39", "task": "json", "text": "{\n  \"company\": \"39 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 3\n}", "wall_s": 2.706, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json39 exit=0 chars=95 2.706
+RESULT {"model": "qwen3_4b_q4", "id": "triage40", "task": "triage", "text": "AI research", "wall_s": 0.241, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage40 exit=0 chars=11 0.241
+RESULT {"model": "qwen3_4b_q4", "id": "summary40", "task": "summary", "text": "Elm district 40's coding service reduced processing time by 58% on weekdays but not weekends, with a pilot extension planned.", "wall_s": 2.255, "new_tokens": 30, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary40 exit=0 chars=125 2.255
+RESULT {"model": "qwen3_4b_q4", "id": "tweet40", "task": "tweet", "text": "Tested coding model on 500 examples: accuracy rose from 90% to 100% with retrieval, latency increased from 42 to 44 seconds. #AIperformance", "wall_s": 3.217, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet40 exit=0 chars=139 3.217
+RESULT {"model": "qwen3_4b_q4", "id": "regex40", "task": "regex", "text": "^AB:00$", "wall_s": 0.536, "new_tokens": 7, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex40 exit=0 chars=7 0.536
+RESULT {"model": "qwen3_4b_q4", "id": "json40", "task": "json", "text": "{\n  \"company\": \"40 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Pune\",\n  \"min_years\": 4\n}", "wall_s": 2.693, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json40 exit=0 chars=87 2.693
+RESULT {"model": "qwen3_4b_q4", "id": "triage41", "task": "triage", "text": "Job alert", "wall_s": 0.241, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage41 exit=0 chars=9 0.241
+RESULT {"model": "qwen3_4b_q4", "id": "summary41", "task": "summary", "text": "Fern district's 53-week pilot improved processing time by 59% on weekdays but had no weekend improvement, with a planned expansion to 44 sites.", "wall_s": 2.699, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary41 exit=0 chars=143 2.699
+RESULT {"model": "qwen3_4b_q4", "id": "tweet41", "task": "tweet", "text": "Tested speech model on 510 examples: accuracy rose from 91% to 101% with retrieval, latency increased from 43 to 45 seconds. #AIperformance", "wall_s": 3.219, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet41 exit=0 chars=139 3.219
+RESULT {"model": "qwen3_4b_q4", "id": "regex41", "task": "regex", "text": "^xy_\\\\d{3}$", "wall_s": 0.71, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex41 exit=0 chars=11 0.71
+RESULT {"model": "qwen3_4b_q4", "id": "json41", "task": "json", "text": "{\n  \"company\": \"Fern district 41 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Delhi\",\n  \"min_years\": 5\n}", "wall_s": 2.984, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json41 exit=0 chars=108 2.984
+RESULT {"model": "qwen3_4b_q4", "id": "triage42", "task": "triage", "text": "Job alert", "wall_s": 0.237, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage42 exit=0 chars=9 0.237
+RESULT {"model": "qwen3_4b_q4", "id": "summary42", "task": "summary", "text": "Alder district 42's translation pilot reduced processing time by 60% on weekdays but had no weekend improvement, with a planned expansion to 45 sites.", "wall_s": 2.704, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary42 exit=0 chars=150 2.704
+RESULT {"model": "qwen3_4b_q4", "id": "tweet42", "task": "tweet", "text": "Tested translation model on 520 examples: accuracy rose from 92% to 102% with retrieval, latency increased from 44 to 46 seconds. #modelperf", "wall_s": 3.237, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet42 exit=0 chars=140 3.237
+RESULT {"model": "qwen3_4b_q4", "id": "regex42", "task": "regex", "text": "^QZ-\\\\d{4}$", "wall_s": 0.765, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex42 exit=0 chars=11 0.765
+RESULT {"model": "qwen3_4b_q4", "id": "json42", "task": "json", "text": "{\n  \"company\": \"42 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Chennai\",\n  \"min_years\": 6\n}", "wall_s": 2.705, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json42 exit=0 chars=93 2.705
+RESULT {"model": "qwen3_4b_q4", "id": "triage43", "task": "triage", "text": "Product update", "wall_s": 0.243, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage43 exit=0 chars=14 0.243
+RESULT {"model": "qwen3_4b_q4", "id": "summary43", "task": "summary", "text": "Birch district's robotics pilot reduced processing time by 61% on weekdays but had no weekend effect, with expansion planned.", "wall_s": 2.116, "new_tokens": 28, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary43 exit=0 chars=125 2.116
+RESULT {"model": "qwen3_4b_q4", "id": "tweet43", "task": "tweet", "text": "Tested robotics model on 530 examples: accuracy rose from 93% to 103% with retrieval, latency increased from 45 to 47 seconds. #AIperformance", "wall_s": 3.236, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet43 exit=0 chars=141 3.236
+RESULT {"model": "qwen3_4b_q4", "id": "regex43", "task": "regex", "text": "^rt:00000$", "wall_s": 0.767, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex43 exit=0 chars=10 0.767
+RESULT {"model": "qwen3_4b_q4", "id": "json43", "task": "json", "text": "{\n  \"company\": \"43 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 7\n}", "wall_s": 2.871, "new_tokens": 38, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json43 exit=0 chars=92 2.871
+BATCH_DONE {"n": 50, "model_key": "qwen3_4b_q4", "repo": "Qwen/Qwen3-4B", "quant": "nf4"}
+An exception has occurred, use %tb to see the full traceback.
+[0;31mSystemExit[0m[0;31m:[0m 0
+
+/usr/local/lib/python3.13/dist-packages/IPython/core/interactiveshell.py:3561: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+2026-10-15 18:49:14 CMD colab download -s r3023 /content/answers.jsonl /workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl
+2026-10-15 18:49:15 [colab] Downloaded '/content/answers.jsonl' to '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl'
+2026-10-15 18:49:15 RC 0
+2026-10-15 18:49:15 after batch 4 rc=0 have 220 still_missing 80
+2026-10-15 18:49:15 CMD colab restart-kernel -s r3023
+2026-10-15 18:49:18 RC 0
+2026-10-15 18:49:18 batch 5 missing 80 est_cu 0.281
+2026-10-15 18:49:18 CMD colab upload -s r3023 /workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl /content/answers.jsonl
+2026-10-15 18:49:20 [colab] Uploaded '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl' to '/content/answers.jsonl'
+2026-10-15 18:49:20 RC 0
+2026-10-15 18:49:20 CMD colab exec -s r3023 -f /workspace/work/tig/023r3-small-model-bakeoff/scripts/remote_infer.py --timeout 1200 --env ITEMS_PATH=/content/items.json --env ANSWERS_PATH=/content/answers.jsonl --env BATCH_SIZE=50 --env PYTHONUNBUFFERED=1 --env MODEL_REPO=Qwen/Qwen3-4B
+BOOT remote_infer
+GPU NVIDIA L4, 23034 MiB cuda True
+TODO 50 already 220
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_auth.py:138: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+  warnings.warn(f"\nError while fetching `HF_TOKEN` secret value from your vault: '{str(e)}'.")
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+META {"gpu": "NVIDIA L4, 23034 MiB", "repo": "Qwen/Qwen3-4B", "quant": "nf4", "cuda": true, "model_key": "qwen3_4b_q4", "n_todo": 50}
+RESULT {"model": "qwen3_4b_q4", "id": "triage44", "task": "triage", "text": "AI research", "wall_s": 0.874, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage44 exit=0 chars=11 0.874
+RESULT {"model": "qwen3_4b_q4", "id": "summary44", "task": "summary", "text": "Cedar District 44's pilot reduced processing time by 62% on weekdays but had no weekend improvement, with a planned expansion to 47 sites.", "wall_s": 2.72, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary44 exit=0 chars=138 2.72
+RESULT {"model": "qwen3_4b_q4", "id": "tweet44", "task": "tweet", "text": "Tested forecasting model on 540 examples: accuracy rose from 94% to 104% with retrieval, latency increased from 46 to 48 seconds. #AIperformance", "wall_s": 3.314, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet44 exit=0 chars=144 3.314
+RESULT {"model": "qwen3_4b_q4", "id": "regex44", "task": "regex", "text": "^LM_000000$", "wall_s": 0.867, "new_tokens": 11, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex44 exit=0 chars=11 0.867
+RESULT {"model": "qwen3_4b_q4", "id": "json44", "task": "json", "text": "{\n  \"company\": \"Cedar district 44 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 8\n}", "wall_s": 3.104, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json44 exit=0 chars=113 3.104
+RESULT {"model": "qwen3_4b_q4", "id": "triage45", "task": "triage", "text": "Job alert", "wall_s": 0.246, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage45 exit=0 chars=9 0.246
+RESULT {"model": "qwen3_4b_q4", "id": "summary45", "task": "summary", "text": "Dover district 45's pilot reduced processing time by 63% on weekdays but had no weekend improvement, with a planned expansion to 48 sites.", "wall_s": 2.688, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary45 exit=0 chars=138 2.688
+RESULT {"model": "qwen3_4b_q4", "id": "tweet45", "task": "tweet", "text": "Tested search model on 550 examples: accuracy rose from 95% to 105% with retrieval, latency increased from 47 to 49 seconds. #AIperformance", "wall_s": 3.281, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet45 exit=0 chars=139 3.281
+RESULT {"model": "qwen3_4b_q4", "id": "regex45", "task": "regex", "text": "^AB-\\\\d{2}$", "wall_s": 0.699, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex45 exit=0 chars=11 0.699
+RESULT {"model": "qwen3_4b_q4", "id": "json45", "task": "json", "text": "{\n  \"company\": \"45 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Pune\",\n  \"min_years\": 0\n}", "wall_s": 2.749, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json45 exit=0 chars=90 2.749
+RESULT {"model": "qwen3_4b_q4", "id": "triage46", "task": "triage", "text": "Job alert", "wall_s": 0.243, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage46 exit=0 chars=9 0.243
+RESULT {"model": "qwen3_4b_q4", "id": "summary46", "task": "summary", "text": "Elm district 46's coding service reduced processing time by 64% on weekdays but not weekends, with a pilot extension planned.", "wall_s": 2.302, "new_tokens": 30, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary46 exit=0 chars=125 2.302
+RESULT {"model": "qwen3_4b_q4", "id": "tweet46", "task": "tweet", "text": "Tested coding model on 560 examples: accuracy rose from 96% to 106% with retrieval, latency increased from 48 to 50 seconds. #AIperformance", "wall_s": 3.268, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet46 exit=0 chars=139 3.268
+RESULT {"model": "qwen3_4b_q4", "id": "regex46", "task": "regex", "text": "^xy:000$", "wall_s": 0.613, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex46 exit=0 chars=8 0.613
+RESULT {"model": "qwen3_4b_q4", "id": "json46", "task": "json", "text": "{\n  \"company\": \"46 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Delhi\",\n  \"min_years\": 1\n}", "wall_s": 2.724, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json46 exit=0 chars=88 2.724
+RESULT {"model": "qwen3_4b_q4", "id": "triage47", "task": "triage", "text": "Product update", "wall_s": 0.246, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage47 exit=0 chars=14 0.246
+RESULT {"model": "qwen3_4b_q4", "id": "summary47", "task": "summary", "text": "Fern district 47's speech service pilot reduced processing time by 65% on weekdays but had no weekend improvement, with a planned expansion to 50 sites.", "wall_s": 2.803, "new_tokens": 37, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary47 exit=0 chars=152 2.803
+RESULT {"model": "qwen3_4b_q4", "id": "tweet47", "task": "tweet", "text": "Tested speech model on 570 examples: accuracy rose from 97% to 107% with retrieval, latency increased from 49 to 51 seconds. #AIperformance", "wall_s": 3.222, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet47 exit=0 chars=139 3.222
+RESULT {"model": "qwen3_4b_q4", "id": "regex47", "task": "regex", "text": "^QZ_\\\\d{4}$", "wall_s": 0.781, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex47 exit=0 chars=11 0.781
+RESULT {"model": "qwen3_4b_q4", "id": "json47", "task": "json", "text": "{\n  \"company\": \"47 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Chennai\",\n  \"min_years\": 2\n}", "wall_s": 2.715, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json47 exit=0 chars=96 2.715
+RESULT {"model": "qwen3_4b_q4", "id": "triage48", "task": "triage", "text": "AI research", "wall_s": 0.241, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage48 exit=0 chars=11 0.241
+RESULT {"model": "qwen3_4b_q4", "id": "summary48", "task": "summary", "text": "Alder district 48's pilot reduced processing time by 66% on weekdays but had no weekend improvement, with a planned expansion to 51 sites.", "wall_s": 2.642, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary48 exit=0 chars=138 2.642
+RESULT {"model": "qwen3_4b_q4", "id": "tweet48", "task": "tweet", "text": "Tested translation model on 580 examples: accuracy rose from 98% to 108% with retrieval, latency increased from 50 to 52 seconds. #AIperformance", "wall_s": 3.225, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet48 exit=0 chars=144 3.225
+RESULT {"model": "qwen3_4b_q4", "id": "regex48", "task": "regex", "text": "^rt-\\\\d{5}$", "wall_s": 0.692, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex48 exit=0 chars=11 0.692
+RESULT {"model": "qwen3_4b_q4", "id": "json48", "task": "json", "text": "{\n  \"company\": \"48 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 3\n}", "wall_s": 2.829, "new_tokens": 38, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json48 exit=0 chars=95 2.829
+RESULT {"model": "qwen3_4b_q4", "id": "triage49", "task": "triage", "text": "Job alert", "wall_s": 0.239, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage49 exit=0 chars=9 0.239
+RESULT {"model": "qwen3_4b_q4", "id": "summary49", "task": "summary", "text": "Birch district's robotics pilot reduced processing time by 67% on weekdays but had no weekend effect, with expansion planned.", "wall_s": 2.086, "new_tokens": 28, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary49 exit=0 chars=125 2.086
+RESULT {"model": "qwen3_4b_q4", "id": "tweet49", "task": "tweet", "text": "Tested robotics model on 590 examples: accuracy rose from 99% to 109% with retrieval, latency increased from 51 to 53 seconds. #AIperformance", "wall_s": 3.181, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet49 exit=0 chars=141 3.181
+RESULT {"model": "qwen3_4b_q4", "id": "regex49", "task": "regex", "text": "^LM:000000$", "wall_s": 0.833, "new_tokens": 11, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex49 exit=0 chars=11 0.833
+RESULT {"model": "qwen3_4b_q4", "id": "json49", "task": "json", "text": "{\n  \"company\": \"49 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 4\n}", "wall_s": 2.702, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json49 exit=0 chars=92 2.702
+RESULT {"model": "qwen3_4b_q4", "id": "triage50", "task": "triage", "text": "Job alert", "wall_s": 0.234, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage50 exit=0 chars=9 0.234
+RESULT {"model": "qwen3_4b_q4", "id": "summary50", "task": "summary", "text": "Cedar District 50's pilot reduced processing time by 68% on weekdays but not weekends, with a planned expansion to 53 sites.", "wall_s": 2.453, "new_tokens": 33, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary50 exit=0 chars=124 2.453
+RESULT {"model": "qwen3_4b_q4", "id": "tweet50", "task": "tweet", "text": "Tested forecasting model on 600 examples: accuracy rose from 100% to 110% with retrieval, latency increased from 52 to 54 seconds #AIperformance", "wall_s": 3.205, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet50 exit=0 chars=144 3.205
+RESULT {"model": "qwen3_4b_q4", "id": "regex50", "task": "regex", "text": "^AB_^\\d{2}$", "wall_s": 0.678, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex50 exit=0 chars=11 0.678
+RESULT {"model": "qwen3_4b_q4", "id": "json50", "task": "json", "text": "{\n  \"company\": \"Cedar district 50 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Pune\",\n  \"min_years\": 5\n}", "wall_s": 2.987, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json50 exit=0 chars=108 2.987
+RESULT {"model": "qwen3_4b_q4", "id": "triage51", "task": "triage", "text": "Product update", "wall_s": 0.244, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage51 exit=0 chars=14 0.244
+RESULT {"model": "qwen3_4b_q4", "id": "summary51", "task": "summary", "text": "Dover district 51's pilot cut processing time by 69% on weekdays but had no weekend improvement, with a planned expansion to 54 sites.", "wall_s": 2.666, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary51 exit=0 chars=134 2.666
+RESULT {"model": "qwen3_4b_q4", "id": "tweet51", "task": "tweet", "text": "Tested search model on 610 examples: accuracy rose from 101% to 111% with retrieval, latency increased from 53 to 55 seconds. #AIperformance", "wall_s": 3.326, "new_tokens": 44, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet51 exit=0 chars=140 3.326
+RESULT {"model": "qwen3_4b_q4", "id": "regex51", "task": "regex", "text": "^xy-000$", "wall_s": 0.611, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex51 exit=0 chars=8 0.611
+RESULT {"model": "qwen3_4b_q4", "id": "json51", "task": "json", "text": "{\n  \"company\": \"51 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Delhi\",\n  \"min_years\": 6\n}", "wall_s": 2.716, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json51 exit=0 chars=91 2.716
+RESULT {"model": "qwen3_4b_q4", "id": "triage52", "task": "triage", "text": "AI research", "wall_s": 0.241, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage52 exit=0 chars=11 0.241
+RESULT {"model": "qwen3_4b_q4", "id": "summary52", "task": "summary", "text": "Elm district 52's coding service reduced processing time by 70% on weekdays but had no weekend improvement, with a pilot extension planned.", "wall_s": 2.429, "new_tokens": 32, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary52 exit=0 chars=139 2.429
+RESULT {"model": "qwen3_4b_q4", "id": "tweet52", "task": "tweet", "text": "Tested coding model on 620 examples: accuracy rose from 102% to 112% with retrieval, latency increased from 54 to 56 seconds. #AIperformance", "wall_s": 3.325, "new_tokens": 44, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet52 exit=0 chars=140 3.325
+RESULT {"model": "qwen3_4b_q4", "id": "regex52", "task": "regex", "text": "^QZ:0000$", "wall_s": 0.76, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex52 exit=0 chars=9 0.76
+RESULT {"model": "qwen3_4b_q4", "id": "json52", "task": "json", "text": "{\n  \"company\": \"52 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Chennai\",\n  \"min_years\": 7\n}", "wall_s": 2.741, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json52 exit=0 chars=90 2.741
+RESULT {"model": "qwen3_4b_q4", "id": "triage53", "task": "triage", "text": "Job alert", "wall_s": 0.245, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage53 exit=0 chars=9 0.245
+RESULT {"model": "qwen3_4b_q4", "id": "summary53", "task": "summary", "text": "Fern district's 53-week pilot reduced processing time by 71% on weekdays but had no weekend improvement, with a planned expansion to 56 sites.", "wall_s": 2.722, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary53 exit=0 chars=142 2.722
+RESULT {"model": "qwen3_4b_q4", "id": "tweet53", "task": "tweet", "text": "Tested speech model on 630 examples: accuracy rose from 103% to 113% with retrieval, latency increased from 55 to 57 seconds #AIperformance", "wall_s": 3.223, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet53 exit=0 chars=139 3.223
+RESULT {"model": "qwen3_4b_q4", "id": "regex53", "task": "regex", "text": "^rt_\\d{5}$", "wall_s": 0.629, "new_tokens": 8, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex53 exit=0 chars=10 0.629
+RESULT {"model": "qwen3_4b_q4", "id": "json53", "task": "json", "text": "{\n  \"company\": \"53 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 8\n}", "wall_s": 2.877, "new_tokens": 38, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json53 exit=0 chars=98 2.877
+BATCH_DONE {"n": 50, "model_key": "qwen3_4b_q4", "repo": "Qwen/Qwen3-4B", "quant": "nf4"}
+An exception has occurred, use %tb to see the full traceback.
+[0;31mSystemExit[0m[0;31m:[0m 0
+
+/usr/local/lib/python3.13/dist-packages/IPython/core/interactiveshell.py:3561: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+2026-10-15 18:51:30 CMD colab download -s r3023 /content/answers.jsonl /workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl
+2026-10-15 18:51:32 [colab] Downloaded '/content/answers.jsonl' to '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl'
+2026-10-15 18:51:32 RC 0
+2026-10-15 18:51:32 after batch 5 rc=0 have 270 still_missing 30
+2026-10-15 18:51:32 CMD colab restart-kernel -s r3023
+2026-10-15 18:51:35 RC 0
+2026-10-15 18:51:35 batch 6 missing 30 est_cu 0.340
+2026-10-15 18:51:35 CMD colab upload -s r3023 /workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl /content/answers.jsonl
+2026-10-15 18:51:36 [colab] Uploaded '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen.jsonl' to '/content/answers.jsonl'
+2026-10-15 18:51:36 RC 0
+2026-10-15 18:51:36 CMD colab exec -s r3023 -f /workspace/work/tig/023r3-small-model-bakeoff/scripts/remote_infer.py --timeout 1200 --env ITEMS_PATH=/content/items.json --env ANSWERS_PATH=/content/answers.jsonl --env BATCH_SIZE=50 --env PYTHONUNBUFFERED=1 --env MODEL_REPO=Qwen/Qwen3-4B
+BOOT remote_infer
+GPU NVIDIA L4, 23034 MiB cuda True
+TODO 30 already 270
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_auth.py:138: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+  warnings.warn(f"\nError while fetching `HF_TOKEN` secret value from your vault: '{str(e)}'.")
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+META {"gpu": "NVIDIA L4, 23034 MiB", "repo": "Qwen/Qwen3-4B", "quant": "nf4", "cuda": true, "model_key": "qwen3_4b_q4", "n_todo": 30}
+RESULT {"model": "qwen3_4b_q4", "id": "triage54", "task": "triage", "text": "Job alert", "wall_s": 0.872, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage54 exit=0 chars=9 0.872
+RESULT {"model": "qwen3_4b_q4", "id": "summary54", "task": "summary", "text": "Alder district 54's pilot reduced processing time by 72% on weekdays but had no weekend improvement, with a planned expansion to 57 sites.", "wall_s": 2.73, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary54 exit=0 chars=138 2.73
+RESULT {"model": "qwen3_4b_q4", "id": "tweet54", "task": "tweet", "text": "Tested translation model on 640 examples: accuracy rose from 104% to 114% with retrieval, latency increased from 56 to 58 seconds #translationmodelperf", "wall_s": 3.414, "new_tokens": 44, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet54 exit=0 chars=151 3.414
+RESULT {"model": "qwen3_4b_q4", "id": "regex54", "task": "regex", "text": "^LM-\\\\d{6}$", "wall_s": 0.708, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex54 exit=0 chars=11 0.708
+RESULT {"model": "qwen3_4b_q4", "id": "json54", "task": "json", "text": "{\n  \"company\": \"54 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 0\n}", "wall_s": 2.793, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json54 exit=0 chars=95 2.793
+RESULT {"model": "qwen3_4b_q4", "id": "triage55", "task": "triage", "text": "Product update", "wall_s": 0.249, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage55 exit=0 chars=14 0.249
+RESULT {"model": "qwen3_4b_q4", "id": "summary55", "task": "summary", "text": "Birch district's robotics pilot reduced processing time by 73% on weekdays but had no weekend improvement, with a planned expansion to 58 sites.", "wall_s": 2.62, "new_tokens": 34, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary55 exit=0 chars=144 2.62
+RESULT {"model": "qwen3_4b_q4", "id": "tweet55", "task": "tweet", "text": "Tested robotics model on 650 examples: accuracy rose from 105% to 115% with retrieval, latency increased from 57 to 59 seconds. #AIperformance", "wall_s": 3.379, "new_tokens": 44, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet55 exit=0 chars=142 3.379
+RESULT {"model": "qwen3_4b_q4", "id": "regex55", "task": "regex", "text": "^AB:00$", "wall_s": 0.543, "new_tokens": 7, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex55 exit=0 chars=7 0.543
+RESULT {"model": "qwen3_4b_q4", "id": "json55", "task": "json", "text": "{\n  \"company\": \"55 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Pune\",\n  \"min_years\": 1\n}", "wall_s": 2.775, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json55 exit=0 chars=87 2.775
+RESULT {"model": "qwen3_4b_q4", "id": "triage56", "task": "triage", "text": "AI research", "wall_s": 0.246, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage56 exit=0 chars=11 0.246
+RESULT {"model": "qwen3_4b_q4", "id": "summary56", "task": "summary", "text": "Cedar District 56's pilot reduced processing time by 74% on weekdays but had no weekend improvement, with a planned expansion to 59 sites.", "wall_s": 2.693, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary56 exit=0 chars=138 2.693
+RESULT {"model": "qwen3_4b_q4", "id": "tweet56", "task": "tweet", "text": "Tested forecasting model on 660 examples: accuracy rose from 106% to 116% with retrieval, latency increased from 58 to 60 seconds #AIperformance", "wall_s": 3.232, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet56 exit=0 chars=144 3.232
+RESULT {"model": "qwen3_4b_q4", "id": "regex56", "task": "regex", "text": "^xy_\\\\d{3}$", "wall_s": 0.71, "new_tokens": 9, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex56 exit=0 chars=11 0.71
+RESULT {"model": "qwen3_4b_q4", "id": "json56", "task": "json", "text": "{\n  \"company\": \"Cedar district 56 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Delhi\",\n  \"min_years\": 2\n}", "wall_s": 3.057, "new_tokens": 40, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json56 exit=0 chars=109 3.057
+RESULT {"model": "qwen3_4b_q4", "id": "triage57", "task": "triage", "text": "Job alert", "wall_s": 0.244, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage57 exit=0 chars=9 0.244
+RESULT {"model": "qwen3_4b_q4", "id": "summary57", "task": "summary", "text": "Dover district 57's pilot cut processing time by 75% on weekdays but had limited weekend performance, with a planned expansion to 60 sites.", "wall_s": 2.677, "new_tokens": 35, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary57 exit=0 chars=139 2.677
+RESULT {"model": "qwen3_4b_q4", "id": "tweet57", "task": "tweet", "text": "Tested search model on 670 examples: accuracy rose from 107% to 117% with retrieval, latency increased from 59 to 61 seconds. #AIperformance", "wall_s": 3.35, "new_tokens": 44, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet57 exit=0 chars=140 3.35
+RESULT {"model": "qwen3_4b_q4", "id": "regex57", "task": "regex", "text": "^QZ-\\\\d{4}$", "wall_s": 0.775, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex57 exit=0 chars=11 0.775
+RESULT {"model": "qwen3_4b_q4", "id": "json57", "task": "json", "text": "{\n  \"company\": \"57 Labs\",\n  \"role\": \"Data Scientist\",\n  \"city\": \"Chennai\",\n  \"min_years\": 3\n}", "wall_s": 2.743, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json57 exit=0 chars=93 2.743
+RESULT {"model": "qwen3_4b_q4", "id": "triage58", "task": "triage", "text": "Job alert", "wall_s": 0.241, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage58 exit=0 chars=9 0.241
+RESULT {"model": "qwen3_4b_q4", "id": "summary58", "task": "summary", "text": "Elm district 58's coding service cut processing time by 76% on weekdays but had no weekend improvement, with a pilot extension planned.", "wall_s": 2.448, "new_tokens": 32, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary58 exit=0 chars=135 2.448
+RESULT {"model": "qwen3_4b_q4", "id": "tweet58", "task": "tweet", "text": "Tested coding model on 680 examples: accuracy rose from 108% to 118% with retrieval, latency increased from 60 to 62 seconds #AIperformance", "wall_s": 3.279, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet58 exit=0 chars=139 3.279
+RESULT {"model": "qwen3_4b_q4", "id": "regex58", "task": "regex", "text": "^rt:00000$", "wall_s": 0.773, "new_tokens": 10, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex58 exit=0 chars=10 0.773
+RESULT {"model": "qwen3_4b_q4", "id": "json58", "task": "json", "text": "{\n  \"company\": \"58 Labs\",\n  \"role\": \"ML Engineer\",\n  \"city\": \"Bengaluru\",\n  \"min_years\": 4\n}", "wall_s": 2.938, "new_tokens": 38, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json58 exit=0 chars=92 2.938
+RESULT {"model": "qwen3_4b_q4", "id": "triage59", "task": "triage", "text": "Product update", "wall_s": 0.244, "new_tokens": 3, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM triage59 exit=0 chars=14 0.244
+RESULT {"model": "qwen3_4b_q4", "id": "summary59", "task": "summary", "text": "Fern district's 77% processing time reduction worked weekdays but not weekends, limiting nationwide rollout.", "wall_s": 1.69, "new_tokens": 22, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM summary59 exit=0 chars=108 1.69
+RESULT {"model": "qwen3_4b_q4", "id": "tweet59", "task": "tweet", "text": "Tested speech model on 690 examples: accuracy rose from 109% to 119% with retrieval, latency increased from 61 to 63 seconds #AIperformance", "wall_s": 3.279, "new_tokens": 43, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM tweet59 exit=0 chars=139 3.279
+RESULT {"model": "qwen3_4b_q4", "id": "regex59", "task": "regex", "text": "^LM_000000$", "wall_s": 0.838, "new_tokens": 11, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM regex59 exit=0 chars=11 0.838
+RESULT {"model": "qwen3_4b_q4", "id": "json59", "task": "json", "text": "{\n  \"company\": \"59 Labs\",\n  \"role\": \"Research Engineer\",\n  \"city\": \"Hyderabad\",\n  \"min_years\": 5\n}", "wall_s": 2.744, "new_tokens": 36, "repo": "Qwen/Qwen3-4B", "quant": "nf4", "exit": 0}
+ITEM json59 exit=0 chars=98 2.744
+BATCH_DONE {"n": 30, "model_key": "qwen3_4b_q4", "repo": "Qwen/Qwen3-4B", "quant": "nf4"}
+An exception has occurred, use %tb to see the full traceback.
+[0;31mSystemExit[0m[0;31m:[0m 0
+
+/usr/local/lib/python3.13/dist-packages/IPython/core/interactiveshell.py:3561: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+2026-10-15 18:52:59 CMD colab download -s r3023 /content/answers.jsonl /workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl
+2026-10-15 18:53:00 [colab] Downloaded '/content/answers.jsonl' to '/workspace/work/tig/023r3-small-model-bakeoff/results/qwen_download.jsonl'
+2026-10-15 18:53:00 RC 0
+2026-10-15 18:53:00 after batch 6 rc=0 have 300 still_missing 0
+2026-10-15 18:53:00 CMD colab restart-kernel -s r3023
+2026-10-15 18:53:04 RC 0
+2026-10-15 18:53:04 all 300 qwen answers present
+2026-10-15 18:53:04 stopping session r3023
+2026-10-15 18:53:04 CMD colab stop -s r3023
+2026-10-15 18:53:05 [colab] Stopping session 'r3023'...
+[colab] Session terminated.
+2026-10-15 18:53:05 RC 0
+2026-10-15 18:53:08 CMD colab sessions
+2026-10-15 18:53:10 [r3074] gpu-l4-s-kkb-usw4c0-1jkuz29ijxjmu | Hardware: L4 | Shape: Standard | Variant: GPU
+2026-10-15 18:53:10 RC 0
+2026-10-15 18:53:10 CMD colab usage
+2026-10-15 18:53:11 Current balance: 175.43 compute units
+Usage rate: 1.54/hr
+Active assignments: 1
+2026-10-15 18:53:11 RC 0
+2026-10-15 18:53:11 compute {"sessions": [{"session": "r3023", "gpu_requested_order": ["L4", "T4", "A100", "CPU"], "gpu_allocated": "L4", "started": true, "elapsed_s": 890.2, "cu_rate_per_h": 1.54, "cu_estimated": 0.3808, "cu_cap": 4.6, "reason": "complete", "balance_before": 175.96, "balance_after": 175.43, "rate_before": 1.54, "rate_after": 1.54, "active_after": 1, "ts": 1792090391.3608096}], "cu_estimated_total": 0.3808, "gpu_allocated": "L4", "qwen_meta": {"gpu": "NVIDIA L4, 23034 MiB", "repo": "Qwen/Qwen3-4B", "quant": "nf4", "cuda": true, "model_key": "qwen3_4b_q4", "n_todo": 30}, "balance_before_first": 175.96, "balance_after_last": 175.43, "reason": "complete"}
+2026-10-15 18:53:11 final have 300 missing 0 reason complete

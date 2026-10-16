@@ -1,0 +1,38 @@
+
+--- start 1792090391.389898 judge.py ['items.json']
+judge pending items 120
+judge call aliases=20
+Traceback (most recent call last):
+  File "/workspace/work/tig/023r3-small-model-bakeoff/scripts/judge.py", line 219, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/workspace/work/tig/023r3-small-model-bakeoff/scripts/judge.py", line 177, in main
+    grades = codex_grade(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/tig/023r3-small-model-bakeoff/scripts/judge.py", line 126, in codex_grade
+    raise RuntimeError(last_err)
+RuntimeError: ex-app.tldraw.xyz/.well-known/oauth-protected-resource/mcp\", scope=\"openid profile email offline_access\"" })
+[1m[31mERROR:[0m[0m You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 9:36 PM.
+[1m[31mERROR:[0m[0m You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 9:36 PM.
+
+
+--- end rc=1
+
+--- start 1792090432.5355074 judge.py ['items.json']
+judge pending items 120
+judge call aliases=20
+Traceback (most recent call last):
+  File "/workspace/work/tig/023r3-small-model-bakeoff/scripts/judge.py", line 219, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/workspace/work/tig/023r3-small-model-bakeoff/scripts/judge.py", line 177, in main
+    grades = codex_grade(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/tig/023r3-small-model-bakeoff/scripts/judge.py", line 126, in codex_grade
+    raise RuntimeError(last_err)
+RuntimeError: ex-app.tldraw.xyz/.well-known/oauth-protected-resource/mcp\", scope=\"openid profile email offline_access\"" })
+[1m[31mERROR:[0m[0m You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 9:36 PM.
+[1m[31mERROR:[0m[0m You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 9:36 PM.
+
+
+--- end rc=1

@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "triage60",
+    "task": "triage",
+    "gold": "AI research",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nPaper 60: A controlled study of translation reports a 67% improvement over its baseline. Read the methods and ablations; no product is being released."
+  },
+  {
+    "id": "summary60",
+    "task": "summary",
+    "source": "Alder district 60 tested a new translation service for 72 weeks. The pilot cut processing time by 78 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 63 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nAlder district 60 tested a new translation service for 72 weeks. The pilot cut processing time by 78 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 63 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet60",
+    "task": "tweet",
+    "source": [
+      "Tested translation model on 700 examples",
+      "accuracy rose from 110% to 120% with retrieval",
+      "latency increased from 62 to 64 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested translation model on 700 examples\naccuracy rose from 110% to 120% with retrieval\nlatency increased from 62 to 64 seconds"
+  },
+  {
+    "id": "regex60",
+    "task": "regex",
+    "pos": [
+      "AB-00",
+      "AB-77",
+      "AB-12"
+    ],
+    "neg": [
+      "AB-1",
+      "AB-111",
+      "ab-11",
+      "AB-aa",
+      " AB-00",
+      "AB-00\n",
+      "AB-١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix AB, then -, then exactly 2 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json60",
+    "task": "json",
+    "gold": {
+      "company": "Alder district 60 Labs",
+      "role": "Data Scientist",
+      "city": "Pune",
+      "min_years": 6
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nAlder district 60 Labs seeks a Data Scientist based in Pune. At least 6 years of experience required. Salary: 90 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 65 days."
+  },
+  {
+    "id": "triage61",
+    "task": "triage",
+    "gold": "Job alert",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nVacancy 61: We are recruiting a robotics engineer in team 61. Submit a CV by Friday; this is a hiring notice, not a software release."
+  },
+  {
+    "id": "summary61",
+    "task": "summary",
+    "source": "Birch district 61 tested a new robotics service for 73 weeks. The pilot cut processing time by 79 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 64 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nBirch district 61 tested a new robotics service for 73 weeks. The pilot cut processing time by 79 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 64 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet61",
+    "task": "tweet",
+    "source": [
+      "Tested robotics model on 710 examples",
+      "accuracy rose from 111% to 121% with retrieval",
+      "latency increased from 63 to 65 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested robotics model on 710 examples\naccuracy rose from 111% to 121% with retrieval\nlatency increased from 63 to 65 seconds"
+  },
+  {
+    "id": "regex61",
+    "task": "regex",
+    "pos": [
+      "xy:000",
+      "xy:777",
+      "xy:123"
+    ],
+    "neg": [
+      "xy:11",
+      "xy:1111",
+      "XY:111",
+      "xy:aaa",
+      " xy:000",
+      "xy:000\n",
+      "xy:١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix xy, then :, then exactly 3 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json61",
+    "task": "json",
+    "gold": {
+      "company": "Birch district 61 Labs",
+      "role": "ML Engineer",
+      "city": "Delhi",
+      "min_years": 7
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nBirch district 61 Labs seeks a ML Engineer based in Delhi. At least 7 years of experience required. Salary: 91 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 66 days."
+  },
+  {
+    "id": "triage62",
+    "task": "triage",
+    "gold": "Promotion",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nOffer 62: Save 77% on the forecasting subscription this weekend using code DEAL62. Existing features unchanged."
+  },
+  {
+    "id": "summary62",
+    "task": "summary",
+    "source": "Cedar district 62 tested a new forecasting service for 74 weeks. The pilot cut processing time by 80 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 65 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nCedar district 62 tested a new forecasting service for 74 weeks. The pilot cut processing time by 80 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 65 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet62",
+    "task": "tweet",
+    "source": [
+      "Tested forecasting model on 720 examples",
+      "accuracy rose from 112% to 122% with retrieval",
+      "latency increased from 64 to 66 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested forecasting model on 720 examples\naccuracy rose from 112% to 122% with retrieval\nlatency increased from 64 to 66 seconds"
+  },
+  {
+    "id": "regex62",
+    "task": "regex",
+    "pos": [
+      "QZ_0000",
+      "QZ_7777",
+      "QZ_1234"
+    ],
+    "neg": [
+      "QZ_111",
+      "QZ_11111",
+      "qz_1111",
+      "QZ_aaaa",
+      " QZ_0000",
+      "QZ_0000\n",
+      "QZ_١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix QZ, then _, then exactly 4 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json62",
+    "task": "json",
+    "gold": {
+      "company": "Cedar district 62 Labs",
+      "role": "Research Engineer",
+      "city": "Chennai",
+      "min_years": 8
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nCedar district 62 Labs seeks a Research Engineer based in Chennai. At least 8 years of experience required. Salary: 92 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 67 days."
+  },
+  {
+    "id": "triage63",
+    "task": "triage",
+    "gold": "Product update",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nRelease 63: Version 65.1 of our search tool now supports offline use and export. Free update for existing customers, no discount offer."
+  },
+  {
+    "id": "summary63",
+    "task": "summary",
+    "source": "Dover district 63 tested a new search service for 75 weeks. The pilot cut processing time by 81 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 66 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nDover district 63 tested a new search service for 75 weeks. The pilot cut processing time by 81 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 66 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet63",
+    "task": "tweet",
+    "source": [
+      "Tested search model on 730 examples",
+      "accuracy rose from 113% to 123% with retrieval",
+      "latency increased from 65 to 67 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested search model on 730 examples\naccuracy rose from 113% to 123% with retrieval\nlatency increased from 65 to 67 seconds"
+  },
+  {
+    "id": "regex63",
+    "task": "regex",
+    "pos": [
+      "rt-00000",
+      "rt-77777",
+      "rt-12345"
+    ],
+    "neg": [
+      "rt-1111",
+      "rt-111111",
+      "RT-11111",
+      "rt-aaaaa",
+      " rt-00000",
+      "rt-00000\n",
+      "rt-١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix rt, then -, then exactly 5 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json63",
+    "task": "json",
+    "gold": {
+      "company": "Dover district 63 Labs",
+      "role": "Data Scientist",
+      "city": "Bengaluru",
+      "min_years": 0
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nDover district 63 Labs seeks a Data Scientist based in Bengaluru. At least 0 years of experience required. Salary: 93 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 68 days."
+  },
+  {
+    "id": "triage64",
+    "task": "triage",
+    "gold": "AI research",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nPaper 64: A controlled study of coding reports a 71% improvement over its baseline. Read the methods and ablations; no product is being released."
+  },
+  {
+    "id": "summary64",
+    "task": "summary",
+    "source": "Elm district 64 tested a new coding service for 76 weeks. The pilot cut processing time by 82 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 67 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nElm district 64 tested a new coding service for 76 weeks. The pilot cut processing time by 82 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 67 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet64",
+    "task": "tweet",
+    "source": [
+      "Tested coding model on 740 examples",
+      "accuracy rose from 114% to 124% with retrieval",
+      "latency increased from 66 to 68 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested coding model on 740 examples\naccuracy rose from 114% to 124% with retrieval\nlatency increased from 66 to 68 seconds"
+  },
+  {
+    "id": "regex64",
+    "task": "regex",
+    "pos": [
+      "LM:000000",
+      "LM:777777",
+      "LM:123456"
+    ],
+    "neg": [
+      "LM:11111",
+      "LM:1111111",
+      "lm:111111",
+      "LM:aaaaaa",
+      " LM:000000",
+      "LM:000000\n",
+      "LM:١١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix LM, then :, then exactly 6 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json64",
+    "task": "json",
+    "gold": {
+      "company": "Elm district 64 Labs",
+      "role": "ML Engineer",
+      "city": "Hyderabad",
+      "min_years": 1
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nElm district 64 Labs seeks a ML Engineer based in Hyderabad. At least 1 years of experience required. Salary: 94 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 69 days."
+  },
+  {
+    "id": "triage65",
+    "task": "triage",
+    "gold": "Job alert",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nVacancy 65: We are recruiting a speech engineer in team 65. Submit a CV by Friday; this is a hiring notice, not a software release."
+  },
+  {
+    "id": "summary65",
+    "task": "summary",
+    "source": "Fern district 65 tested a new speech service for 77 weeks. The pilot cut processing time by 83 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 68 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nFern district 65 tested a new speech service for 77 weeks. The pilot cut processing time by 83 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 68 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet65",
+    "task": "tweet",
+    "source": [
+      "Tested speech model on 750 examples",
+      "accuracy rose from 115% to 125% with retrieval",
+      "latency increased from 67 to 69 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested speech model on 750 examples\naccuracy rose from 115% to 125% with retrieval\nlatency increased from 67 to 69 seconds"
+  },
+  {
+    "id": "regex65",
+    "task": "regex",
+    "pos": [
+      "AB_00",
+      "AB_77",
+      "AB_12"
+    ],
+    "neg": [
+      "AB_1",
+      "AB_111",
+      "ab_11",
+      "AB_aa",
+      " AB_00",
+      "AB_00\n",
+      "AB_١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix AB, then _, then exactly 2 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json65",
+    "task": "json",
+    "gold": {
+      "company": "Fern district 65 Labs",
+      "role": "Research Engineer",
+      "city": "Pune",
+      "min_years": 2
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nFern district 65 Labs seeks a Research Engineer based in Pune. At least 2 years of experience required. Salary: 95 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 70 days."
+  },
+  {
+    "id": "triage66",
+    "task": "triage",
+    "gold": "Promotion",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nOffer 66: Save 81% on the translation subscription this weekend using code DEAL66. Existing features unchanged."
+  },
+  {
+    "id": "summary66",
+    "task": "summary",
+    "source": "Alder district 66 tested a new translation service for 78 weeks. The pilot cut processing time by 84 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 69 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nAlder district 66 tested a new translation service for 78 weeks. The pilot cut processing time by 84 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 69 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet66",
+    "task": "tweet",
+    "source": [
+      "Tested translation model on 760 examples",
+      "accuracy rose from 116% to 126% with retrieval",
+      "latency increased from 68 to 70 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested translation model on 760 examples\naccuracy rose from 116% to 126% with retrieval\nlatency increased from 68 to 70 seconds"
+  },
+  {
+    "id": "regex66",
+    "task": "regex",
+    "pos": [
+      "xy-000",
+      "xy-777",
+      "xy-123"
+    ],
+    "neg": [
+      "xy-11",
+      "xy-1111",
+      "XY-111",
+      "xy-aaa",
+      " xy-000",
+      "xy-000\n",
+      "xy-١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix xy, then -, then exactly 3 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json66",
+    "task": "json",
+    "gold": {
+      "company": "Alder district 66 Labs",
+      "role": "Data Scientist",
+      "city": "Delhi",
+      "min_years": 3
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nAlder district 66 Labs seeks a Data Scientist based in Delhi. At least 3 years of experience required. Salary: 96 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 71 days."
+  },
+  {
+    "id": "triage67",
+    "task": "triage",
+    "gold": "Product update",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nRelease 67: Version 69.1 of our robotics tool now supports offline use and export. Free update for existing customers, no discount offer."
+  },
+  {
+    "id": "summary67",
+    "task": "summary",
+    "source": "Birch district 67 tested a new robotics service for 79 weeks. The pilot cut processing time by 85 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 70 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nBirch district 67 tested a new robotics service for 79 weeks. The pilot cut processing time by 85 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 70 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet67",
+    "task": "tweet",
+    "source": [
+      "Tested robotics model on 770 examples",
+      "accuracy rose from 117% to 127% with retrieval",
+      "latency increased from 69 to 71 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested robotics model on 770 examples\naccuracy rose from 117% to 127% with retrieval\nlatency increased from 69 to 71 seconds"
+  },
+  {
+    "id": "regex67",
+    "task": "regex",
+    "pos": [
+      "QZ:0000",
+      "QZ:7777",
+      "QZ:1234"
+    ],
+    "neg": [
+      "QZ:111",
+      "QZ:11111",
+      "qz:1111",
+      "QZ:aaaa",
+      " QZ:0000",
+      "QZ:0000\n",
+      "QZ:١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix QZ, then :, then exactly 4 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json67",
+    "task": "json",
+    "gold": {
+      "company": "Birch district 67 Labs",
+      "role": "ML Engineer",
+      "city": "Chennai",
+      "min_years": 4
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nBirch district 67 Labs seeks a ML Engineer based in Chennai. At least 4 years of experience required. Salary: 97 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 72 days."
+  },
+  {
+    "id": "triage68",
+    "task": "triage",
+    "gold": "AI research",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nPaper 68: A controlled study of forecasting reports a 75% improvement over its baseline. Read the methods and ablations; no product is being released."
+  },
+  {
+    "id": "summary68",
+    "task": "summary",
+    "source": "Cedar district 68 tested a new forecasting service for 80 weeks. The pilot cut processing time by 86 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 71 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nCedar district 68 tested a new forecasting service for 80 weeks. The pilot cut processing time by 86 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 71 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet68",
+    "task": "tweet",
+    "source": [
+      "Tested forecasting model on 780 examples",
+      "accuracy rose from 118% to 128% with retrieval",
+      "latency increased from 70 to 72 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested forecasting model on 780 examples\naccuracy rose from 118% to 128% with retrieval\nlatency increased from 70 to 72 seconds"
+  },
+  {
+    "id": "regex68",
+    "task": "regex",
+    "pos": [
+      "rt_00000",
+      "rt_77777",
+      "rt_12345"
+    ],
+    "neg": [
+      "rt_1111",
+      "rt_111111",
+      "RT_11111",
+      "rt_aaaaa",
+      " rt_00000",
+      "rt_00000\n",
+      "rt_١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix rt, then _, then exactly 5 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json68",
+    "task": "json",
+    "gold": {
+      "company": "Cedar district 68 Labs",
+      "role": "Research Engineer",
+      "city": "Bengaluru",
+      "min_years": 5
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nCedar district 68 Labs seeks a Research Engineer based in Bengaluru. At least 5 years of experience required. Salary: 98 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 73 days."
+  },
+  {
+    "id": "triage69",
+    "task": "triage",
+    "gold": "Job alert",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nVacancy 69: We are recruiting a search engineer in team 69. Submit a CV by Friday; this is a hiring notice, not a software release."
+  },
+  {
+    "id": "summary69",
+    "task": "summary",
+    "source": "Dover district 69 tested a new search service for 81 weeks. The pilot cut processing time by 87 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 72 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nDover district 69 tested a new search service for 81 weeks. The pilot cut processing time by 87 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 72 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet69",
+    "task": "tweet",
+    "source": [
+      "Tested search model on 790 examples",
+      "accuracy rose from 119% to 129% with retrieval",
+      "latency increased from 71 to 73 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested search model on 790 examples\naccuracy rose from 119% to 129% with retrieval\nlatency increased from 71 to 73 seconds"
+  },
+  {
+    "id": "regex69",
+    "task": "regex",
+    "pos": [
+      "LM-000000",
+      "LM-777777",
+      "LM-123456"
+    ],
+    "neg": [
+      "LM-11111",
+      "LM-1111111",
+      "lm-111111",
+      "LM-aaaaaa",
+      " LM-000000",
+      "LM-000000\n",
+      "LM-١١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix LM, then -, then exactly 6 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json69",
+    "task": "json",
+    "gold": {
+      "company": "Dover district 69 Labs",
+      "role": "Data Scientist",
+      "city": "Hyderabad",
+      "min_years": 6
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nDover district 69 Labs seeks a Data Scientist based in Hyderabad. At least 6 years of experience required. Salary: 99 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 74 days."
+  },
+  {
+    "id": "triage70",
+    "task": "triage",
+    "gold": "Promotion",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nOffer 70: Save 85% on the coding subscription this weekend using code DEAL70. Existing features unchanged."
+  },
+  {
+    "id": "summary70",
+    "task": "summary",
+    "source": "Elm district 70 tested a new coding service for 82 weeks. The pilot cut processing time by 88 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 73 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nElm district 70 tested a new coding service for 82 weeks. The pilot cut processing time by 88 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 73 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet70",
+    "task": "tweet",
+    "source": [
+      "Tested coding model on 800 examples",
+      "accuracy rose from 120% to 130% with retrieval",
+      "latency increased from 72 to 74 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested coding model on 800 examples\naccuracy rose from 120% to 130% with retrieval\nlatency increased from 72 to 74 seconds"
+  },
+  {
+    "id": "regex70",
+    "task": "regex",
+    "pos": [
+      "AB:00",
+      "AB:77",
+      "AB:12"
+    ],
+    "neg": [
+      "AB:1",
+      "AB:111",
+      "ab:11",
+      "AB:aa",
+      " AB:00",
+      "AB:00\n",
+      "AB:١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix AB, then :, then exactly 2 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json70",
+    "task": "json",
+    "gold": {
+      "company": "Elm district 70 Labs",
+      "role": "ML Engineer",
+      "city": "Pune",
+      "min_years": 7
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nElm district 70 Labs seeks a ML Engineer based in Pune. At least 7 years of experience required. Salary: 100 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 75 days."
+  },
+  {
+    "id": "triage71",
+    "task": "triage",
+    "gold": "Product update",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nRelease 71: Version 73.1 of our speech tool now supports offline use and export. Free update for existing customers, no discount offer."
+  },
+  {
+    "id": "summary71",
+    "task": "summary",
+    "source": "Fern district 71 tested a new speech service for 83 weeks. The pilot cut processing time by 89 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 74 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nFern district 71 tested a new speech service for 83 weeks. The pilot cut processing time by 89 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 74 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet71",
+    "task": "tweet",
+    "source": [
+      "Tested speech model on 810 examples",
+      "accuracy rose from 121% to 131% with retrieval",
+      "latency increased from 73 to 75 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested speech model on 810 examples\naccuracy rose from 121% to 131% with retrieval\nlatency increased from 73 to 75 seconds"
+  },
+  {
+    "id": "regex71",
+    "task": "regex",
+    "pos": [
+      "xy_000",
+      "xy_777",
+      "xy_123"
+    ],
+    "neg": [
+      "xy_11",
+      "xy_1111",
+      "XY_111",
+      "xy_aaa",
+      " xy_000",
+      "xy_000\n",
+      "xy_١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix xy, then _, then exactly 3 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json71",
+    "task": "json",
+    "gold": {
+      "company": "Fern district 71 Labs",
+      "role": "Research Engineer",
+      "city": "Delhi",
+      "min_years": 8
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nFern district 71 Labs seeks a Research Engineer based in Delhi. At least 8 years of experience required. Salary: 101 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 76 days."
+  },
+  {
+    "id": "triage72",
+    "task": "triage",
+    "gold": "AI research",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nPaper 72: A controlled study of translation reports a 79% improvement over its baseline. Read the methods and ablations; no product is being released."
+  },
+  {
+    "id": "summary72",
+    "task": "summary",
+    "source": "Alder district 72 tested a new translation service for 84 weeks. The pilot cut processing time by 90 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 75 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nAlder district 72 tested a new translation service for 84 weeks. The pilot cut processing time by 90 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 75 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet72",
+    "task": "tweet",
+    "source": [
+      "Tested translation model on 820 examples",
+      "accuracy rose from 122% to 132% with retrieval",
+      "latency increased from 74 to 76 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested translation model on 820 examples\naccuracy rose from 122% to 132% with retrieval\nlatency increased from 74 to 76 seconds"
+  },
+  {
+    "id": "regex72",
+    "task": "regex",
+    "pos": [
+      "QZ-0000",
+      "QZ-7777",
+      "QZ-1234"
+    ],
+    "neg": [
+      "QZ-111",
+      "QZ-11111",
+      "qz-1111",
+      "QZ-aaaa",
+      " QZ-0000",
+      "QZ-0000\n",
+      "QZ-١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix QZ, then -, then exactly 4 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json72",
+    "task": "json",
+    "gold": {
+      "company": "Alder district 72 Labs",
+      "role": "Data Scientist",
+      "city": "Chennai",
+      "min_years": 0
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nAlder district 72 Labs seeks a Data Scientist based in Chennai. At least 0 years of experience required. Salary: 102 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 77 days."
+  },
+  {
+    "id": "triage73",
+    "task": "triage",
+    "gold": "Job alert",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nVacancy 73: We are recruiting a robotics engineer in team 73. Submit a CV by Friday; this is a hiring notice, not a software release."
+  },
+  {
+    "id": "summary73",
+    "task": "summary",
+    "source": "Birch district 73 tested a new robotics service for 85 weeks. The pilot cut processing time by 91 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 76 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nBirch district 73 tested a new robotics service for 85 weeks. The pilot cut processing time by 91 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 76 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet73",
+    "task": "tweet",
+    "source": [
+      "Tested robotics model on 830 examples",
+      "accuracy rose from 123% to 133% with retrieval",
+      "latency increased from 75 to 77 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested robotics model on 830 examples\naccuracy rose from 123% to 133% with retrieval\nlatency increased from 75 to 77 seconds"
+  },
+  {
+    "id": "regex73",
+    "task": "regex",
+    "pos": [
+      "rt:00000",
+      "rt:77777",
+      "rt:12345"
+    ],
+    "neg": [
+      "rt:1111",
+      "rt:111111",
+      "RT:11111",
+      "rt:aaaaa",
+      " rt:00000",
+      "rt:00000\n",
+      "rt:١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix rt, then :, then exactly 5 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json73",
+    "task": "json",
+    "gold": {
+      "company": "Birch district 73 Labs",
+      "role": "ML Engineer",
+      "city": "Bengaluru",
+      "min_years": 1
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nBirch district 73 Labs seeks a ML Engineer based in Bengaluru. At least 1 years of experience required. Salary: 103 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 78 days."
+  },
+  {
+    "id": "triage74",
+    "task": "triage",
+    "gold": "Promotion",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nOffer 74: Save 89% on the forecasting subscription this weekend using code DEAL74. Existing features unchanged."
+  },
+  {
+    "id": "summary74",
+    "task": "summary",
+    "source": "Cedar district 74 tested a new forecasting service for 86 weeks. The pilot cut processing time by 92 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 77 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nCedar district 74 tested a new forecasting service for 86 weeks. The pilot cut processing time by 92 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 77 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet74",
+    "task": "tweet",
+    "source": [
+      "Tested forecasting model on 840 examples",
+      "accuracy rose from 124% to 134% with retrieval",
+      "latency increased from 76 to 78 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested forecasting model on 840 examples\naccuracy rose from 124% to 134% with retrieval\nlatency increased from 76 to 78 seconds"
+  },
+  {
+    "id": "regex74",
+    "task": "regex",
+    "pos": [
+      "LM_000000",
+      "LM_777777",
+      "LM_123456"
+    ],
+    "neg": [
+      "LM_11111",
+      "LM_1111111",
+      "lm_111111",
+      "LM_aaaaaa",
+      " LM_000000",
+      "LM_000000\n",
+      "LM_١١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix LM, then _, then exactly 6 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json74",
+    "task": "json",
+    "gold": {
+      "company": "Cedar district 74 Labs",
+      "role": "Research Engineer",
+      "city": "Hyderabad",
+      "min_years": 2
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nCedar district 74 Labs seeks a Research Engineer based in Hyderabad. At least 2 years of experience required. Salary: 104 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 79 days."
+  },
+  {
+    "id": "triage75",
+    "task": "triage",
+    "gold": "Product update",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nRelease 75: Version 77.1 of our search tool now supports offline use and export. Free update for existing customers, no discount offer."
+  },
+  {
+    "id": "summary75",
+    "task": "summary",
+    "source": "Dover district 75 tested a new search service for 87 weeks. The pilot cut processing time by 93 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 78 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nDover district 75 tested a new search service for 87 weeks. The pilot cut processing time by 93 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 78 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet75",
+    "task": "tweet",
+    "source": [
+      "Tested search model on 850 examples",
+      "accuracy rose from 125% to 135% with retrieval",
+      "latency increased from 77 to 79 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested search model on 850 examples\naccuracy rose from 125% to 135% with retrieval\nlatency increased from 77 to 79 seconds"
+  },
+  {
+    "id": "regex75",
+    "task": "regex",
+    "pos": [
+      "AB-00",
+      "AB-77",
+      "AB-12"
+    ],
+    "neg": [
+      "AB-1",
+      "AB-111",
+      "ab-11",
+      "AB-aa",
+      " AB-00",
+      "AB-00\n",
+      "AB-١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix AB, then -, then exactly 2 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json75",
+    "task": "json",
+    "gold": {
+      "company": "Dover district 75 Labs",
+      "role": "Data Scientist",
+      "city": "Pune",
+      "min_years": 3
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nDover district 75 Labs seeks a Data Scientist based in Pune. At least 3 years of experience required. Salary: 105 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 80 days."
+  },
+  {
+    "id": "triage76",
+    "task": "triage",
+    "gold": "AI research",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nPaper 76: A controlled study of coding reports a 83% improvement over its baseline. Read the methods and ablations; no product is being released."
+  },
+  {
+    "id": "summary76",
+    "task": "summary",
+    "source": "Elm district 76 tested a new coding service for 88 weeks. The pilot cut processing time by 94 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 79 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nElm district 76 tested a new coding service for 88 weeks. The pilot cut processing time by 94 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 79 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet76",
+    "task": "tweet",
+    "source": [
+      "Tested coding model on 860 examples",
+      "accuracy rose from 126% to 136% with retrieval",
+      "latency increased from 78 to 80 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested coding model on 860 examples\naccuracy rose from 126% to 136% with retrieval\nlatency increased from 78 to 80 seconds"
+  },
+  {
+    "id": "regex76",
+    "task": "regex",
+    "pos": [
+      "xy:000",
+      "xy:777",
+      "xy:123"
+    ],
+    "neg": [
+      "xy:11",
+      "xy:1111",
+      "XY:111",
+      "xy:aaa",
+      " xy:000",
+      "xy:000\n",
+      "xy:١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix xy, then :, then exactly 3 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json76",
+    "task": "json",
+    "gold": {
+      "company": "Elm district 76 Labs",
+      "role": "ML Engineer",
+      "city": "Delhi",
+      "min_years": 4
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nElm district 76 Labs seeks a ML Engineer based in Delhi. At least 4 years of experience required. Salary: 106 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 81 days."
+  },
+  {
+    "id": "triage77",
+    "task": "triage",
+    "gold": "Job alert",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nVacancy 77: We are recruiting a speech engineer in team 77. Submit a CV by Friday; this is a hiring notice, not a software release."
+  },
+  {
+    "id": "summary77",
+    "task": "summary",
+    "source": "Fern district 77 tested a new speech service for 89 weeks. The pilot cut processing time by 95 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 80 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nFern district 77 tested a new speech service for 89 weeks. The pilot cut processing time by 95 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 80 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet77",
+    "task": "tweet",
+    "source": [
+      "Tested speech model on 870 examples",
+      "accuracy rose from 127% to 137% with retrieval",
+      "latency increased from 79 to 81 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested speech model on 870 examples\naccuracy rose from 127% to 137% with retrieval\nlatency increased from 79 to 81 seconds"
+  },
+  {
+    "id": "regex77",
+    "task": "regex",
+    "pos": [
+      "QZ_0000",
+      "QZ_7777",
+      "QZ_1234"
+    ],
+    "neg": [
+      "QZ_111",
+      "QZ_11111",
+      "qz_1111",
+      "QZ_aaaa",
+      " QZ_0000",
+      "QZ_0000\n",
+      "QZ_١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix QZ, then _, then exactly 4 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json77",
+    "task": "json",
+    "gold": {
+      "company": "Fern district 77 Labs",
+      "role": "Research Engineer",
+      "city": "Chennai",
+      "min_years": 5
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nFern district 77 Labs seeks a Research Engineer based in Chennai. At least 5 years of experience required. Salary: 107 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 82 days."
+  },
+  {
+    "id": "triage78",
+    "task": "triage",
+    "gold": "Promotion",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nOffer 78: Save 93% on the translation subscription this weekend using code DEAL78. Existing features unchanged."
+  },
+  {
+    "id": "summary78",
+    "task": "summary",
+    "source": "Alder district 78 tested a new translation service for 90 weeks. The pilot cut processing time by 96 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 81 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nAlder district 78 tested a new translation service for 90 weeks. The pilot cut processing time by 96 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 81 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet78",
+    "task": "tweet",
+    "source": [
+      "Tested translation model on 880 examples",
+      "accuracy rose from 128% to 138% with retrieval",
+      "latency increased from 80 to 82 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested translation model on 880 examples\naccuracy rose from 128% to 138% with retrieval\nlatency increased from 80 to 82 seconds"
+  },
+  {
+    "id": "regex78",
+    "task": "regex",
+    "pos": [
+      "rt-00000",
+      "rt-77777",
+      "rt-12345"
+    ],
+    "neg": [
+      "rt-1111",
+      "rt-111111",
+      "RT-11111",
+      "rt-aaaaa",
+      " rt-00000",
+      "rt-00000\n",
+      "rt-١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix rt, then -, then exactly 5 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json78",
+    "task": "json",
+    "gold": {
+      "company": "Alder district 78 Labs",
+      "role": "Data Scientist",
+      "city": "Bengaluru",
+      "min_years": 6
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nAlder district 78 Labs seeks a Data Scientist based in Bengaluru. At least 6 years of experience required. Salary: 108 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 83 days."
+  },
+  {
+    "id": "triage79",
+    "task": "triage",
+    "gold": "Product update",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nRelease 79: Version 81.1 of our robotics tool now supports offline use and export. Free update for existing customers, no discount offer."
+  },
+  {
+    "id": "summary79",
+    "task": "summary",
+    "source": "Birch district 79 tested a new robotics service for 91 weeks. The pilot cut processing time by 97 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 82 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nBirch district 79 tested a new robotics service for 91 weeks. The pilot cut processing time by 97 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 82 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet79",
+    "task": "tweet",
+    "source": [
+      "Tested robotics model on 890 examples",
+      "accuracy rose from 129% to 139% with retrieval",
+      "latency increased from 81 to 83 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested robotics model on 890 examples\naccuracy rose from 129% to 139% with retrieval\nlatency increased from 81 to 83 seconds"
+  },
+  {
+    "id": "regex79",
+    "task": "regex",
+    "pos": [
+      "LM:000000",
+      "LM:777777",
+      "LM:123456"
+    ],
+    "neg": [
+      "LM:11111",
+      "LM:1111111",
+      "lm:111111",
+      "LM:aaaaaa",
+      " LM:000000",
+      "LM:000000\n",
+      "LM:١١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix LM, then :, then exactly 6 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json79",
+    "task": "json",
+    "gold": {
+      "company": "Birch district 79 Labs",
+      "role": "ML Engineer",
+      "city": "Hyderabad",
+      "min_years": 7
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nBirch district 79 Labs seeks a ML Engineer based in Hyderabad. At least 7 years of experience required. Salary: 109 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 84 days."
+  },
+  {
+    "id": "triage80",
+    "task": "triage",
+    "gold": "AI research",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nPaper 80: A controlled study of forecasting reports a 87% improvement over its baseline. Read the methods and ablations; no product is being released."
+  },
+  {
+    "id": "summary80",
+    "task": "summary",
+    "source": "Cedar district 80 tested a new forecasting service for 92 weeks. The pilot cut processing time by 98 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 83 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nCedar district 80 tested a new forecasting service for 92 weeks. The pilot cut processing time by 98 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 83 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet80",
+    "task": "tweet",
+    "source": [
+      "Tested forecasting model on 900 examples",
+      "accuracy rose from 130% to 140% with retrieval",
+      "latency increased from 82 to 84 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested forecasting model on 900 examples\naccuracy rose from 130% to 140% with retrieval\nlatency increased from 82 to 84 seconds"
+  },
+  {
+    "id": "regex80",
+    "task": "regex",
+    "pos": [
+      "AB_00",
+      "AB_77",
+      "AB_12"
+    ],
+    "neg": [
+      "AB_1",
+      "AB_111",
+      "ab_11",
+      "AB_aa",
+      " AB_00",
+      "AB_00\n",
+      "AB_١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix AB, then _, then exactly 2 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json80",
+    "task": "json",
+    "gold": {
+      "company": "Cedar district 80 Labs",
+      "role": "Research Engineer",
+      "city": "Pune",
+      "min_years": 8
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nCedar district 80 Labs seeks a Research Engineer based in Pune. At least 8 years of experience required. Salary: 110 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 85 days."
+  },
+  {
+    "id": "triage81",
+    "task": "triage",
+    "gold": "Job alert",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nVacancy 81: We are recruiting a search engineer in team 81. Submit a CV by Friday; this is a hiring notice, not a software release."
+  },
+  {
+    "id": "summary81",
+    "task": "summary",
+    "source": "Dover district 81 tested a new search service for 93 weeks. The pilot cut processing time by 99 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 84 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nDover district 81 tested a new search service for 93 weeks. The pilot cut processing time by 99 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 84 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet81",
+    "task": "tweet",
+    "source": [
+      "Tested search model on 910 examples",
+      "accuracy rose from 131% to 141% with retrieval",
+      "latency increased from 83 to 85 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested search model on 910 examples\naccuracy rose from 131% to 141% with retrieval\nlatency increased from 83 to 85 seconds"
+  },
+  {
+    "id": "regex81",
+    "task": "regex",
+    "pos": [
+      "xy-000",
+      "xy-777",
+      "xy-123"
+    ],
+    "neg": [
+      "xy-11",
+      "xy-1111",
+      "XY-111",
+      "xy-aaa",
+      " xy-000",
+      "xy-000\n",
+      "xy-١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix xy, then -, then exactly 3 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json81",
+    "task": "json",
+    "gold": {
+      "company": "Dover district 81 Labs",
+      "role": "Data Scientist",
+      "city": "Delhi",
+      "min_years": 0
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nDover district 81 Labs seeks a Data Scientist based in Delhi. At least 0 years of experience required. Salary: 111 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 86 days."
+  },
+  {
+    "id": "triage82",
+    "task": "triage",
+    "gold": "Promotion",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nOffer 82: Save 97% on the coding subscription this weekend using code DEAL82. Existing features unchanged."
+  },
+  {
+    "id": "summary82",
+    "task": "summary",
+    "source": "Elm district 82 tested a new coding service for 94 weeks. The pilot cut processing time by 100 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 85 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nElm district 82 tested a new coding service for 94 weeks. The pilot cut processing time by 100 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 85 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet82",
+    "task": "tweet",
+    "source": [
+      "Tested coding model on 920 examples",
+      "accuracy rose from 132% to 142% with retrieval",
+      "latency increased from 84 to 86 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested coding model on 920 examples\naccuracy rose from 132% to 142% with retrieval\nlatency increased from 84 to 86 seconds"
+  },
+  {
+    "id": "regex82",
+    "task": "regex",
+    "pos": [
+      "QZ:0000",
+      "QZ:7777",
+      "QZ:1234"
+    ],
+    "neg": [
+      "QZ:111",
+      "QZ:11111",
+      "qz:1111",
+      "QZ:aaaa",
+      " QZ:0000",
+      "QZ:0000\n",
+      "QZ:١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix QZ, then :, then exactly 4 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json82",
+    "task": "json",
+    "gold": {
+      "company": "Elm district 82 Labs",
+      "role": "ML Engineer",
+      "city": "Chennai",
+      "min_years": 1
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nElm district 82 Labs seeks a ML Engineer based in Chennai. At least 1 years of experience required. Salary: 112 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 87 days."
+  },
+  {
+    "id": "triage83",
+    "task": "triage",
+    "gold": "Product update",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nRelease 83: Version 85.1 of our speech tool now supports offline use and export. Free update for existing customers, no discount offer."
+  },
+  {
+    "id": "summary83",
+    "task": "summary",
+    "source": "Fern district 83 tested a new speech service for 95 weeks. The pilot cut processing time by 101 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 86 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nFern district 83 tested a new speech service for 95 weeks. The pilot cut processing time by 101 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 86 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet83",
+    "task": "tweet",
+    "source": [
+      "Tested speech model on 930 examples",
+      "accuracy rose from 133% to 143% with retrieval",
+      "latency increased from 85 to 87 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested speech model on 930 examples\naccuracy rose from 133% to 143% with retrieval\nlatency increased from 85 to 87 seconds"
+  },
+  {
+    "id": "regex83",
+    "task": "regex",
+    "pos": [
+      "rt_00000",
+      "rt_77777",
+      "rt_12345"
+    ],
+    "neg": [
+      "rt_1111",
+      "rt_111111",
+      "RT_11111",
+      "rt_aaaaa",
+      " rt_00000",
+      "rt_00000\n",
+      "rt_١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix rt, then _, then exactly 5 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json83",
+    "task": "json",
+    "gold": {
+      "company": "Fern district 83 Labs",
+      "role": "Research Engineer",
+      "city": "Bengaluru",
+      "min_years": 2
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nFern district 83 Labs seeks a Research Engineer based in Bengaluru. At least 2 years of experience required. Salary: 113 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 88 days."
+  },
+  {
+    "id": "triage84",
+    "task": "triage",
+    "gold": "AI research",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nPaper 84: A controlled study of translation reports a 91% improvement over its baseline. Read the methods and ablations; no product is being released."
+  },
+  {
+    "id": "summary84",
+    "task": "summary",
+    "source": "Alder district 84 tested a new translation service for 96 weeks. The pilot cut processing time by 102 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 87 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nAlder district 84 tested a new translation service for 96 weeks. The pilot cut processing time by 102 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 87 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet84",
+    "task": "tweet",
+    "source": [
+      "Tested translation model on 940 examples",
+      "accuracy rose from 134% to 144% with retrieval",
+      "latency increased from 86 to 88 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested translation model on 940 examples\naccuracy rose from 134% to 144% with retrieval\nlatency increased from 86 to 88 seconds"
+  },
+  {
+    "id": "regex84",
+    "task": "regex",
+    "pos": [
+      "LM-000000",
+      "LM-777777",
+      "LM-123456"
+    ],
+    "neg": [
+      "LM-11111",
+      "LM-1111111",
+      "lm-111111",
+      "LM-aaaaaa",
+      " LM-000000",
+      "LM-000000\n",
+      "LM-١١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix LM, then -, then exactly 6 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json84",
+    "task": "json",
+    "gold": {
+      "company": "Alder district 84 Labs",
+      "role": "Data Scientist",
+      "city": "Hyderabad",
+      "min_years": 3
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nAlder district 84 Labs seeks a Data Scientist based in Hyderabad. At least 3 years of experience required. Salary: 114 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 89 days."
+  },
+  {
+    "id": "triage85",
+    "task": "triage",
+    "gold": "Job alert",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nVacancy 85: We are recruiting a robotics engineer in team 85. Submit a CV by Friday; this is a hiring notice, not a software release."
+  },
+  {
+    "id": "summary85",
+    "task": "summary",
+    "source": "Birch district 85 tested a new robotics service for 97 weeks. The pilot cut processing time by 103 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 88 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nBirch district 85 tested a new robotics service for 97 weeks. The pilot cut processing time by 103 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 88 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet85",
+    "task": "tweet",
+    "source": [
+      "Tested robotics model on 950 examples",
+      "accuracy rose from 135% to 145% with retrieval",
+      "latency increased from 87 to 89 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested robotics model on 950 examples\naccuracy rose from 135% to 145% with retrieval\nlatency increased from 87 to 89 seconds"
+  },
+  {
+    "id": "regex85",
+    "task": "regex",
+    "pos": [
+      "AB:00",
+      "AB:77",
+      "AB:12"
+    ],
+    "neg": [
+      "AB:1",
+      "AB:111",
+      "ab:11",
+      "AB:aa",
+      " AB:00",
+      "AB:00\n",
+      "AB:١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix AB, then :, then exactly 2 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json85",
+    "task": "json",
+    "gold": {
+      "company": "Birch district 85 Labs",
+      "role": "ML Engineer",
+      "city": "Pune",
+      "min_years": 4
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nBirch district 85 Labs seeks a ML Engineer based in Pune. At least 4 years of experience required. Salary: 115 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 90 days."
+  },
+  {
+    "id": "triage86",
+    "task": "triage",
+    "gold": "Promotion",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nOffer 86: Save 101% on the forecasting subscription this weekend using code DEAL86. Existing features unchanged."
+  },
+  {
+    "id": "summary86",
+    "task": "summary",
+    "source": "Cedar district 86 tested a new forecasting service for 98 weeks. The pilot cut processing time by 104 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 89 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nCedar district 86 tested a new forecasting service for 98 weeks. The pilot cut processing time by 104 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 89 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet86",
+    "task": "tweet",
+    "source": [
+      "Tested forecasting model on 960 examples",
+      "accuracy rose from 136% to 146% with retrieval",
+      "latency increased from 88 to 90 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested forecasting model on 960 examples\naccuracy rose from 136% to 146% with retrieval\nlatency increased from 88 to 90 seconds"
+  },
+  {
+    "id": "regex86",
+    "task": "regex",
+    "pos": [
+      "xy_000",
+      "xy_777",
+      "xy_123"
+    ],
+    "neg": [
+      "xy_11",
+      "xy_1111",
+      "XY_111",
+      "xy_aaa",
+      " xy_000",
+      "xy_000\n",
+      "xy_١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix xy, then _, then exactly 3 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json86",
+    "task": "json",
+    "gold": {
+      "company": "Cedar district 86 Labs",
+      "role": "Research Engineer",
+      "city": "Delhi",
+      "min_years": 5
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nCedar district 86 Labs seeks a Research Engineer based in Delhi. At least 5 years of experience required. Salary: 116 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 91 days."
+  },
+  {
+    "id": "triage87",
+    "task": "triage",
+    "gold": "Product update",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nRelease 87: Version 89.1 of our search tool now supports offline use and export. Free update for existing customers, no discount offer."
+  },
+  {
+    "id": "summary87",
+    "task": "summary",
+    "source": "Dover district 87 tested a new search service for 99 weeks. The pilot cut processing time by 105 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 90 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nDover district 87 tested a new search service for 99 weeks. The pilot cut processing time by 105 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 90 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet87",
+    "task": "tweet",
+    "source": [
+      "Tested search model on 970 examples",
+      "accuracy rose from 137% to 147% with retrieval",
+      "latency increased from 89 to 91 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested search model on 970 examples\naccuracy rose from 137% to 147% with retrieval\nlatency increased from 89 to 91 seconds"
+  },
+  {
+    "id": "regex87",
+    "task": "regex",
+    "pos": [
+      "QZ-0000",
+      "QZ-7777",
+      "QZ-1234"
+    ],
+    "neg": [
+      "QZ-111",
+      "QZ-11111",
+      "qz-1111",
+      "QZ-aaaa",
+      " QZ-0000",
+      "QZ-0000\n",
+      "QZ-١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix QZ, then -, then exactly 4 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json87",
+    "task": "json",
+    "gold": {
+      "company": "Dover district 87 Labs",
+      "role": "Data Scientist",
+      "city": "Chennai",
+      "min_years": 6
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nDover district 87 Labs seeks a Data Scientist based in Chennai. At least 6 years of experience required. Salary: 117 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 92 days."
+  },
+  {
+    "id": "triage88",
+    "task": "triage",
+    "gold": "AI research",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nPaper 88: A controlled study of coding reports a 95% improvement over its baseline. Read the methods and ablations; no product is being released."
+  },
+  {
+    "id": "summary88",
+    "task": "summary",
+    "source": "Elm district 88 tested a new coding service for 100 weeks. The pilot cut processing time by 106 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 91 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nElm district 88 tested a new coding service for 100 weeks. The pilot cut processing time by 106 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 91 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet88",
+    "task": "tweet",
+    "source": [
+      "Tested coding model on 980 examples",
+      "accuracy rose from 138% to 148% with retrieval",
+      "latency increased from 90 to 92 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested coding model on 980 examples\naccuracy rose from 138% to 148% with retrieval\nlatency increased from 90 to 92 seconds"
+  },
+  {
+    "id": "regex88",
+    "task": "regex",
+    "pos": [
+      "rt:00000",
+      "rt:77777",
+      "rt:12345"
+    ],
+    "neg": [
+      "rt:1111",
+      "rt:111111",
+      "RT:11111",
+      "rt:aaaaa",
+      " rt:00000",
+      "rt:00000\n",
+      "rt:١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix rt, then :, then exactly 5 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json88",
+    "task": "json",
+    "gold": {
+      "company": "Elm district 88 Labs",
+      "role": "ML Engineer",
+      "city": "Bengaluru",
+      "min_years": 7
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nElm district 88 Labs seeks a ML Engineer based in Bengaluru. At least 7 years of experience required. Salary: 118 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 93 days."
+  },
+  {
+    "id": "triage89",
+    "task": "triage",
+    "gold": "Job alert",
+    "prompt": "Classify into exactly one category: AI research, Job alert, Promotion, Product update. Reply with category only.\nVacancy 89: We are recruiting a speech engineer in team 89. Submit a CV by Friday; this is a hiring notice, not a software release."
+  },
+  {
+    "id": "summary89",
+    "task": "summary",
+    "source": "Fern district 89 tested a new speech service for 101 weeks. The pilot cut processing time by 107 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 92 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "prompt": "Summarize in one sentence of at most 25 words. Preserve the main finding and its limitation. Reply with sentence only.\nFern district 89 tested a new speech service for 101 weeks. The pilot cut processing time by 107 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 92 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday."
+  },
+  {
+    "id": "tweet89",
+    "task": "tweet",
+    "source": [
+      "Tested speech model on 990 examples",
+      "accuracy rose from 139% to 149% with retrieval",
+      "latency increased from 91 to 93 seconds"
+    ],
+    "prompt": "Write one tech-blog tweet, <=280 characters, exactly one hashtag. Preserve all numerical findings, invent nothing. Reply with tweet only.\nTested speech model on 990 examples\naccuracy rose from 139% to 149% with retrieval\nlatency increased from 91 to 93 seconds"
+  },
+  {
+    "id": "regex89",
+    "task": "regex",
+    "pos": [
+      "LM_000000",
+      "LM_777777",
+      "LM_123456"
+    ],
+    "neg": [
+      "LM_11111",
+      "LM_1111111",
+      "lm_111111",
+      "LM_aaaaaa",
+      " LM_000000",
+      "LM_000000\n",
+      "LM_١١١١١١"
+    ],
+    "prompt": "Write a single Python regular expression that fully matches the literal prefix LM, then _, then exactly 6 ASCII digits (0-9), including leading zeros; nothing else. Reply with regex only, no quotes/fences/explanation."
+  },
+  {
+    "id": "json89",
+    "task": "json",
+    "gold": {
+      "company": "Fern district 89 Labs",
+      "role": "Research Engineer",
+      "city": "Hyderabad",
+      "min_years": 8
+    },
+    "prompt": "Extract JSON with exactly company (string), role (string), city (string), min_years (integer). Reply only with JSON.\nFern district 89 Labs seeks a Research Engineer based in Hyderabad. At least 8 years of experience required. Salary: 119 lakh. Our headquarters are in Mumbai; this role is not based there. Apply within 94 days."
+  }
+]

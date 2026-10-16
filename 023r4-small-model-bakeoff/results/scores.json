@@ -1,0 +1,5402 @@
+[
+  {
+    "model": "grok",
+    "id": "triage0",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage0",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary0",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately preserves the finding and limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary0",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, 25 words, with the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet0",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet0",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex0",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex0",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json0",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json0",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage1",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage1",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary1",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately preserves the finding and limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary1",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words states the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet1",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet1",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex1",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex1",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json1",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json1",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage2",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage2",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary2",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Contains 26 words, exceeding the limit, and adds an unsupported causal link to expansion.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary2",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, 25 words, with the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet2",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet2",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex2",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex2",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json2",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json2",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage3",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage3",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary3",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Adds an unsupported causal claim that the weekday-only result prompted expansion.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary3",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, 25 words, with the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet3",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet3",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex3",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex3",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json3",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json3",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage4",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage4",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary4",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately preserves the finding and limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary4",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words states the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet4",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet4",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex4",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex4",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json4",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json4",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage5",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage5",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary5",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Faithful single sentence under 25 words, preserving the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary5",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Incorrectly describes the 17-week pilot as a 5-week pilot.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet5",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet5",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex5",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex5",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json5",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json5",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage6",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage6",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary6",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Faithful single sentence under 25 words, preserving the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary6",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 9 additional sites into expansion to 9 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet6",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet6",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex6",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex6",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json6",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json6",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage7",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage7",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary7",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Faithful single sentence under 25 words, preserving the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary7",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 10 additional sites into expansion to 10 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet7",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet7",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex7",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex7",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json7",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json7",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage8",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage8",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary8",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Adds an unsupported causal connection and changes 11 additional sites into 11 sites.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary8",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 11 additional sites into expansion to 11 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet8",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet8",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex8",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex8",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json8",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json8",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage9",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage9",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary9",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Faithful single sentence under 25 words, preserving the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary9",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 12 additional sites into expansion to 12 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet9",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet9",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex9",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex9",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json9",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json9",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage10",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage10",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary10",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary10",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Incorrectly describes the 22-week pilot as 10 weeks and changes 13 additional sites to 13 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet10",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet10",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex10",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex10",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json10",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json10",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage11",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage11",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary11",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary11",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 14 additional sites into expansion to 14 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet11",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet11",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex11",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex11",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json11",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json11",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage12",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage12",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary12",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes 15 additional sites to 15 sites and introduces an unsupported causal connection.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary12",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 15 additional sites into expansion to 15 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet12",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet12",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex12",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex12",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json12",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json12",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage13",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage13",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary13",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary13",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 16 additional sites into expansion to 16 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet13",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet13",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex13",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex13",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json13",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json13",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage14",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage14",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary14",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary14",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 17 additional sites into expansion to 17 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet14",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet14",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex14",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex14",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json14",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json14",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage15",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage15",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary15",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary15",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 18 additional sites into expansion to 18 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet15",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet15",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex15",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex15",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json15",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json15",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage16",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage16",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary16",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary16",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words faithfully states the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet16",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet16",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex16",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex16",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json16",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json16",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage17",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage17",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary17",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary17",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 20 additional sites into expansion to 20 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet17",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet17",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex17",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex17",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json17",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json17",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage18",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage18",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary18",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary18",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words faithfully states the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet18",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet18",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex18",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex18",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json18",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json18",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage19",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage19",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary19",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary19",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Changes expansion to 22 additional sites into expansion to 22 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet19",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet19",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex19",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex19",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json19",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json19",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage20",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage20",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary20",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One 24-word sentence preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary20",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet20",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet20",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex20",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex20",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json20",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json20",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage21",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage21",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary21",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary21",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet21",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet21",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex21",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex21",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json21",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json21",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage22",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage22",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary22",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary22",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet22",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet22",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex22",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex22",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json22",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json22",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage23",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage23",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary23",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary23",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One 25-word sentence preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet23",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet23",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex23",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex23",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json23",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json23",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage24",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage24",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary24",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One 24-word sentence preserves the main finding and its weekday-only limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary24",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Incorrectly describes a 24-week pilot; the source specifies 36 weeks, with 24 identifying the district.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet24",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet24",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex24",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex24",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json24",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json24",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage25",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage25",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary25",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, 19 words; accurately states the finding and limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary25",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, 23 words; preserves the finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet25",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet25",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex25",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex25",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json25",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json25",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage26",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage26",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary26",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "The word 'so' asserts an unsupported causal link between the results and expansion decision.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary26",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence within 25 words; preserves the finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet26",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet26",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex26",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex26",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json26",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json26",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage27",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage27",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary27",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Misstates 30 additional sites as a 30-site limit and implies unsupported causation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary27",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence within 25 words; preserves the finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet27",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet27",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex27",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex27",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json27",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json27",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage28",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage28",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary28",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence within 25 words; accurately states the finding and limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary28",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence within 25 words; accurately states the finding and limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet28",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet28",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex28",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex28",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json28",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json28",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage29",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage29",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary29",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence within 25 words; accurately states the finding and limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary29",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, exactly 25 words; preserves the finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet29",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet29",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex29",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex29",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json29",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json29",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage30",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage30",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary30",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary30",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Misstates expansion to 33 additional sites as expansion to 33 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet30",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet30",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex30",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex30",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json30",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json30",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage31",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage31",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary31",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary31",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet31",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet31",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex31",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex31",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json31",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json31",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage32",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage32",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary32",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary32",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Misstates expansion to 35 additional sites as expansion to 35 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet32",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet32",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex32",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex32",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json32",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json32",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage33",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage33",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary33",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Adds an unsupported causal link and describes 36 additional sites as 36 sites.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary33",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Misstates expansion to 36 additional sites as expansion to 36 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet33",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet33",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex33",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex33",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json33",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json33",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage34",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage34",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary34",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Adds an unsupported causal link and describes 37 additional sites as 37 sites.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary34",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet34",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet34",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex34",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex34",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json34",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json34",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage35",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage35",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary35",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary35",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Expansion to 38 sites misstates the planned addition of 38 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet35",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet35",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex35",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex35",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json35",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json35",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage36",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage36",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary36",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary36",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Expansion to 39 sites misstates the planned addition of 39 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet36",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet36",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex36",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex36",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json36",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json36",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage37",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage37",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary37",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary37",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet37",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet37",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex37",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex37",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json37",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json37",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage38",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage38",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary38",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary38",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "'Failed weekends' overstates unchanged weekend performance; 'improved weekday processing' also obscures the processing-time reduction.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet38",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet38",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex38",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex38",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json38",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json38",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage39",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage39",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary39",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary39",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet39",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet39",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex39",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex39",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json39",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json39",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage40",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage40",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary40",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary40",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet40",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet40",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex40",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex40",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json40",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json40",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage41",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage41",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary41",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Misstates 44 additional sites as expansion to 44 sites and introduces unsupported causality with 'so'.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary41",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Misstates expansion to 44 additional sites as expansion to 44 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet41",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet41",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings faithfully preserved, including 101%.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex41",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex41",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json41",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json41",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage42",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage42",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary42",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary42",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Misstates expansion to 45 additional sites as expansion to 45 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet42",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet42",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex42",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex42",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json42",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json42",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage43",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage43",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary43",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Exceeds 25 words, introduces unsupported causality, and misstates 46 additional sites as expansion to 46 sites.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary43",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet43",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet43",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex43",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex43",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json43",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json43",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage44",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage44",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary44",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary44",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Misstates expansion to 47 additional sites as expansion to 47 sites.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet44",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet44",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex44",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex44",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json44",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json44",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage45",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage45",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary45",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, 24 words; preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary45",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, 23 words; preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet45",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet45",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex45",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex45",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json45",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json45",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage46",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage46",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary46",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One concise sentence within 25 words; accurately states the reduction and lack of weekend improvement.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary46",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence within 25 words; preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet46",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet46",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex46",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex46",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json46",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json46",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage47",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage47",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary47",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, 22 words; accurately states the reduction applies only on weekdays.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary47",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, 25 words; preserves the main finding and lack of weekend improvement.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet47",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet47",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex47",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex47",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json47",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json47",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage48",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage48",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary48",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence within 25 words; accurately states the reduction and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary48",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence, 23 words; preserves the main finding and lack of weekend improvement.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet48",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet48",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex48",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex48",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json48",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json48",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage49",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage49",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary49",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence within 25 words; accurately states the reduction and lack of weekend improvement.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary49",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence within 25 words; preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet49",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet49",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex49",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex49",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json49",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json49",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage50",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage50",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary50",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary50",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words states the reduction and weekday/weekend limitation faithfully.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet50",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet50",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex50",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex50",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json50",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json50",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage51",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage51",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary51",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary51",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet51",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet51",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex51",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex51",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json51",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json51",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage52",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage52",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary52",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary52",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet52",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet52",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex52",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex52",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json52",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json52",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage53",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage53",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary53",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary53",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Incorrectly states a 53-week pilot; the source says 65 weeks.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet53",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet53",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex53",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex53",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json53",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json53",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage54",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage54",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary54",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary54",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet54",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet54",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex54",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex54",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json54",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json54",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage55",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage55",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary55",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One clear sentence of 22 words preserves the main finding and weekday-only limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary55",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One clear sentence of 23 words states the reduction and lack of weekend improvement.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet55",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet55",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex55",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex55",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json55",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json55",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage56",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage56",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary56",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One clear sentence under 25 words faithfully states the main finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary56",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One clear sentence of 23 words states the reduction and lack of weekend improvement.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet56",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet56",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex56",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex56",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json56",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json56",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage57",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage57",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary57",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One clear sentence under 25 words faithfully states the main finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary57",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "'Limited weekend performance' does not faithfully convey that weekend performance did not improve.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet57",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet57",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex57",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex57",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json57",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json57",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage58",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage58",
+    "task": "triage",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary58",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One clear sentence under 25 words faithfully states the main finding and weekday/weekend limitation.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary58",
+    "task": "summary",
+    "success": 1,
+    "lenient": 1,
+    "reason": "One clear sentence under 25 words states the reduction and lack of weekend improvement.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet58",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet58",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex58",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex58",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json58",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json58",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "triage59",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "triage59",
+    "task": "triage",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "summary59",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Contains 30 words, exceeding the 25-word limit.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "summary59",
+    "task": "summary",
+    "success": 0,
+    "lenient": 0,
+    "reason": "Invents a nationwide rollout; the source describes extending the pilot instead of launching citywide.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "tweet59",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "tweet59",
+    "task": "tweet",
+    "success": 1,
+    "lenient": 1,
+    "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved.",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "regex59",
+    "task": "regex",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "regex59",
+    "task": "regex",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  },
+  {
+    "model": "grok",
+    "id": "json59",
+    "task": "json",
+    "success": 1,
+    "lenient": 1,
+    "reason": "",
+    "checkpoint": "grok"
+  },
+  {
+    "model": "qwen",
+    "id": "json59",
+    "task": "json",
+    "success": 0,
+    "lenient": 0,
+    "reason": "",
+    "checkpoint": "qwen3_4b_q4"
+  }
+]

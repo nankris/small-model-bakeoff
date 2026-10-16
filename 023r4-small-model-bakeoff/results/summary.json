@@ -1,0 +1,284 @@
+{
+  "items_file": "items.json",
+  "n_items": 300,
+  "n_per_task_intended": 60,
+  "complete": true,
+  "missing": [],
+  "n_missing": 0,
+  "rule_applied": true,
+  "verdict": "PROVEN",
+  "verdict_reason": "Grok superior (95% CI for Grok\u2212Qwen lies entirely above 0)",
+  "qwen_checkpoint": "qwen3_4b_q4",
+  "qwen_repo": "Qwen/Qwen3-4B",
+  "qwen_quant": "nf4",
+  "per_task": {
+    "grok": {
+      "triage": {
+        "n": 60,
+        "success": 60,
+        "score": 1.0,
+        "ci": [
+          0.93982814785791,
+          0.9999999999999998
+        ],
+        "lenient": 1.0
+      },
+      "summary": {
+        "n": 60,
+        "success": 49,
+        "score": 0.8166666666666667,
+        "ci": [
+          0.7008024625353194,
+          0.8944220311080237
+        ],
+        "lenient": 0.8166666666666667
+      },
+      "tweet": {
+        "n": 60,
+        "success": 60,
+        "score": 1.0,
+        "ci": [
+          0.93982814785791,
+          0.9999999999999998
+        ],
+        "lenient": 1.0
+      },
+      "regex": {
+        "n": 60,
+        "success": 60,
+        "score": 1.0,
+        "ci": [
+          0.93982814785791,
+          0.9999999999999998
+        ],
+        "lenient": 1.0
+      },
+      "json": {
+        "n": 60,
+        "success": 59,
+        "score": 0.9833333333333333,
+        "ci": [
+          0.9114487027240993,
+          0.9970518402052136
+        ],
+        "lenient": 0.9833333333333333
+      }
+    },
+    "qwen": {
+      "triage": {
+        "n": 60,
+        "success": 45,
+        "score": 0.75,
+        "ci": [
+          0.6276792992295218,
+          0.8422347746994333
+        ],
+        "lenient": 0.75
+      },
+      "summary": {
+        "n": 60,
+        "success": 34,
+        "score": 0.5666666666666667,
+        "ci": [
+          0.44103438776125564,
+          0.6842760319531324
+        ],
+        "lenient": 0.5666666666666667
+      },
+      "tweet": {
+        "n": 60,
+        "success": 60,
+        "score": 1.0,
+        "ci": [
+          0.93982814785791,
+          0.9999999999999998
+        ],
+        "lenient": 1.0
+      },
+      "regex": {
+        "n": 60,
+        "success": 0,
+        "score": 0.0,
+        "ci": [
+          0.0,
+          0.06017185214208986
+        ],
+        "lenient": 0.0
+      },
+      "json": {
+        "n": 60,
+        "success": 26,
+        "score": 0.43333333333333335,
+        "ci": [
+          0.3157239680468677,
+          0.5589656122387444
+        ],
+        "lenient": 0.43333333333333335
+      }
+    }
+  },
+  "overall": {
+    "grok": {
+      "score": 0.96,
+      "ci95": [
+        0.9400000000000001,
+        0.9800000000000001
+      ]
+    },
+    "qwen": {
+      "score": 0.55,
+      "ci95": [
+        0.51,
+        0.5900000000000001
+      ]
+    }
+  },
+  "comparison": {
+    "difference": 0.41,
+    "ci95": [
+      0.36666666666666664,
+      0.45666666666666667
+    ],
+    "ci90": [
+      0.37333333333333335,
+      0.44666666666666666
+    ],
+    "per_task": {
+      "triage": {
+        "n": 60,
+        "difference": 0.25,
+        "ci95": [
+          0.15,
+          0.36666666666666664
+        ],
+        "ci90": [
+          0.16666666666666666,
+          0.35
+        ]
+      },
+      "summary": {
+        "n": 60,
+        "difference": 0.25,
+        "ci95": [
+          0.1,
+          0.4
+        ],
+        "ci90": [
+          0.11666666666666667,
+          0.38333333333333336
+        ]
+      },
+      "tweet": {
+        "n": 60,
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci90": [
+          0.0,
+          0.0
+        ]
+      },
+      "regex": {
+        "n": 60,
+        "difference": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci90": [
+          1.0,
+          1.0
+        ]
+      },
+      "json": {
+        "n": 60,
+        "difference": 0.55,
+        "ci95": [
+          0.43333333333333335,
+          0.6666666666666666
+        ],
+        "ci90": [
+          0.45,
+          0.65
+        ]
+      }
+    }
+  },
+  "mcnemar_pooled": {
+    "grok_only": 129,
+    "qwen_only": 6,
+    "p": 3.6147289851476084e-31
+  },
+  "mcnemar_per_task": {
+    "triage": {
+      "grok_only": 15,
+      "qwen_only": 0,
+      "p": 6.103515625e-05
+    },
+    "summary": {
+      "grok_only": 21,
+      "qwen_only": 6,
+      "p": 0.005924612283706665
+    },
+    "tweet": {
+      "grok_only": 0,
+      "qwen_only": 0,
+      "p": 1.0
+    },
+    "regex": {
+      "grok_only": 60,
+      "qwen_only": 0,
+      "p": 1.734723475976807e-18
+    },
+    "json": {
+      "grok_only": 33,
+      "qwen_only": 0,
+      "p": 2.3283064365386963e-10
+    }
+  },
+  "grok_cost_usd": 2.720527,
+  "grok_n": 300,
+  "qwen_mean_wall_s": 1.9333066666666665,
+  "grok_mean_wall_s": 6.214316666666667,
+  "compute": {
+    "sessions": [
+      {
+        "session": "r3023",
+        "gpu_requested_order": [
+          "L4",
+          "T4",
+          "A100",
+          "CPU"
+        ],
+        "gpu_allocated": "L4",
+        "started": true,
+        "elapsed_s": 890.2,
+        "cu_rate_per_h": 1.54,
+        "cu_estimated": 0.3808,
+        "cu_cap": 4.6,
+        "reason": "complete",
+        "balance_before": 175.96,
+        "balance_after": 175.43,
+        "rate_before": 1.54,
+        "rate_after": 1.54,
+        "active_after": 1,
+        "ts": 1792090391.3608096
+      }
+    ],
+    "cu_estimated_total": 0.3808,
+    "gpu_allocated": "L4",
+    "qwen_meta": {
+      "gpu": "NVIDIA L4, 23034 MiB",
+      "repo": "Qwen/Qwen3-4B",
+      "quant": "nf4",
+      "cuda": true,
+      "model_key": "qwen3_4b_q4",
+      "n_todo": 30
+    },
+    "balance_before_first": 175.96,
+    "balance_after_last": 175.43,
+    "reason": "complete"
+  }
+}

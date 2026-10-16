@@ -1,0 +1,1442 @@
+[
+  {
+    "alias": "summary0_0",
+    "task": "summary",
+    "source": "Alder district 0 tested a new translation service for 12 weeks. The pilot cut processing time by 18 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 3 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 0's pilot reduced processing time by 18% on weekdays but had no weekend improvement, with a planned expansion to 3 sites in November."
+  },
+  {
+    "alias": "summary0_1",
+    "task": "summary",
+    "source": "Alder district 0 tested a new translation service for 12 weeks. The pilot cut processing time by 18 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 3 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 12-week Alder district 0 translation pilot cut processing time 18 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "tweet0_0",
+    "task": "tweet",
+    "source": "Tested translation model on 100 examples\naccuracy rose from 50% to 60% with retrieval\nlatency increased from 2 to 4 seconds",
+    "candidate": "Tested a translation model on 100 examples: accuracy rose from 50% to 60% with retrieval, while latency increased from 2 to 4 seconds. #MachineTranslation"
+  },
+  {
+    "alias": "tweet0_1",
+    "task": "tweet",
+    "source": "Tested translation model on 100 examples\naccuracy rose from 50% to 60% with retrieval\nlatency increased from 2 to 4 seconds",
+    "candidate": "Tested translation model on 100 examples: accuracy rose from 50% to 60% with retrieval, latency increased from 2 to 4 seconds #AIperformance"
+  },
+  {
+    "alias": "summary1_0",
+    "task": "summary",
+    "source": "Birch district 1 tested a new robotics service for 13 weeks. The pilot cut processing time by 19 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 4 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "The 13-week robotics pilot cut processing time 19 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "summary1_1",
+    "task": "summary",
+    "source": "Birch district 1 tested a new robotics service for 13 weeks. The pilot cut processing time by 19 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 4 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch District 1's robotics pilot reduced processing time by 19% on weekdays but had no weekend effect, with expansion planned."
+  },
+  {
+    "alias": "tweet1_0",
+    "task": "tweet",
+    "source": "Tested robotics model on 110 examples\naccuracy rose from 51% to 61% with retrieval\nlatency increased from 3 to 5 seconds",
+    "candidate": "Tested robotics model on 110 examples: accuracy rose from 51% to 61% with retrieval, latency increased from 3 to 5 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet1_1",
+    "task": "tweet",
+    "source": "Tested robotics model on 110 examples\naccuracy rose from 51% to 61% with retrieval\nlatency increased from 3 to 5 seconds",
+    "candidate": "Tested a robotics model on 110 examples: accuracy rose from 51% to 61% with retrieval, while latency increased from 3 to 5 seconds. #Robotics"
+  },
+  {
+    "alias": "summary2_0",
+    "task": "summary",
+    "source": "Cedar district 2 tested a new forecasting service for 14 weeks. The pilot cut processing time by 20 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 5 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 14-week Cedar district 2 pilot cut weekday processing time 20 percent, but weekends were unchanged, so officials will expand it to five sites in November."
+  },
+  {
+    "alias": "summary2_1",
+    "task": "summary",
+    "source": "Cedar district 2 tested a new forecasting service for 14 weeks. The pilot cut processing time by 20 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 5 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar District 2's pilot reduced processing time by 20% on weekdays but had no weekend improvement, with a planned expansion to 5 sites in November."
+  },
+  {
+    "alias": "tweet2_0",
+    "task": "tweet",
+    "source": "Tested forecasting model on 120 examples\naccuracy rose from 52% to 62% with retrieval\nlatency increased from 4 to 6 seconds",
+    "candidate": "Tested a forecasting model on 120 examples. Accuracy rose from 52% to 62% with retrieval. Latency increased from 4 to 6 seconds. #Forecasting"
+  },
+  {
+    "alias": "tweet2_1",
+    "task": "tweet",
+    "source": "Tested forecasting model on 120 examples\naccuracy rose from 52% to 62% with retrieval\nlatency increased from 4 to 6 seconds",
+    "candidate": "Tested forecasting model on 120 examples: accuracy rose from 52% to 62% with retrieval, latency increased from 4 to 6 seconds #AIperformance"
+  },
+  {
+    "alias": "summary3_0",
+    "task": "summary",
+    "source": "Dover district 3 tested a new search service for 15 weeks. The pilot cut processing time by 21 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 6 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover’s 15-week search pilot cut processing time 21% on weekdays only, so officials will expand it to six sites rather than citywide."
+  },
+  {
+    "alias": "summary3_1",
+    "task": "summary",
+    "source": "Dover district 3 tested a new search service for 15 weeks. The pilot cut processing time by 21 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 6 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 3's search service pilot reduced processing time by 21% on weekdays but had no weekend improvement, with a planned expansion to 6 sites."
+  },
+  {
+    "alias": "tweet3_0",
+    "task": "tweet",
+    "source": "Tested search model on 130 examples\naccuracy rose from 53% to 63% with retrieval\nlatency increased from 5 to 7 seconds",
+    "candidate": "Tested a search model on 130 examples. Accuracy rose from 53% to 63% with retrieval. Latency increased from 5 to 7 seconds. #SearchModel"
+  },
+  {
+    "alias": "tweet3_1",
+    "task": "tweet",
+    "source": "Tested search model on 130 examples\naccuracy rose from 53% to 63% with retrieval\nlatency increased from 5 to 7 seconds",
+    "candidate": "Tested search model on 130 examples: accuracy rose from 53% to 63% with retrieval, latency increased from 5 to 7 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary4_0",
+    "task": "summary",
+    "source": "Elm district 4 tested a new coding service for 16 weeks. The pilot cut processing time by 22 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 7 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district 4's coding service reduced processing time by 22% on weekdays but not weekends, with a pilot extension planned."
+  },
+  {
+    "alias": "summary4_1",
+    "task": "summary",
+    "source": "Elm district 4 tested a new coding service for 16 weeks. The pilot cut processing time by 22 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 7 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 16-week coding pilot cut processing time 22 percent on weekdays only, with no weekend gain."
+  },
+  {
+    "alias": "tweet4_0",
+    "task": "tweet",
+    "source": "Tested coding model on 140 examples\naccuracy rose from 54% to 64% with retrieval\nlatency increased from 6 to 8 seconds",
+    "candidate": "Tested coding model on 140 examples: accuracy rose from 54% to 64% with retrieval, latency increased from 6 to 8 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet4_1",
+    "task": "tweet",
+    "source": "Tested coding model on 140 examples\naccuracy rose from 54% to 64% with retrieval\nlatency increased from 6 to 8 seconds",
+    "candidate": "Retrieval lifted coding-model accuracy from 54% to 64% on 140 examples, while latency rose from 6 to 8 seconds. #retrieval"
+  },
+  {
+    "alias": "summary5_0",
+    "task": "summary",
+    "source": "Fern district 5 tested a new speech service for 17 weeks. The pilot cut processing time by 23 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 8 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Fern district's 5-week pilot improved processing time by 23% on weekdays but not weekends, with plans to expand the test."
+  },
+  {
+    "alias": "summary5_1",
+    "task": "summary",
+    "source": "Fern district 5 tested a new speech service for 17 weeks. The pilot cut processing time by 23 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 8 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 17-week speech-service pilot cut processing time 23 percent on weekdays only, with no weekend gains."
+  },
+  {
+    "alias": "tweet5_0",
+    "task": "tweet",
+    "source": "Tested speech model on 150 examples\naccuracy rose from 55% to 65% with retrieval\nlatency increased from 7 to 9 seconds",
+    "candidate": "Tested a speech model on 150 examples. Accuracy rose from 55% to 65% with retrieval. Latency increased from 7 to 9 seconds. #SpeechAI"
+  },
+  {
+    "alias": "tweet5_1",
+    "task": "tweet",
+    "source": "Tested speech model on 150 examples\naccuracy rose from 55% to 65% with retrieval\nlatency increased from 7 to 9 seconds",
+    "candidate": "Tested speech model on 150 examples: accuracy rose from 55% to 65% with retrieval, latency increased from 7 to 9 seconds #AIperformance"
+  },
+  {
+    "alias": "summary6_0",
+    "task": "summary",
+    "source": "Alder district 6 tested a new translation service for 18 weeks. The pilot cut processing time by 24 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 9 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder District 6's pilot reduced processing time by 24% on weekdays but had no weekend improvement, with a planned expansion to 9 sites in November."
+  },
+  {
+    "alias": "summary6_1",
+    "task": "summary",
+    "source": "Alder district 6 tested a new translation service for 18 weeks. The pilot cut processing time by 24 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 9 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder District 6's translation pilot cut processing time 24 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "tweet6_0",
+    "task": "tweet",
+    "source": "Tested translation model on 160 examples\naccuracy rose from 56% to 66% with retrieval\nlatency increased from 8 to 10 seconds",
+    "candidate": "Tested translation model on 160 examples: accuracy rose from 56% to 66% with retrieval, latency increased from 8 to 10 seconds #AIperformance"
+  },
+  {
+    "alias": "tweet6_1",
+    "task": "tweet",
+    "source": "Tested translation model on 160 examples\naccuracy rose from 56% to 66% with retrieval\nlatency increased from 8 to 10 seconds",
+    "candidate": "Tested a translation model on 160 examples. Accuracy rose from 56% to 66% with retrieval. Latency increased from 8 to 10 seconds. #NLP"
+  },
+  {
+    "alias": "summary7_0",
+    "task": "summary",
+    "source": "Birch district 7 tested a new robotics service for 19 weeks. The pilot cut processing time by 25 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 10 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 19-week robotics pilot cut processing time 25 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "summary7_1",
+    "task": "summary",
+    "source": "Birch district 7 tested a new robotics service for 19 weeks. The pilot cut processing time by 25 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 10 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch district's robotics pilot reduced processing time by 25% on weekdays but had no weekend effect, with a planned expansion to 10 sites."
+  },
+  {
+    "alias": "tweet7_0",
+    "task": "tweet",
+    "source": "Tested robotics model on 170 examples\naccuracy rose from 57% to 67% with retrieval\nlatency increased from 9 to 11 seconds",
+    "candidate": "Tested robotics model on 170 examples: accuracy rose from 57% to 67% with retrieval, latency increased from 9 to 11 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet7_1",
+    "task": "tweet",
+    "source": "Tested robotics model on 170 examples\naccuracy rose from 57% to 67% with retrieval\nlatency increased from 9 to 11 seconds",
+    "candidate": "Tested a robotics model on 170 examples: accuracy rose from 57% to 67% with retrieval. Latency increased from 9 to 11 seconds. #Robotics"
+  },
+  {
+    "alias": "summary8_0",
+    "task": "summary",
+    "source": "Cedar district 8 tested a new forecasting service for 20 weeks. The pilot cut processing time by 26 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 11 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar District 8's pilot reduced processing time by 26% on weekdays but had no weekend improvement, with a planned expansion to 11 sites in November."
+  },
+  {
+    "alias": "summary8_1",
+    "task": "summary",
+    "source": "Cedar district 8 tested a new forecasting service for 20 weeks. The pilot cut processing time by 26 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 11 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar’s 20-week forecasting pilot cut weekday processing time 26 percent, with no weekend gains, so it expands to 11 sites, not citywide."
+  },
+  {
+    "alias": "tweet8_0",
+    "task": "tweet",
+    "source": "Tested forecasting model on 180 examples\naccuracy rose from 58% to 68% with retrieval\nlatency increased from 10 to 12 seconds",
+    "candidate": "Tested forecasting model on 180 examples: accuracy rose from 58% to 68% with retrieval, latency increased from 10 to 12 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet8_1",
+    "task": "tweet",
+    "source": "Tested forecasting model on 180 examples\naccuracy rose from 58% to 68% with retrieval\nlatency increased from 10 to 12 seconds",
+    "candidate": "Tested a forecasting model on 180 examples. Accuracy rose from 58% to 68% with retrieval. Latency increased from 10 to 12 seconds. #Forecasting"
+  },
+  {
+    "alias": "summary9_0",
+    "task": "summary",
+    "source": "Dover district 9 tested a new search service for 21 weeks. The pilot cut processing time by 27 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 12 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover's 21-week search pilot cut processing time 27 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "summary9_1",
+    "task": "summary",
+    "source": "Dover district 9 tested a new search service for 21 weeks. The pilot cut processing time by 27 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 12 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 9's pilot reduced processing time by 27% on weekdays but had no weekend improvement, with a planned expansion to 12 sites."
+  },
+  {
+    "alias": "tweet9_0",
+    "task": "tweet",
+    "source": "Tested search model on 190 examples\naccuracy rose from 59% to 69% with retrieval\nlatency increased from 11 to 13 seconds",
+    "candidate": "Tested a search model on 190 examples. Accuracy rose from 59% to 69% with retrieval. Latency increased from 11 to 13 seconds. #SearchModel"
+  },
+  {
+    "alias": "tweet9_1",
+    "task": "tweet",
+    "source": "Tested search model on 190 examples\naccuracy rose from 59% to 69% with retrieval\nlatency increased from 11 to 13 seconds",
+    "candidate": "Tested search model on 190 examples: accuracy rose from 59% to 69% with retrieval, latency increased from 11 to 13 seconds #AIperformance"
+  },
+  {
+    "alias": "summary10_0",
+    "task": "summary",
+    "source": "Elm district 10 tested a new coding service for 22 weeks. The pilot cut processing time by 28 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 13 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm’s 22-week coding pilot cut processing time 28 percent on weekdays only; weekends did not improve."
+  },
+  {
+    "alias": "summary10_1",
+    "task": "summary",
+    "source": "Elm district 10 tested a new coding service for 22 weeks. The pilot cut processing time by 28 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 13 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district's 10-week pilot reduced processing time by 28% on weekdays but had no weekend improvement, with a planned expansion to 13 sites."
+  },
+  {
+    "alias": "tweet10_0",
+    "task": "tweet",
+    "source": "Tested coding model on 200 examples\naccuracy rose from 60% to 70% with retrieval\nlatency increased from 12 to 14 seconds",
+    "candidate": "Tested a coding model on 200 examples. Accuracy rose from 60% to 70% with retrieval. Latency increased from 12 to 14 seconds. #codingmodels"
+  },
+  {
+    "alias": "tweet10_1",
+    "task": "tweet",
+    "source": "Tested coding model on 200 examples\naccuracy rose from 60% to 70% with retrieval\nlatency increased from 12 to 14 seconds",
+    "candidate": "Tested coding model on 200 examples: accuracy rose from 60% to 70% with retrieval, latency increased from 12 to 14 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary11_0",
+    "task": "summary",
+    "source": "Fern district 11 tested a new speech service for 23 weeks. The pilot cut processing time by 29 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 14 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 23-week speech-service pilot cut processing time 29 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "summary11_1",
+    "task": "summary",
+    "source": "Fern district 11 tested a new speech service for 23 weeks. The pilot cut processing time by 29 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 14 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Fern district 11's speech service pilot reduced processing time by 29% on weekdays but had no weekend improvement, with a planned expansion to 14 sites."
+  },
+  {
+    "alias": "tweet11_0",
+    "task": "tweet",
+    "source": "Tested speech model on 210 examples\naccuracy rose from 61% to 71% with retrieval\nlatency increased from 13 to 15 seconds",
+    "candidate": "Tested speech model on 210 examples: accuracy rose from 61% to 71% with retrieval, latency increased from 13 to 15 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet11_1",
+    "task": "tweet",
+    "source": "Tested speech model on 210 examples\naccuracy rose from 61% to 71% with retrieval\nlatency increased from 13 to 15 seconds",
+    "candidate": "Tested a speech model on 210 examples: accuracy rose from 61% to 71% with retrieval, while latency increased from 13 to 15 seconds. #SpeechAI"
+  },
+  {
+    "alias": "summary12_0",
+    "task": "summary",
+    "source": "Alder district 12 tested a new translation service for 24 weeks. The pilot cut processing time by 30 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 15 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 12's pilot reduced processing time by 30% on weekdays but had no weekend improvement, with a planned expansion to 15 sites."
+  },
+  {
+    "alias": "summary12_1",
+    "task": "summary",
+    "source": "Alder district 12 tested a new translation service for 24 weeks. The pilot cut processing time by 30 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 15 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder District 12’s translation pilot cut weekday processing time 30 percent, with no weekend gain, so officials will expand it to 15 sites."
+  },
+  {
+    "alias": "tweet12_0",
+    "task": "tweet",
+    "source": "Tested translation model on 220 examples\naccuracy rose from 62% to 72% with retrieval\nlatency increased from 14 to 16 seconds",
+    "candidate": "Tested translation model on 220 examples: accuracy rose from 62% to 72% with retrieval, latency increased from 14 to 16 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet12_1",
+    "task": "tweet",
+    "source": "Tested translation model on 220 examples\naccuracy rose from 62% to 72% with retrieval\nlatency increased from 14 to 16 seconds",
+    "candidate": "Retrieval lifted translation accuracy from 62% to 72% on 220 examples. Latency rose from 14 to 16 seconds. #Translation"
+  },
+  {
+    "alias": "summary13_0",
+    "task": "summary",
+    "source": "Birch district 13 tested a new robotics service for 25 weeks. The pilot cut processing time by 31 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 16 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 25-week robotics pilot in Birch district 13 cut processing time 31 percent on weekdays only, with no weekend gain."
+  },
+  {
+    "alias": "summary13_1",
+    "task": "summary",
+    "source": "Birch district 13 tested a new robotics service for 25 weeks. The pilot cut processing time by 31 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 16 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch District 13's robotics pilot reduced processing time by 31% on weekdays but had no weekend improvement, with a planned expansion to 16 sites."
+  },
+  {
+    "alias": "tweet13_0",
+    "task": "tweet",
+    "source": "Tested robotics model on 230 examples\naccuracy rose from 63% to 73% with retrieval\nlatency increased from 15 to 17 seconds",
+    "candidate": "Tested robotics model on 230 examples: accuracy rose from 63% to 73% with retrieval, latency increased from 15 to 17 seconds #AIperformance"
+  },
+  {
+    "alias": "tweet13_1",
+    "task": "tweet",
+    "source": "Tested robotics model on 230 examples\naccuracy rose from 63% to 73% with retrieval\nlatency increased from 15 to 17 seconds",
+    "candidate": "Tested a robotics model on 230 examples. Accuracy rose from 63% to 73% with retrieval. Latency increased from 15 to 17 seconds. #Robotics"
+  },
+  {
+    "alias": "summary14_0",
+    "task": "summary",
+    "source": "Cedar district 14 tested a new forecasting service for 26 weeks. The pilot cut processing time by 32 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 17 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar District 14's pilot reduced processing time by 32% on weekdays but not weekends, with a planned expansion to 17 sites."
+  },
+  {
+    "alias": "summary14_1",
+    "task": "summary",
+    "source": "Cedar district 14 tested a new forecasting service for 26 weeks. The pilot cut processing time by 32 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 17 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 26-week Cedar district 14 pilot cut processing time 32 percent on weekdays only, with no weekend gains."
+  },
+  {
+    "alias": "tweet14_0",
+    "task": "tweet",
+    "source": "Tested forecasting model on 240 examples\naccuracy rose from 64% to 74% with retrieval\nlatency increased from 16 to 18 seconds",
+    "candidate": "Tested a forecasting model on 240 examples. Accuracy rose from 64% to 74% with retrieval. Latency increased from 16 to 18 seconds. #Forecasting"
+  },
+  {
+    "alias": "tweet14_1",
+    "task": "tweet",
+    "source": "Tested forecasting model on 240 examples\naccuracy rose from 64% to 74% with retrieval\nlatency increased from 16 to 18 seconds",
+    "candidate": "Tested forecasting model on 240 examples: accuracy rose from 64% to 74% with retrieval, latency increased from 16 to 18 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary15_0",
+    "task": "summary",
+    "source": "Dover district 15 tested a new search service for 27 weeks. The pilot cut processing time by 33 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 18 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover’s 27-week search-service pilot cut processing time 33 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "summary15_1",
+    "task": "summary",
+    "source": "Dover district 15 tested a new search service for 27 weeks. The pilot cut processing time by 33 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 18 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 15's search service pilot reduced processing time by 33% on weekdays but had no weekend improvement, with a planned expansion to 18 sites."
+  },
+  {
+    "alias": "tweet15_0",
+    "task": "tweet",
+    "source": "Tested search model on 250 examples\naccuracy rose from 65% to 75% with retrieval\nlatency increased from 17 to 19 seconds",
+    "candidate": "We tested a search model on 250 examples. With retrieval, accuracy rose from 65% to 75%, while latency increased from 17 to 19 seconds. #SearchModel"
+  },
+  {
+    "alias": "tweet15_1",
+    "task": "tweet",
+    "source": "Tested search model on 250 examples\naccuracy rose from 65% to 75% with retrieval\nlatency increased from 17 to 19 seconds",
+    "candidate": "Tested search model on 250 examples: accuracy rose from 65% to 75% with retrieval, latency increased from 17 to 19 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary16_0",
+    "task": "summary",
+    "source": "Elm district 16 tested a new coding service for 28 weeks. The pilot cut processing time by 34 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 19 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district 16's coding service reduced processing time by 34% on weekdays but not weekends, with a pilot extension planned."
+  },
+  {
+    "alias": "summary16_1",
+    "task": "summary",
+    "source": "Elm district 16 tested a new coding service for 28 weeks. The pilot cut processing time by 34 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 19 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 28-week coding pilot cut processing time 34 percent on weekdays only; weekend performance did not improve."
+  },
+  {
+    "alias": "tweet16_0",
+    "task": "tweet",
+    "source": "Tested coding model on 260 examples\naccuracy rose from 66% to 76% with retrieval\nlatency increased from 18 to 20 seconds",
+    "candidate": "Tested a coding model on 260 examples. Accuracy rose from 66% to 76% with retrieval. Latency increased from 18 to 20 seconds. #AICoding"
+  },
+  {
+    "alias": "tweet16_1",
+    "task": "tweet",
+    "source": "Tested coding model on 260 examples\naccuracy rose from 66% to 76% with retrieval\nlatency increased from 18 to 20 seconds",
+    "candidate": "Tested coding model on 260 examples: accuracy rose from 66% to 76% with retrieval, latency increased from 18 to 20 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary17_0",
+    "task": "summary",
+    "source": "Fern district 17 tested a new speech service for 29 weeks. The pilot cut processing time by 35 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 20 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "The pilot cut speech-service processing time by 35 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "summary17_1",
+    "task": "summary",
+    "source": "Fern district 17 tested a new speech service for 29 weeks. The pilot cut processing time by 35 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 20 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Fern District 17's speech service pilot reduced processing time by 35% on weekdays but not weekends, with a planned expansion to 20 sites."
+  },
+  {
+    "alias": "tweet17_0",
+    "task": "tweet",
+    "source": "Tested speech model on 270 examples\naccuracy rose from 67% to 77% with retrieval\nlatency increased from 19 to 21 seconds",
+    "candidate": "Speech model tested on 270 examples: accuracy rose from 67% to 77% with retrieval, while latency increased from 19 to 21 seconds. #SpeechAI"
+  },
+  {
+    "alias": "tweet17_1",
+    "task": "tweet",
+    "source": "Tested speech model on 270 examples\naccuracy rose from 67% to 77% with retrieval\nlatency increased from 19 to 21 seconds",
+    "candidate": "Tested speech model on 270 examples: accuracy rose from 67% to 77% with retrieval, latency increased from 19 to 21 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary18_0",
+    "task": "summary",
+    "source": "Alder district 18 tested a new translation service for 30 weeks. The pilot cut processing time by 36 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 21 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 18's pilot reduced processing time by 36% on weekdays but had no weekend improvement, with expansion planned."
+  },
+  {
+    "alias": "summary18_1",
+    "task": "summary",
+    "source": "Alder district 18 tested a new translation service for 30 weeks. The pilot cut processing time by 36 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 21 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 18's translation pilot cut processing time 36 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "tweet18_0",
+    "task": "tweet",
+    "source": "Tested translation model on 280 examples\naccuracy rose from 68% to 78% with retrieval\nlatency increased from 20 to 22 seconds",
+    "candidate": "Tested a translation model on 280 examples. With retrieval, accuracy rose from 68% to 78%. Latency increased from 20 to 22 seconds. #MachineTranslation"
+  },
+  {
+    "alias": "tweet18_1",
+    "task": "tweet",
+    "source": "Tested translation model on 280 examples\naccuracy rose from 68% to 78% with retrieval\nlatency increased from 20 to 22 seconds",
+    "candidate": "Tested translation model on 280 examples: accuracy rose from 68% to 78% with retrieval, latency increased from 20 to 22 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary19_0",
+    "task": "summary",
+    "source": "Birch district 19 tested a new robotics service for 31 weeks. The pilot cut processing time by 37 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 22 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch District 19's robotics pilot reduced processing time by 37% on weekdays but had no weekend improvement, with a planned expansion to 22 sites."
+  },
+  {
+    "alias": "summary19_1",
+    "task": "summary",
+    "source": "Birch district 19 tested a new robotics service for 31 weeks. The pilot cut processing time by 37 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 22 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 31-week robotics pilot cut processing time 37 percent on weekdays only, with no weekend gains."
+  },
+  {
+    "alias": "tweet19_0",
+    "task": "tweet",
+    "source": "Tested robotics model on 290 examples\naccuracy rose from 69% to 79% with retrieval\nlatency increased from 21 to 23 seconds",
+    "candidate": "Tested robotics model on 290 examples: accuracy rose from 69% to 79% with retrieval, latency increased from 21 to 23 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet19_1",
+    "task": "tweet",
+    "source": "Tested robotics model on 290 examples\naccuracy rose from 69% to 79% with retrieval\nlatency increased from 21 to 23 seconds",
+    "candidate": "Tested a robotics model on 290 examples: accuracy rose from 69% to 79% with retrieval, while latency increased from 21 to 23 seconds. #Robotics"
+  },
+  {
+    "alias": "summary20_0",
+    "task": "summary",
+    "source": "Cedar district 20 tested a new forecasting service for 32 weeks. The pilot cut processing time by 38 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 23 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar District 20's pilot reduced processing time by 38% on weekdays but not weekends, with a planned expansion to 23 sites."
+  },
+  {
+    "alias": "summary20_1",
+    "task": "summary",
+    "source": "Cedar district 20 tested a new forecasting service for 32 weeks. The pilot cut processing time by 38 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 23 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar's 32-week forecasting pilot cut weekday processing time 38 percent, with no weekend gains, so officials will expand to 23 sites rather than citywide."
+  },
+  {
+    "alias": "tweet20_0",
+    "task": "tweet",
+    "source": "Tested forecasting model on 300 examples\naccuracy rose from 70% to 80% with retrieval\nlatency increased from 22 to 24 seconds",
+    "candidate": "Tested a forecasting model on 300 examples. Accuracy rose from 70% to 80% with retrieval. Latency increased from 22 to 24 seconds. #Forecasting"
+  },
+  {
+    "alias": "tweet20_1",
+    "task": "tweet",
+    "source": "Tested forecasting model on 300 examples\naccuracy rose from 70% to 80% with retrieval\nlatency increased from 22 to 24 seconds",
+    "candidate": "Tested forecasting model on 300 examples: accuracy rose from 70% to 80% with retrieval, latency increased from 22 to 24 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary21_0",
+    "task": "summary",
+    "source": "Dover district 21 tested a new search service for 33 weeks. The pilot cut processing time by 39 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 24 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 21's pilot reduced processing time by 39% on weekdays but had no weekend improvement, with a planned expansion to 24 sites."
+  },
+  {
+    "alias": "summary21_1",
+    "task": "summary",
+    "source": "Dover district 21 tested a new search service for 33 weeks. The pilot cut processing time by 39 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 24 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 21’s 33-week pilot cut processing time 39 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "tweet21_0",
+    "task": "tweet",
+    "source": "Tested search model on 310 examples\naccuracy rose from 71% to 81% with retrieval\nlatency increased from 23 to 25 seconds",
+    "candidate": "Tested a search model on 310 examples. Accuracy rose from 71% to 81% with retrieval. Latency increased from 23 to 25 seconds. #SearchModel"
+  },
+  {
+    "alias": "tweet21_1",
+    "task": "tweet",
+    "source": "Tested search model on 310 examples\naccuracy rose from 71% to 81% with retrieval\nlatency increased from 23 to 25 seconds",
+    "candidate": "Tested search model on 310 examples: accuracy rose from 71% to 81% with retrieval, latency increased from 23 to 25 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary22_0",
+    "task": "summary",
+    "source": "Elm district 22 tested a new coding service for 34 weeks. The pilot cut processing time by 40 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 25 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district 22's coding service cut processing time by 40% on weekdays but not weekends, with a pilot extension planned."
+  },
+  {
+    "alias": "summary22_1",
+    "task": "summary",
+    "source": "Elm district 22 tested a new coding service for 34 weeks. The pilot cut processing time by 40 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 25 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district 22’s coding-service pilot cut processing time 40 percent on weekdays only; weekend performance did not improve."
+  },
+  {
+    "alias": "tweet22_0",
+    "task": "tweet",
+    "source": "Tested coding model on 320 examples\naccuracy rose from 72% to 82% with retrieval\nlatency increased from 24 to 26 seconds",
+    "candidate": "Tested coding model on 320 examples: accuracy rose from 72% to 82% with retrieval, latency increased from 24 to 26 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet22_1",
+    "task": "tweet",
+    "source": "Tested coding model on 320 examples\naccuracy rose from 72% to 82% with retrieval\nlatency increased from 24 to 26 seconds",
+    "candidate": "Tested a coding model on 320 examples: accuracy rose from 72% to 82% with retrieval. Latency increased from 24 to 26 seconds. #CodingModels"
+  },
+  {
+    "alias": "summary23_0",
+    "task": "summary",
+    "source": "Fern district 23 tested a new speech service for 35 weeks. The pilot cut processing time by 41 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 26 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Fern district 23's speech service pilot reduced processing time by 41% on weekdays but had no weekend improvement, with a planned expansion to 26 sites."
+  },
+  {
+    "alias": "summary23_1",
+    "task": "summary",
+    "source": "Fern district 23 tested a new speech service for 35 weeks. The pilot cut processing time by 41 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 26 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 35-week speech-service pilot cut processing time 41% on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "tweet23_0",
+    "task": "tweet",
+    "source": "Tested speech model on 330 examples\naccuracy rose from 73% to 83% with retrieval\nlatency increased from 25 to 27 seconds",
+    "candidate": "Tested speech model on 330 examples: accuracy rose from 73% to 83% with retrieval, latency increased from 25 to 27 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet23_1",
+    "task": "tweet",
+    "source": "Tested speech model on 330 examples\naccuracy rose from 73% to 83% with retrieval\nlatency increased from 25 to 27 seconds",
+    "candidate": "Speech model tested on 330 examples: retrieval lifted accuracy from 73% to 83%, while latency rose from 25 to 27 seconds. #SpeechAI"
+  },
+  {
+    "alias": "summary24_0",
+    "task": "summary",
+    "source": "Alder district 24 tested a new translation service for 36 weeks. The pilot cut processing time by 42 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 27 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district's 24-week pilot reduced processing time by 42% on weekdays but had no weekend improvement, with a planned expansion to 27 sites in November."
+  },
+  {
+    "alias": "summary24_1",
+    "task": "summary",
+    "source": "Alder district 24 tested a new translation service for 36 weeks. The pilot cut processing time by 42 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 27 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 24’s translation pilot cut processing time 42 percent on weekdays only, so officials will expand it to 27 sites rather than citywide."
+  },
+  {
+    "alias": "tweet24_0",
+    "task": "tweet",
+    "source": "Tested translation model on 340 examples\naccuracy rose from 74% to 84% with retrieval\nlatency increased from 26 to 28 seconds",
+    "candidate": "Retrieval lifted translation accuracy from 74% to 84% on 340 examples. Latency moved from 26 to 28 seconds. #MachineTranslation"
+  },
+  {
+    "alias": "tweet24_1",
+    "task": "tweet",
+    "source": "Tested translation model on 340 examples\naccuracy rose from 74% to 84% with retrieval\nlatency increased from 26 to 28 seconds",
+    "candidate": "Tested translation model on 340 examples: accuracy rose from 74% to 84% with retrieval, latency increased from 26 to 28 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary25_0",
+    "task": "summary",
+    "source": "Birch district 25 tested a new robotics service for 37 weeks. The pilot cut processing time by 43 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 28 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch district's robotics pilot reduced processing time by 43% on weekdays but had no weekend effect, with a planned expansion to 28 sites."
+  },
+  {
+    "alias": "summary25_1",
+    "task": "summary",
+    "source": "Birch district 25 tested a new robotics service for 37 weeks. The pilot cut processing time by 43 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 28 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 37-week robotics pilot cut processing time 43 percent on weekdays only, with no weekend gains."
+  },
+  {
+    "alias": "tweet25_0",
+    "task": "tweet",
+    "source": "Tested robotics model on 350 examples\naccuracy rose from 75% to 85% with retrieval\nlatency increased from 27 to 29 seconds",
+    "candidate": "Tested robotics model on 350 examples: accuracy rose from 75% to 85% with retrieval, latency increased from 27 to 29 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet25_1",
+    "task": "tweet",
+    "source": "Tested robotics model on 350 examples\naccuracy rose from 75% to 85% with retrieval\nlatency increased from 27 to 29 seconds",
+    "candidate": "Tested a robotics model on 350 examples. Accuracy rose from 75% to 85% with retrieval. Latency increased from 27 to 29 seconds. #Robotics"
+  },
+  {
+    "alias": "summary26_0",
+    "task": "summary",
+    "source": "Cedar district 26 tested a new forecasting service for 38 weeks. The pilot cut processing time by 44 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 29 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar District 26's pilot reduced processing time by 44% on weekdays but not weekends, with a planned expansion to 29 sites."
+  },
+  {
+    "alias": "summary26_1",
+    "task": "summary",
+    "source": "Cedar district 26 tested a new forecasting service for 38 weeks. The pilot cut processing time by 44 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 29 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar’s 38-week forecasting pilot cut processing time 44 percent on weekdays only, with no weekend improvement, so officials will expand to 29 sites."
+  },
+  {
+    "alias": "tweet26_0",
+    "task": "tweet",
+    "source": "Tested forecasting model on 360 examples\naccuracy rose from 76% to 86% with retrieval\nlatency increased from 28 to 30 seconds",
+    "candidate": "Tested a forecasting model on 360 examples. Accuracy rose from 76% to 86% with retrieval. Latency increased from 28 to 30 seconds. #Forecasting"
+  },
+  {
+    "alias": "tweet26_1",
+    "task": "tweet",
+    "source": "Tested forecasting model on 360 examples\naccuracy rose from 76% to 86% with retrieval\nlatency increased from 28 to 30 seconds",
+    "candidate": "Tested forecasting model on 360 examples: accuracy rose from 76% to 86% with retrieval, latency increased from 28 to 30 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary27_0",
+    "task": "summary",
+    "source": "Dover district 27 tested a new search service for 39 weeks. The pilot cut processing time by 45 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 30 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 39-week Dover search pilot cut processing time 45 percent on weekdays only, with no weekend improvement, so expansion stays limited to 30 sites."
+  },
+  {
+    "alias": "summary27_1",
+    "task": "summary",
+    "source": "Dover district 27 tested a new search service for 39 weeks. The pilot cut processing time by 45 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 30 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 27's pilot reduced processing time by 45% on weekdays but not weekends, with a planned expansion to 30 sites."
+  },
+  {
+    "alias": "tweet27_0",
+    "task": "tweet",
+    "source": "Tested search model on 370 examples\naccuracy rose from 77% to 87% with retrieval\nlatency increased from 29 to 31 seconds",
+    "candidate": "Tested a search model on 370 examples: accuracy rose from 77% to 87% with retrieval. Latency increased from 29 to 31 seconds. #SearchModel"
+  },
+  {
+    "alias": "tweet27_1",
+    "task": "tweet",
+    "source": "Tested search model on 370 examples\naccuracy rose from 77% to 87% with retrieval\nlatency increased from 29 to 31 seconds",
+    "candidate": "Tested search model on 370 examples: accuracy rose from 77% to 87% with retrieval, latency increased from 29 to 31 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary28_0",
+    "task": "summary",
+    "source": "Elm district 28 tested a new coding service for 40 weeks. The pilot cut processing time by 46 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 31 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 40-week pilot cut processing time 46 percent on weekdays only, with no weekend gains."
+  },
+  {
+    "alias": "summary28_1",
+    "task": "summary",
+    "source": "Elm district 28 tested a new coding service for 40 weeks. The pilot cut processing time by 46 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 31 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district 28's coding service reduced processing time by 46% on weekdays but not weekends, with a pilot extension planned."
+  },
+  {
+    "alias": "tweet28_0",
+    "task": "tweet",
+    "source": "Tested coding model on 380 examples\naccuracy rose from 78% to 88% with retrieval\nlatency increased from 30 to 32 seconds",
+    "candidate": "Tested coding model on 380 examples: accuracy rose from 78% to 88% with retrieval, latency increased from 30 to 32 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet28_1",
+    "task": "tweet",
+    "source": "Tested coding model on 380 examples\naccuracy rose from 78% to 88% with retrieval\nlatency increased from 30 to 32 seconds",
+    "candidate": "Tested a coding model on 380 examples. With retrieval, accuracy rose from 78% to 88%. Latency increased from 30 to 32 seconds. #CodingModels"
+  },
+  {
+    "alias": "summary29_0",
+    "task": "summary",
+    "source": "Fern district 29 tested a new speech service for 41 weeks. The pilot cut processing time by 47 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 32 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Fern district 29's speech service pilot reduced processing time by 47% on weekdays but had no weekend improvement, with a planned expansion to 32 sites."
+  },
+  {
+    "alias": "summary29_1",
+    "task": "summary",
+    "source": "Fern district 29 tested a new speech service for 41 weeks. The pilot cut processing time by 47 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 32 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 41-week speech pilot cut processing time 47 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "tweet29_0",
+    "task": "tweet",
+    "source": "Tested speech model on 390 examples\naccuracy rose from 79% to 89% with retrieval\nlatency increased from 31 to 33 seconds",
+    "candidate": "Tested speech model on 390 examples: accuracy rose from 79% to 89% with retrieval, latency increased from 31 to 33 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet29_1",
+    "task": "tweet",
+    "source": "Tested speech model on 390 examples\naccuracy rose from 79% to 89% with retrieval\nlatency increased from 31 to 33 seconds",
+    "candidate": "Tested a speech model on 390 examples: accuracy rose from 79% to 89% with retrieval. Latency increased from 31 to 33 seconds. #SpeechAI"
+  },
+  {
+    "alias": "summary30_0",
+    "task": "summary",
+    "source": "Alder district 30 tested a new translation service for 42 weeks. The pilot cut processing time by 48 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 33 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 30’s translation pilot cut processing time 48 percent on weekdays only; weekends showed no improvement."
+  },
+  {
+    "alias": "summary30_1",
+    "task": "summary",
+    "source": "Alder district 30 tested a new translation service for 42 weeks. The pilot cut processing time by 48 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 33 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district's 42-week pilot reduced processing time by 48% on weekdays but had no weekend improvement, with a planned expansion to 33 sites."
+  },
+  {
+    "alias": "tweet30_0",
+    "task": "tweet",
+    "source": "Tested translation model on 400 examples\naccuracy rose from 80% to 90% with retrieval\nlatency increased from 32 to 34 seconds",
+    "candidate": "Tested translation model on 400 examples: accuracy rose from 80% to 90% with retrieval, latency increased from 32 to 34 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet30_1",
+    "task": "tweet",
+    "source": "Tested translation model on 400 examples\naccuracy rose from 80% to 90% with retrieval\nlatency increased from 32 to 34 seconds",
+    "candidate": "Tested a translation model on 400 examples. Accuracy rose from 80% to 90% with retrieval. Latency increased from 32 to 34 seconds. #ML"
+  },
+  {
+    "alias": "summary31_0",
+    "task": "summary",
+    "source": "Birch district 31 tested a new robotics service for 43 weeks. The pilot cut processing time by 49 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 34 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "The robotics pilot cut weekday processing time by 49 percent; weekend performance stayed unchanged."
+  },
+  {
+    "alias": "summary31_1",
+    "task": "summary",
+    "source": "Birch district 31 tested a new robotics service for 43 weeks. The pilot cut processing time by 49 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 34 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch district's robotics pilot reduced processing time by 49% on weekdays but had no weekend effect, with expansion planned."
+  },
+  {
+    "alias": "tweet31_0",
+    "task": "tweet",
+    "source": "Tested robotics model on 410 examples\naccuracy rose from 81% to 91% with retrieval\nlatency increased from 33 to 35 seconds",
+    "candidate": "Tested a robotics model on 410 examples. Accuracy rose from 81% to 91% with retrieval. Latency increased from 33 to 35 seconds. #Robotics"
+  },
+  {
+    "alias": "tweet31_1",
+    "task": "tweet",
+    "source": "Tested robotics model on 410 examples\naccuracy rose from 81% to 91% with retrieval\nlatency increased from 33 to 35 seconds",
+    "candidate": "Tested robotics model on 410 examples: accuracy rose from 81% to 91% with retrieval, latency increased from 33 to 35 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary32_0",
+    "task": "summary",
+    "source": "Cedar district 32 tested a new forecasting service for 44 weeks. The pilot cut processing time by 50 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 35 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "The 44-week pilot cut weekday processing time by 50 percent; weekend performance was unchanged."
+  },
+  {
+    "alias": "summary32_1",
+    "task": "summary",
+    "source": "Cedar district 32 tested a new forecasting service for 44 weeks. The pilot cut processing time by 50 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 35 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar District 32's pilot reduced processing time by 50% on weekdays but not weekends, with a planned expansion to 35 sites."
+  },
+  {
+    "alias": "tweet32_0",
+    "task": "tweet",
+    "source": "Tested forecasting model on 420 examples\naccuracy rose from 82% to 92% with retrieval\nlatency increased from 34 to 36 seconds",
+    "candidate": "Tested forecasting model on 420 examples: accuracy rose from 82% to 92% with retrieval, latency increased from 34 to 36 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet32_1",
+    "task": "tweet",
+    "source": "Tested forecasting model on 420 examples\naccuracy rose from 82% to 92% with retrieval\nlatency increased from 34 to 36 seconds",
+    "candidate": "Tested a forecasting model on 420 examples: accuracy rose from 82% to 92% with retrieval, while latency increased from 34 to 36 seconds. #Forecasting"
+  },
+  {
+    "alias": "summary33_0",
+    "task": "summary",
+    "source": "Dover district 33 tested a new search service for 45 weeks. The pilot cut processing time by 51 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 36 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover’s 45-week search pilot cut processing time 51 percent on weekdays only, so officials will expand it to 36 sites, not citywide."
+  },
+  {
+    "alias": "summary33_1",
+    "task": "summary",
+    "source": "Dover district 33 tested a new search service for 45 weeks. The pilot cut processing time by 51 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 36 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 33's pilot cut processing time by 51% on weekdays but had no weekend improvement, with a planned expansion to 36 sites."
+  },
+  {
+    "alias": "tweet33_0",
+    "task": "tweet",
+    "source": "Tested search model on 430 examples\naccuracy rose from 83% to 93% with retrieval\nlatency increased from 35 to 37 seconds",
+    "candidate": "Tested a search model on 430 examples. Accuracy rose from 83% to 93% with retrieval. Latency increased from 35 to 37 seconds. #SearchModel"
+  },
+  {
+    "alias": "tweet33_1",
+    "task": "tweet",
+    "source": "Tested search model on 430 examples\naccuracy rose from 83% to 93% with retrieval\nlatency increased from 35 to 37 seconds",
+    "candidate": "Tested search model on 430 examples: accuracy rose from 83% to 93% with retrieval, latency increased from 35 to 37 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary34_0",
+    "task": "summary",
+    "source": "Elm district 34 tested a new coding service for 46 weeks. The pilot cut processing time by 52 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 37 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 46-week coding-service pilot cut weekday processing time 52 percent, with no weekend gains, so officials will expand it to 37 sites rather than citywide."
+  },
+  {
+    "alias": "summary34_1",
+    "task": "summary",
+    "source": "Elm district 34 tested a new coding service for 46 weeks. The pilot cut processing time by 52 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 37 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district 34's coding service reduced processing time by 52% on weekdays but had no weekend improvement, with a pilot extension planned."
+  },
+  {
+    "alias": "tweet34_0",
+    "task": "tweet",
+    "source": "Tested coding model on 440 examples\naccuracy rose from 84% to 94% with retrieval\nlatency increased from 36 to 38 seconds",
+    "candidate": "Tested a coding model on 440 examples: accuracy rose from 84% to 94% with retrieval, while latency increased from 36 to 38 seconds. #CodingModels"
+  },
+  {
+    "alias": "tweet34_1",
+    "task": "tweet",
+    "source": "Tested coding model on 440 examples\naccuracy rose from 84% to 94% with retrieval\nlatency increased from 36 to 38 seconds",
+    "candidate": "Tested coding model on 440 examples: accuracy rose from 84% to 94% with retrieval, latency increased from 36 to 38 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary35_0",
+    "task": "summary",
+    "source": "Fern district 35 tested a new speech service for 47 weeks. The pilot cut processing time by 53 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 38 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 47-week pilot cut speech-service processing time 53 percent on weekdays only, with no weekend gains."
+  },
+  {
+    "alias": "summary35_1",
+    "task": "summary",
+    "source": "Fern district 35 tested a new speech service for 47 weeks. The pilot cut processing time by 53 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 38 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Fern district's 47-week pilot improved processing time by 53% on weekdays but had no weekend improvement, with a planned expansion to 38 sites."
+  },
+  {
+    "alias": "tweet35_0",
+    "task": "tweet",
+    "source": "Tested speech model on 450 examples\naccuracy rose from 85% to 95% with retrieval\nlatency increased from 37 to 39 seconds",
+    "candidate": "Tested speech model on 450 examples: accuracy rose from 85% to 95% with retrieval, latency increased from 37 to 39 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet35_1",
+    "task": "tweet",
+    "source": "Tested speech model on 450 examples\naccuracy rose from 85% to 95% with retrieval\nlatency increased from 37 to 39 seconds",
+    "candidate": "Tested a speech model on 450 examples: accuracy rose from 85% to 95% with retrieval. Latency increased from 37 to 39 seconds. #SpeechAI"
+  },
+  {
+    "alias": "summary36_0",
+    "task": "summary",
+    "source": "Alder district 36 tested a new translation service for 48 weeks. The pilot cut processing time by 54 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 39 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 36's pilot reduced processing time by 54% on weekdays but had no weekend improvement, with a planned expansion to 39 sites."
+  },
+  {
+    "alias": "summary36_1",
+    "task": "summary",
+    "source": "Alder district 36 tested a new translation service for 48 weeks. The pilot cut processing time by 54 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 39 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 48-week Alder district 36 pilot cut processing time 54 percent on weekdays only, with no weekend gains."
+  },
+  {
+    "alias": "tweet36_0",
+    "task": "tweet",
+    "source": "Tested translation model on 460 examples\naccuracy rose from 86% to 96% with retrieval\nlatency increased from 38 to 40 seconds",
+    "candidate": "Tested translation model on 460 examples: accuracy rose from 86% to 96% with retrieval, latency increased from 38 to 40 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet36_1",
+    "task": "tweet",
+    "source": "Tested translation model on 460 examples\naccuracy rose from 86% to 96% with retrieval\nlatency increased from 38 to 40 seconds",
+    "candidate": "Tested a translation model on 460 examples. Accuracy rose from 86% to 96% with retrieval. Latency increased from 38 to 40 seconds. #NLP"
+  },
+  {
+    "alias": "summary37_0",
+    "task": "summary",
+    "source": "Birch district 37 tested a new robotics service for 49 weeks. The pilot cut processing time by 55 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 40 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch's 49-week robotics pilot cut processing time 55 percent on weekdays only; weekends showed no improvement."
+  },
+  {
+    "alias": "summary37_1",
+    "task": "summary",
+    "source": "Birch district 37 tested a new robotics service for 49 weeks. The pilot cut processing time by 55 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 40 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch district's robotics pilot reduced processing time by 55% on weekdays but had no weekend effect, with expansion planned."
+  },
+  {
+    "alias": "tweet37_0",
+    "task": "tweet",
+    "source": "Tested robotics model on 470 examples\naccuracy rose from 87% to 97% with retrieval\nlatency increased from 39 to 41 seconds",
+    "candidate": "Retrieval lifted a robotics model from 87% to 97% accuracy on 470 examples. Latency moved from 39 to 41 seconds. #Robotics"
+  },
+  {
+    "alias": "tweet37_1",
+    "task": "tweet",
+    "source": "Tested robotics model on 470 examples\naccuracy rose from 87% to 97% with retrieval\nlatency increased from 39 to 41 seconds",
+    "candidate": "Tested robotics model on 470 examples: accuracy rose from 87% to 97% with retrieval, latency increased from 39 to 41 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary38_0",
+    "task": "summary",
+    "source": "Cedar district 38 tested a new forecasting service for 50 weeks. The pilot cut processing time by 56 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 41 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar district 38’s 50-week pilot cut processing time 56 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "summary38_1",
+    "task": "summary",
+    "source": "Cedar district 38 tested a new forecasting service for 50 weeks. The pilot cut processing time by 56 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 41 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar District 38's pilot improved weekday processing by 56% but failed weekends, with expansion planned."
+  },
+  {
+    "alias": "tweet38_0",
+    "task": "tweet",
+    "source": "Tested forecasting model on 480 examples\naccuracy rose from 88% to 98% with retrieval\nlatency increased from 40 to 42 seconds",
+    "candidate": "Tested forecasting model on 480 examples: accuracy rose from 88% to 98% with retrieval, latency increased from 40 to 42 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet38_1",
+    "task": "tweet",
+    "source": "Tested forecasting model on 480 examples\naccuracy rose from 88% to 98% with retrieval\nlatency increased from 40 to 42 seconds",
+    "candidate": "Tested a forecasting model on 480 examples. Accuracy rose from 88% to 98% with retrieval. Latency increased from 40 to 42 seconds. #forecasting"
+  },
+  {
+    "alias": "summary39_0",
+    "task": "summary",
+    "source": "Dover district 39 tested a new search service for 51 weeks. The pilot cut processing time by 57 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 42 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 51-week Dover district 39 search pilot cut weekday processing time by 57 percent, with no weekend improvement."
+  },
+  {
+    "alias": "summary39_1",
+    "task": "summary",
+    "source": "Dover district 39 tested a new search service for 51 weeks. The pilot cut processing time by 57 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 42 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 39's pilot cut processing time by 57% on weekdays but not weekends, with extension planned."
+  },
+  {
+    "alias": "tweet39_0",
+    "task": "tweet",
+    "source": "Tested search model on 490 examples\naccuracy rose from 89% to 99% with retrieval\nlatency increased from 41 to 43 seconds",
+    "candidate": "Tested search model on 490 examples: accuracy rose from 89% to 99% with retrieval, latency increased from 41 to 43 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet39_1",
+    "task": "tweet",
+    "source": "Tested search model on 490 examples\naccuracy rose from 89% to 99% with retrieval\nlatency increased from 41 to 43 seconds",
+    "candidate": "Tested a search model on 490 examples: accuracy rose from 89% to 99% with retrieval, while latency increased from 41 to 43 seconds. #SearchModel"
+  },
+  {
+    "alias": "summary40_0",
+    "task": "summary",
+    "source": "Elm district 40 tested a new coding service for 52 weeks. The pilot cut processing time by 58 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 43 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm District 40’s 52-week pilot cut processing time 58 percent on weekdays only; weekends showed no improvement."
+  },
+  {
+    "alias": "summary40_1",
+    "task": "summary",
+    "source": "Elm district 40 tested a new coding service for 52 weeks. The pilot cut processing time by 58 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 43 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district 40's coding service reduced processing time by 58% on weekdays but not weekends, with a pilot extension planned."
+  },
+  {
+    "alias": "tweet40_0",
+    "task": "tweet",
+    "source": "Tested coding model on 500 examples\naccuracy rose from 90% to 100% with retrieval\nlatency increased from 42 to 44 seconds",
+    "candidate": "Tested a coding model on 500 examples: accuracy rose from 90% to 100% with retrieval, while latency increased from 42 to 44 seconds. #CodingModels"
+  },
+  {
+    "alias": "tweet40_1",
+    "task": "tweet",
+    "source": "Tested coding model on 500 examples\naccuracy rose from 90% to 100% with retrieval\nlatency increased from 42 to 44 seconds",
+    "candidate": "Tested coding model on 500 examples: accuracy rose from 90% to 100% with retrieval, latency increased from 42 to 44 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary41_0",
+    "task": "summary",
+    "source": "Fern district 41 tested a new speech service for 53 weeks. The pilot cut processing time by 59 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 44 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 53-week speech-service pilot cut processing time 59 percent on weekdays only, so officials will expand it to 44 sites rather than citywide."
+  },
+  {
+    "alias": "summary41_1",
+    "task": "summary",
+    "source": "Fern district 41 tested a new speech service for 53 weeks. The pilot cut processing time by 59 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 44 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Fern district's 53-week pilot improved processing time by 59% on weekdays but had no weekend improvement, with a planned expansion to 44 sites."
+  },
+  {
+    "alias": "tweet41_0",
+    "task": "tweet",
+    "source": "Tested speech model on 510 examples\naccuracy rose from 91% to 101% with retrieval\nlatency increased from 43 to 45 seconds",
+    "candidate": "Tested speech model on 510 examples: accuracy rose from 91% to 101% with retrieval, latency increased from 43 to 45 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet41_1",
+    "task": "tweet",
+    "source": "Tested speech model on 510 examples\naccuracy rose from 91% to 101% with retrieval\nlatency increased from 43 to 45 seconds",
+    "candidate": "Tested a speech model on 510 examples. With retrieval, accuracy rose from 91% to 101%. Latency increased from 43 to 45 seconds. #SpeechAI"
+  },
+  {
+    "alias": "summary42_0",
+    "task": "summary",
+    "source": "Alder district 42 tested a new translation service for 54 weeks. The pilot cut processing time by 60 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 45 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 42's translation pilot reduced processing time by 60% on weekdays but had no weekend improvement, with a planned expansion to 45 sites."
+  },
+  {
+    "alias": "summary42_1",
+    "task": "summary",
+    "source": "Alder district 42 tested a new translation service for 54 weeks. The pilot cut processing time by 60 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 45 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 42’s translation pilot cut processing time 60 percent on weekdays only, with no weekend gains."
+  },
+  {
+    "alias": "tweet42_0",
+    "task": "tweet",
+    "source": "Tested translation model on 520 examples\naccuracy rose from 92% to 102% with retrieval\nlatency increased from 44 to 46 seconds",
+    "candidate": "Tested translation model on 520 examples: accuracy rose from 92% to 102% with retrieval, latency increased from 44 to 46 seconds. #modelperf"
+  },
+  {
+    "alias": "tweet42_1",
+    "task": "tweet",
+    "source": "Tested translation model on 520 examples\naccuracy rose from 92% to 102% with retrieval\nlatency increased from 44 to 46 seconds",
+    "candidate": "Tested a translation model on 520 examples: accuracy rose from 92% to 102% with retrieval. Latency increased from 44 to 46 seconds. #MachineTranslation"
+  },
+  {
+    "alias": "summary43_0",
+    "task": "summary",
+    "source": "Birch district 43 tested a new robotics service for 55 weeks. The pilot cut processing time by 61 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 46 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "The robotics pilot cut processing time 61 percent on weekdays only, with no weekend gains, so officials will expand it to 46 sites rather than citywide."
+  },
+  {
+    "alias": "summary43_1",
+    "task": "summary",
+    "source": "Birch district 43 tested a new robotics service for 55 weeks. The pilot cut processing time by 61 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 46 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch district's robotics pilot reduced processing time by 61% on weekdays but had no weekend effect, with expansion planned."
+  },
+  {
+    "alias": "tweet43_0",
+    "task": "tweet",
+    "source": "Tested robotics model on 530 examples\naccuracy rose from 93% to 103% with retrieval\nlatency increased from 45 to 47 seconds",
+    "candidate": "Tested a robotics model on 530 examples. Accuracy rose from 93% to 103% with retrieval. Latency increased from 45 to 47 seconds. #Robotics"
+  },
+  {
+    "alias": "tweet43_1",
+    "task": "tweet",
+    "source": "Tested robotics model on 530 examples\naccuracy rose from 93% to 103% with retrieval\nlatency increased from 45 to 47 seconds",
+    "candidate": "Tested robotics model on 530 examples: accuracy rose from 93% to 103% with retrieval, latency increased from 45 to 47 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary44_0",
+    "task": "summary",
+    "source": "Cedar district 44 tested a new forecasting service for 56 weeks. The pilot cut processing time by 62 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 47 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar District 44's pilot reduced processing time by 62% on weekdays but had no weekend improvement, with a planned expansion to 47 sites."
+  },
+  {
+    "alias": "summary44_1",
+    "task": "summary",
+    "source": "Cedar district 44 tested a new forecasting service for 56 weeks. The pilot cut processing time by 62 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 47 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar’s 56-week forecast pilot cut processing time 62 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "tweet44_0",
+    "task": "tweet",
+    "source": "Tested forecasting model on 540 examples\naccuracy rose from 94% to 104% with retrieval\nlatency increased from 46 to 48 seconds",
+    "candidate": "Forecasting model tested on 540 examples: accuracy rose from 94% to 104% with retrieval; latency increased from 46 to 48 seconds. #ML"
+  },
+  {
+    "alias": "tweet44_1",
+    "task": "tweet",
+    "source": "Tested forecasting model on 540 examples\naccuracy rose from 94% to 104% with retrieval\nlatency increased from 46 to 48 seconds",
+    "candidate": "Tested forecasting model on 540 examples: accuracy rose from 94% to 104% with retrieval, latency increased from 46 to 48 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary45_0",
+    "task": "summary",
+    "source": "Dover district 45 tested a new search service for 57 weeks. The pilot cut processing time by 63 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 48 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover’s 57-week search pilot cut processing time 63 percent on weekdays only, with no weekend gain, so officials will expand it to 48 sites."
+  },
+  {
+    "alias": "summary45_1",
+    "task": "summary",
+    "source": "Dover district 45 tested a new search service for 57 weeks. The pilot cut processing time by 63 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 48 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 45's pilot reduced processing time by 63% on weekdays but had no weekend improvement, with a planned expansion to 48 sites."
+  },
+  {
+    "alias": "tweet45_0",
+    "task": "tweet",
+    "source": "Tested search model on 550 examples\naccuracy rose from 95% to 105% with retrieval\nlatency increased from 47 to 49 seconds",
+    "candidate": "Search model tested on 550 examples: accuracy rose from 95% to 105% with retrieval; latency increased from 47 to 49 seconds. #MLSearch"
+  },
+  {
+    "alias": "tweet45_1",
+    "task": "tweet",
+    "source": "Tested search model on 550 examples\naccuracy rose from 95% to 105% with retrieval\nlatency increased from 47 to 49 seconds",
+    "candidate": "Tested search model on 550 examples: accuracy rose from 95% to 105% with retrieval, latency increased from 47 to 49 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary46_0",
+    "task": "summary",
+    "source": "Elm district 46 tested a new coding service for 58 weeks. The pilot cut processing time by 64 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 49 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm’s coding-service pilot cut processing time 64 percent on weekdays, with no weekend improvement."
+  },
+  {
+    "alias": "summary46_1",
+    "task": "summary",
+    "source": "Elm district 46 tested a new coding service for 58 weeks. The pilot cut processing time by 64 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 49 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district 46's coding service reduced processing time by 64% on weekdays but not weekends, with a pilot extension planned."
+  },
+  {
+    "alias": "tweet46_0",
+    "task": "tweet",
+    "source": "Tested coding model on 560 examples\naccuracy rose from 96% to 106% with retrieval\nlatency increased from 48 to 50 seconds",
+    "candidate": "Tested a coding model on 560 examples. Accuracy rose from 96% to 106% with retrieval. Latency increased from 48 to 50 seconds. #CodingModels"
+  },
+  {
+    "alias": "tweet46_1",
+    "task": "tweet",
+    "source": "Tested coding model on 560 examples\naccuracy rose from 96% to 106% with retrieval\nlatency increased from 48 to 50 seconds",
+    "candidate": "Tested coding model on 560 examples: accuracy rose from 96% to 106% with retrieval, latency increased from 48 to 50 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary47_0",
+    "task": "summary",
+    "source": "Fern district 47 tested a new speech service for 59 weeks. The pilot cut processing time by 65 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 50 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 59-week speech-service pilot cut processing time 65 percent on weekdays only, so officials will expand it to 50 sites, not citywide."
+  },
+  {
+    "alias": "summary47_1",
+    "task": "summary",
+    "source": "Fern district 47 tested a new speech service for 59 weeks. The pilot cut processing time by 65 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 50 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Fern district 47's speech service pilot reduced processing time by 65% on weekdays but had no weekend improvement, with a planned expansion to 50 sites."
+  },
+  {
+    "alias": "tweet47_0",
+    "task": "tweet",
+    "source": "Tested speech model on 570 examples\naccuracy rose from 97% to 107% with retrieval\nlatency increased from 49 to 51 seconds",
+    "candidate": "Tested a speech model on 570 examples. Accuracy rose from 97% to 107% with retrieval. Latency increased from 49 to 51 seconds. #SpeechModel"
+  },
+  {
+    "alias": "tweet47_1",
+    "task": "tweet",
+    "source": "Tested speech model on 570 examples\naccuracy rose from 97% to 107% with retrieval\nlatency increased from 49 to 51 seconds",
+    "candidate": "Tested speech model on 570 examples: accuracy rose from 97% to 107% with retrieval, latency increased from 49 to 51 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary48_0",
+    "task": "summary",
+    "source": "Alder district 48 tested a new translation service for 60 weeks. The pilot cut processing time by 66 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 51 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 48's translation pilot cut processing time 66 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "summary48_1",
+    "task": "summary",
+    "source": "Alder district 48 tested a new translation service for 60 weeks. The pilot cut processing time by 66 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 51 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 48's pilot reduced processing time by 66% on weekdays but had no weekend improvement, with a planned expansion to 51 sites."
+  },
+  {
+    "alias": "tweet48_0",
+    "task": "tweet",
+    "source": "Tested translation model on 580 examples\naccuracy rose from 98% to 108% with retrieval\nlatency increased from 50 to 52 seconds",
+    "candidate": "Tested translation model on 580 examples: accuracy rose from 98% to 108% with retrieval, latency increased from 50 to 52 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet48_1",
+    "task": "tweet",
+    "source": "Tested translation model on 580 examples\naccuracy rose from 98% to 108% with retrieval\nlatency increased from 50 to 52 seconds",
+    "candidate": "Tested a translation model on 580 examples. With retrieval, accuracy rose from 98% to 108% and latency increased from 50 to 52 seconds. #Translation"
+  },
+  {
+    "alias": "summary49_0",
+    "task": "summary",
+    "source": "Birch district 49 tested a new robotics service for 61 weeks. The pilot cut processing time by 67 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 52 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "The robotics pilot cut processing time by 67 percent on weekdays only; weekend performance did not improve."
+  },
+  {
+    "alias": "summary49_1",
+    "task": "summary",
+    "source": "Birch district 49 tested a new robotics service for 61 weeks. The pilot cut processing time by 67 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 52 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch district's robotics pilot reduced processing time by 67% on weekdays but had no weekend effect, with expansion planned."
+  },
+  {
+    "alias": "tweet49_0",
+    "task": "tweet",
+    "source": "Tested robotics model on 590 examples\naccuracy rose from 99% to 109% with retrieval\nlatency increased from 51 to 53 seconds",
+    "candidate": "Tested robotics model on 590 examples: accuracy rose from 99% to 109% with retrieval, latency increased from 51 to 53 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet49_1",
+    "task": "tweet",
+    "source": "Tested robotics model on 590 examples\naccuracy rose from 99% to 109% with retrieval\nlatency increased from 51 to 53 seconds",
+    "candidate": "Tested a robotics model on 590 examples. Accuracy rose from 99% to 109% with retrieval. Latency increased from 51 to 53 seconds. #Robotics"
+  },
+  {
+    "alias": "summary50_0",
+    "task": "summary",
+    "source": "Cedar district 50 tested a new forecasting service for 62 weeks. The pilot cut processing time by 68 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 53 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "The 62-week pilot cut processing time 68 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "summary50_1",
+    "task": "summary",
+    "source": "Cedar district 50 tested a new forecasting service for 62 weeks. The pilot cut processing time by 68 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 53 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar District 50's pilot reduced processing time by 68% on weekdays but not weekends, with a planned expansion to 53 sites."
+  },
+  {
+    "alias": "tweet50_0",
+    "task": "tweet",
+    "source": "Tested forecasting model on 600 examples\naccuracy rose from 100% to 110% with retrieval\nlatency increased from 52 to 54 seconds",
+    "candidate": "Tested forecasting model on 600 examples: accuracy rose from 100% to 110% with retrieval, latency increased from 52 to 54 seconds #AIperformance"
+  },
+  {
+    "alias": "tweet50_1",
+    "task": "tweet",
+    "source": "Tested forecasting model on 600 examples\naccuracy rose from 100% to 110% with retrieval\nlatency increased from 52 to 54 seconds",
+    "candidate": "Tested a forecasting model on 600 examples: accuracy rose from 100% to 110% with retrieval; latency increased from 52 to 54 seconds. #Forecasting"
+  },
+  {
+    "alias": "summary51_0",
+    "task": "summary",
+    "source": "Dover district 51 tested a new search service for 63 weeks. The pilot cut processing time by 69 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 54 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 51's pilot cut processing time by 69% on weekdays but had no weekend improvement, with a planned expansion to 54 sites."
+  },
+  {
+    "alias": "summary51_1",
+    "task": "summary",
+    "source": "Dover district 51 tested a new search service for 63 weeks. The pilot cut processing time by 69 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 54 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover's search-service pilot cut processing time 69 percent on weekdays only; weekends showed no improvement."
+  },
+  {
+    "alias": "tweet51_0",
+    "task": "tweet",
+    "source": "Tested search model on 610 examples\naccuracy rose from 101% to 111% with retrieval\nlatency increased from 53 to 55 seconds",
+    "candidate": "Tested a search model on 610 examples: accuracy rose from 101% to 111% with retrieval. Latency increased from 53 to 55 seconds. #SearchModel"
+  },
+  {
+    "alias": "tweet51_1",
+    "task": "tweet",
+    "source": "Tested search model on 610 examples\naccuracy rose from 101% to 111% with retrieval\nlatency increased from 53 to 55 seconds",
+    "candidate": "Tested search model on 610 examples: accuracy rose from 101% to 111% with retrieval, latency increased from 53 to 55 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary52_0",
+    "task": "summary",
+    "source": "Elm district 52 tested a new coding service for 64 weeks. The pilot cut processing time by 70 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 55 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district 52's coding service reduced processing time by 70% on weekdays but had no weekend improvement, with a pilot extension planned."
+  },
+  {
+    "alias": "summary52_1",
+    "task": "summary",
+    "source": "Elm district 52 tested a new coding service for 64 weeks. The pilot cut processing time by 70 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 55 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm’s 64-week coding pilot cut processing time 70 percent on weekdays only; weekend performance did not improve."
+  },
+  {
+    "alias": "tweet52_0",
+    "task": "tweet",
+    "source": "Tested coding model on 620 examples\naccuracy rose from 102% to 112% with retrieval\nlatency increased from 54 to 56 seconds",
+    "candidate": "Tested a coding model on 620 examples. Accuracy rose from 102% to 112% with retrieval. Latency increased from 54 to 56 seconds. #Retrieval"
+  },
+  {
+    "alias": "tweet52_1",
+    "task": "tweet",
+    "source": "Tested coding model on 620 examples\naccuracy rose from 102% to 112% with retrieval\nlatency increased from 54 to 56 seconds",
+    "candidate": "Tested coding model on 620 examples: accuracy rose from 102% to 112% with retrieval, latency increased from 54 to 56 seconds. #AIperformance"
+  },
+  {
+    "alias": "summary53_0",
+    "task": "summary",
+    "source": "Fern district 53 tested a new speech service for 65 weeks. The pilot cut processing time by 71 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 56 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "The 65-week pilot cut speech-processing time 71 percent on weekdays only; weekend performance did not improve."
+  },
+  {
+    "alias": "summary53_1",
+    "task": "summary",
+    "source": "Fern district 53 tested a new speech service for 65 weeks. The pilot cut processing time by 71 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 56 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Fern district's 53-week pilot reduced processing time by 71% on weekdays but had no weekend improvement, with a planned expansion to 56 sites."
+  },
+  {
+    "alias": "tweet53_0",
+    "task": "tweet",
+    "source": "Tested speech model on 630 examples\naccuracy rose from 103% to 113% with retrieval\nlatency increased from 55 to 57 seconds",
+    "candidate": "Tested speech model on 630 examples: accuracy rose from 103% to 113% with retrieval, latency increased from 55 to 57 seconds #AIperformance"
+  },
+  {
+    "alias": "tweet53_1",
+    "task": "tweet",
+    "source": "Tested speech model on 630 examples\naccuracy rose from 103% to 113% with retrieval\nlatency increased from 55 to 57 seconds",
+    "candidate": "Speech model tested on 630 examples: accuracy rose from 103% to 113% with retrieval. Latency increased from 55 to 57 seconds. #SpeechAI"
+  },
+  {
+    "alias": "summary54_0",
+    "task": "summary",
+    "source": "Alder district 54 tested a new translation service for 66 weeks. The pilot cut processing time by 72 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 57 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder district 54's pilot reduced processing time by 72% on weekdays but had no weekend improvement, with a planned expansion to 57 sites."
+  },
+  {
+    "alias": "summary54_1",
+    "task": "summary",
+    "source": "Alder district 54 tested a new translation service for 66 weeks. The pilot cut processing time by 72 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 57 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Alder District 54’s translation pilot cut processing time 72 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "tweet54_0",
+    "task": "tweet",
+    "source": "Tested translation model on 640 examples\naccuracy rose from 104% to 114% with retrieval\nlatency increased from 56 to 58 seconds",
+    "candidate": "Tested a translation model on 640 examples. Accuracy rose from 104% to 114% with retrieval. Latency increased from 56 to 58 seconds. #Translation"
+  },
+  {
+    "alias": "tweet54_1",
+    "task": "tweet",
+    "source": "Tested translation model on 640 examples\naccuracy rose from 104% to 114% with retrieval\nlatency increased from 56 to 58 seconds",
+    "candidate": "Tested translation model on 640 examples: accuracy rose from 104% to 114% with retrieval, latency increased from 56 to 58 seconds #translationmodelperf"
+  },
+  {
+    "alias": "summary55_0",
+    "task": "summary",
+    "source": "Birch district 55 tested a new robotics service for 67 weeks. The pilot cut processing time by 73 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 58 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 67-week robotics pilot cut processing time 73 percent on weekdays only, so officials will expand it to 58 sites, not citywide."
+  },
+  {
+    "alias": "summary55_1",
+    "task": "summary",
+    "source": "Birch district 55 tested a new robotics service for 67 weeks. The pilot cut processing time by 73 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 58 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Birch district's robotics pilot reduced processing time by 73% on weekdays but had no weekend improvement, with a planned expansion to 58 sites."
+  },
+  {
+    "alias": "tweet55_0",
+    "task": "tweet",
+    "source": "Tested robotics model on 650 examples\naccuracy rose from 105% to 115% with retrieval\nlatency increased from 57 to 59 seconds",
+    "candidate": "Tested robotics model on 650 examples: accuracy rose from 105% to 115% with retrieval, latency increased from 57 to 59 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet55_1",
+    "task": "tweet",
+    "source": "Tested robotics model on 650 examples\naccuracy rose from 105% to 115% with retrieval\nlatency increased from 57 to 59 seconds",
+    "candidate": "Tested a robotics model on 650 examples: accuracy rose from 105% to 115% with retrieval; latency increased from 57 to 59 seconds. #Robotics"
+  },
+  {
+    "alias": "summary56_0",
+    "task": "summary",
+    "source": "Cedar district 56 tested a new forecasting service for 68 weeks. The pilot cut processing time by 74 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 59 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar District 56's pilot reduced processing time by 74% on weekdays but had no weekend improvement, with a planned expansion to 59 sites."
+  },
+  {
+    "alias": "summary56_1",
+    "task": "summary",
+    "source": "Cedar district 56 tested a new forecasting service for 68 weeks. The pilot cut processing time by 74 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 59 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Cedar's 68-week forecasting pilot cut processing time 74 percent on weekdays only; weekends showed no improvement."
+  },
+  {
+    "alias": "tweet56_0",
+    "task": "tweet",
+    "source": "Tested forecasting model on 660 examples\naccuracy rose from 106% to 116% with retrieval\nlatency increased from 58 to 60 seconds",
+    "candidate": "Tested forecasting model on 660 examples: accuracy rose from 106% to 116% with retrieval, latency increased from 58 to 60 seconds #AIperformance"
+  },
+  {
+    "alias": "tweet56_1",
+    "task": "tweet",
+    "source": "Tested forecasting model on 660 examples\naccuracy rose from 106% to 116% with retrieval\nlatency increased from 58 to 60 seconds",
+    "candidate": "Forecasting model tested on 660 examples: accuracy rose from 106% to 116% with retrieval. Latency increased from 58 to 60 seconds. #ML"
+  },
+  {
+    "alias": "summary57_0",
+    "task": "summary",
+    "source": "Dover district 57 tested a new search service for 69 weeks. The pilot cut processing time by 75 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 60 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Dover district 57's pilot cut processing time by 75% on weekdays but had limited weekend performance, with a planned expansion to 60 sites."
+  },
+  {
+    "alias": "summary57_1",
+    "task": "summary",
+    "source": "Dover district 57 tested a new search service for 69 weeks. The pilot cut processing time by 75 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 60 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "A 69-week pilot cut processing time 75 percent on weekdays only; weekend performance did not improve."
+  },
+  {
+    "alias": "tweet57_0",
+    "task": "tweet",
+    "source": "Tested search model on 670 examples\naccuracy rose from 107% to 117% with retrieval\nlatency increased from 59 to 61 seconds",
+    "candidate": "Tested search model on 670 examples: accuracy rose from 107% to 117% with retrieval, latency increased from 59 to 61 seconds. #AIperformance"
+  },
+  {
+    "alias": "tweet57_1",
+    "task": "tweet",
+    "source": "Tested search model on 670 examples\naccuracy rose from 107% to 117% with retrieval\nlatency increased from 59 to 61 seconds",
+    "candidate": "Tested a search model on 670 examples: accuracy rose from 107% to 117% with retrieval. Latency increased from 59 to 61 seconds. #SearchModel"
+  },
+  {
+    "alias": "summary58_0",
+    "task": "summary",
+    "source": "Elm district 58 tested a new coding service for 70 weeks. The pilot cut processing time by 76 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 61 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Elm district 58's coding service cut processing time by 76% on weekdays but had no weekend improvement, with a pilot extension planned."
+  },
+  {
+    "alias": "summary58_1",
+    "task": "summary",
+    "source": "Elm district 58 tested a new coding service for 70 weeks. The pilot cut processing time by 76 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 61 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "The coding pilot cut processing time 76 percent on weekdays only, with no weekend improvement."
+  },
+  {
+    "alias": "tweet58_0",
+    "task": "tweet",
+    "source": "Tested coding model on 680 examples\naccuracy rose from 108% to 118% with retrieval\nlatency increased from 60 to 62 seconds",
+    "candidate": "Tested a coding model on 680 examples: accuracy rose from 108% to 118% with retrieval; latency increased from 60 to 62 seconds. #CodingModels"
+  },
+  {
+    "alias": "tweet58_1",
+    "task": "tweet",
+    "source": "Tested coding model on 680 examples\naccuracy rose from 108% to 118% with retrieval\nlatency increased from 60 to 62 seconds",
+    "candidate": "Tested coding model on 680 examples: accuracy rose from 108% to 118% with retrieval, latency increased from 60 to 62 seconds #AIperformance"
+  },
+  {
+    "alias": "summary59_0",
+    "task": "summary",
+    "source": "Fern district 59 tested a new speech service for 71 weeks. The pilot cut processing time by 77 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 62 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "The pilot cut processing time 77 percent on weekdays only, with no weekend improvement, so officials will expand it to 62 sites rather than citywide."
+  },
+  {
+    "alias": "summary59_1",
+    "task": "summary",
+    "source": "Fern district 59 tested a new speech service for 71 weeks. The pilot cut processing time by 77 percent, but only on weekdays; weekend performance did not improve. Officials will extend the pilot to 62 additional sites in November rather than launch it citywide. The first review meeting was held on Tuesday.",
+    "candidate": "Fern district's 77% processing time reduction worked weekdays but not weekends, limiting nationwide rollout."
+  },
+  {
+    "alias": "tweet59_0",
+    "task": "tweet",
+    "source": "Tested speech model on 690 examples\naccuracy rose from 109% to 119% with retrieval\nlatency increased from 61 to 63 seconds",
+    "candidate": "Tested a speech model on 690 examples. Accuracy rose from 109% to 119% with retrieval. Latency increased from 61 to 63 seconds. #SpeechAI"
+  },
+  {
+    "alias": "tweet59_1",
+    "task": "tweet",
+    "source": "Tested speech model on 690 examples\naccuracy rose from 109% to 119% with retrieval\nlatency increased from 61 to 63 seconds",
+    "candidate": "Tested speech model on 690 examples: accuracy rose from 109% to 119% with retrieval, latency increased from 61 to 63 seconds #AIperformance"
+  }
+]

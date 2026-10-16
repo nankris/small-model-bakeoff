@@ -1,0 +1,8 @@
+{
+  "gpu": "NVIDIA L4, 23034 MiB",
+  "repo": "Qwen/Qwen3-4B",
+  "quant": "nf4",
+  "cuda": true,
+  "model_key": "qwen3_4b_q4",
+  "n_todo": 30
+}

@@ -1,0 +1,11 @@
+
+--- start 1792090471.5999625 analyse.py ['items.json']
+{
+  "verdict": "STILL INCONCLUSIVE",
+  "verdict_reason": "budget or runtime ended before every item had both answers and, where required, a judge grade",
+  "complete": false,
+  "n_missing": 240,
+  "qwen_checkpoint": "qwen3_4b_q4"
+}
+
+--- end rc=0

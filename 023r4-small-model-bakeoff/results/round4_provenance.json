@@ -1,0 +1,32 @@
+{
+  "reused_files": [
+    {
+      "file": "items.json",
+      "sha256": "8c78fb9b2fe71979a3313fafe9a62a8098564f8c9a3d29568a3965c3422d537c",
+      "identical_to_round3": true
+    },
+    {
+      "file": "items_ext.json",
+      "sha256": "6922dd31747d7a269082b98bf90b7a9d916d9f9c0066283e1dbb3fb203826be5",
+      "identical_to_round3": true
+    },
+    {
+      "file": "items_all.json",
+      "sha256": "17c81ad1b3dad62386fca375395ac812b1eb74a88ff7efafac08a01f462ffde8",
+      "identical_to_round3": true
+    },
+    {
+      "file": "results/grok.jsonl",
+      "sha256": "f3b567b6b12e79ee986c4e2a674fcf7935ff6a3fa7ac74fcd13a215cc78e1b84",
+      "identical_to_round3": true
+    },
+    {
+      "file": "results/qwen.jsonl",
+      "sha256": "bc5392f12899b863639781f31c567a8070b2eb5fc9cf1fd3a32d5016b6caca73",
+      "identical_to_round3": true
+    }
+  ],
+  "new_gpu_sessions": [],
+  "round4_cu": 0,
+  "balance_before": 174.92
+}

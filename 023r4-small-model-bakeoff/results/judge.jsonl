@@ -1,0 +1,240 @@
+{"alias": "summary0_0", "id": "summary0", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence, 25 words, with the main finding and weekday/weekend limitation."}
+{"alias": "summary0_1", "id": "summary0", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately preserves the finding and limitation."}
+{"alias": "tweet0_0", "id": "tweet0", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet0_1", "id": "tweet0", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary1_0", "id": "summary1", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately preserves the finding and limitation."}
+{"alias": "summary1_1", "id": "summary1", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words states the main finding and weekday/weekend limitation."}
+{"alias": "tweet1_0", "id": "tweet1", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet1_1", "id": "tweet1", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary2_0", "id": "summary2", "model": "grok", "task": "summary", "pass": false, "reason": "Contains 26 words, exceeding the limit, and adds an unsupported causal link to expansion."}
+{"alias": "summary2_1", "id": "summary2", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence, 25 words, with the main finding and weekday/weekend limitation."}
+{"alias": "tweet2_0", "id": "tweet2", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet2_1", "id": "tweet2", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary3_0", "id": "summary3", "model": "grok", "task": "summary", "pass": false, "reason": "Adds an unsupported causal claim that the weekday-only result prompted expansion."}
+{"alias": "summary3_1", "id": "summary3", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence, 25 words, with the main finding and weekday/weekend limitation."}
+{"alias": "tweet3_0", "id": "tweet3", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet3_1", "id": "tweet3", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary4_0", "id": "summary4", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words states the main finding and weekday/weekend limitation."}
+{"alias": "summary4_1", "id": "summary4", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately preserves the finding and limitation."}
+{"alias": "tweet4_0", "id": "tweet4", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet4_1", "id": "tweet4", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary5_0", "id": "summary5", "model": "qwen", "task": "summary", "pass": false, "reason": "Incorrectly describes the 17-week pilot as a 5-week pilot."}
+{"alias": "summary5_1", "id": "summary5", "model": "grok", "task": "summary", "pass": true, "reason": "Faithful single sentence under 25 words, preserving the finding and weekday/weekend limitation."}
+{"alias": "tweet5_0", "id": "tweet5", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet5_1", "id": "tweet5", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary6_0", "id": "summary6", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 9 additional sites into expansion to 9 sites."}
+{"alias": "summary6_1", "id": "summary6", "model": "grok", "task": "summary", "pass": true, "reason": "Faithful single sentence under 25 words, preserving the finding and weekday/weekend limitation."}
+{"alias": "tweet6_0", "id": "tweet6", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet6_1", "id": "tweet6", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary7_0", "id": "summary7", "model": "grok", "task": "summary", "pass": true, "reason": "Faithful single sentence under 25 words, preserving the finding and weekday/weekend limitation."}
+{"alias": "summary7_1", "id": "summary7", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 10 additional sites into expansion to 10 sites."}
+{"alias": "tweet7_0", "id": "tweet7", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet7_1", "id": "tweet7", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary8_0", "id": "summary8", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 11 additional sites into expansion to 11 sites."}
+{"alias": "summary8_1", "id": "summary8", "model": "grok", "task": "summary", "pass": false, "reason": "Adds an unsupported causal connection and changes 11 additional sites into 11 sites."}
+{"alias": "tweet8_0", "id": "tweet8", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet8_1", "id": "tweet8", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary9_0", "id": "summary9", "model": "grok", "task": "summary", "pass": true, "reason": "Faithful single sentence under 25 words, preserving the finding and weekday/weekend limitation."}
+{"alias": "summary9_1", "id": "summary9", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 12 additional sites into expansion to 12 sites."}
+{"alias": "tweet9_0", "id": "tweet9", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet9_1", "id": "tweet9", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary10_0", "id": "summary10", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation."}
+{"alias": "summary10_1", "id": "summary10", "model": "qwen", "task": "summary", "pass": false, "reason": "Incorrectly describes the 22-week pilot as 10 weeks and changes 13 additional sites to 13 sites."}
+{"alias": "tweet10_0", "id": "tweet10", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet10_1", "id": "tweet10", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary11_0", "id": "summary11", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation."}
+{"alias": "summary11_1", "id": "summary11", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 14 additional sites into expansion to 14 sites."}
+{"alias": "tweet11_0", "id": "tweet11", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet11_1", "id": "tweet11", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary12_0", "id": "summary12", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 15 additional sites into expansion to 15 sites."}
+{"alias": "summary12_1", "id": "summary12", "model": "grok", "task": "summary", "pass": false, "reason": "Changes 15 additional sites to 15 sites and introduces an unsupported causal connection."}
+{"alias": "tweet12_0", "id": "tweet12", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet12_1", "id": "tweet12", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary13_0", "id": "summary13", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation."}
+{"alias": "summary13_1", "id": "summary13", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 16 additional sites into expansion to 16 sites."}
+{"alias": "tweet13_0", "id": "tweet13", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet13_1", "id": "tweet13", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary14_0", "id": "summary14", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 17 additional sites into expansion to 17 sites."}
+{"alias": "summary14_1", "id": "summary14", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation."}
+{"alias": "tweet14_0", "id": "tweet14", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet14_1", "id": "tweet14", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary15_0", "id": "summary15", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation."}
+{"alias": "summary15_1", "id": "summary15", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 18 additional sites into expansion to 18 sites."}
+{"alias": "tweet15_0", "id": "tweet15", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet15_1", "id": "tweet15", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary16_0", "id": "summary16", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words faithfully states the main finding and weekday/weekend limitation."}
+{"alias": "summary16_1", "id": "summary16", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation."}
+{"alias": "tweet16_0", "id": "tweet16", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet16_1", "id": "tweet16", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary17_0", "id": "summary17", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation."}
+{"alias": "summary17_1", "id": "summary17", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 20 additional sites into expansion to 20 sites."}
+{"alias": "tweet17_0", "id": "tweet17", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet17_1", "id": "tweet17", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary18_0", "id": "summary18", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words faithfully states the main finding and weekday/weekend limitation."}
+{"alias": "summary18_1", "id": "summary18", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation."}
+{"alias": "tweet18_0", "id": "tweet18", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet18_1", "id": "tweet18", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary19_0", "id": "summary19", "model": "qwen", "task": "summary", "pass": false, "reason": "Changes expansion to 22 additional sites into expansion to 22 sites."}
+{"alias": "summary19_1", "id": "summary19", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation."}
+{"alias": "tweet19_0", "id": "tweet19", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet19_1", "id": "tweet19", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary20_0", "id": "summary20", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the finding and weekday/weekend limitation."}
+{"alias": "summary20_1", "id": "summary20", "model": "grok", "task": "summary", "pass": true, "reason": "One 24-word sentence preserves the main finding and weekday/weekend limitation."}
+{"alias": "tweet20_0", "id": "tweet20", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet20_1", "id": "tweet20", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary21_0", "id": "summary21", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the finding and weekday/weekend limitation."}
+{"alias": "summary21_1", "id": "summary21", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation."}
+{"alias": "tweet21_0", "id": "tweet21", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet21_1", "id": "tweet21", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary22_0", "id": "summary22", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the finding and weekday/weekend limitation."}
+{"alias": "summary22_1", "id": "summary22", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation."}
+{"alias": "tweet22_0", "id": "tweet22", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet22_1", "id": "tweet22", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary23_0", "id": "summary23", "model": "qwen", "task": "summary", "pass": true, "reason": "One 25-word sentence preserves the main finding and weekday/weekend limitation."}
+{"alias": "summary23_1", "id": "summary23", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the finding and weekday/weekend limitation."}
+{"alias": "tweet23_0", "id": "tweet23", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet23_1", "id": "tweet23", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary24_0", "id": "summary24", "model": "qwen", "task": "summary", "pass": false, "reason": "Incorrectly describes a 24-week pilot; the source specifies 36 weeks, with 24 identifying the district."}
+{"alias": "summary24_1", "id": "summary24", "model": "grok", "task": "summary", "pass": true, "reason": "One 24-word sentence preserves the main finding and its weekday-only limitation."}
+{"alias": "tweet24_0", "id": "tweet24", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet24_1", "id": "tweet24", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary25_0", "id": "summary25", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence, 23 words; preserves the finding and weekday/weekend limitation."}
+{"alias": "summary25_1", "id": "summary25", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence, 19 words; accurately states the finding and limitation."}
+{"alias": "tweet25_0", "id": "tweet25", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet25_1", "id": "tweet25", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary26_0", "id": "summary26", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence within 25 words; preserves the finding and weekday/weekend limitation."}
+{"alias": "summary26_1", "id": "summary26", "model": "grok", "task": "summary", "pass": false, "reason": "The word 'so' asserts an unsupported causal link between the results and expansion decision."}
+{"alias": "tweet26_0", "id": "tweet26", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet26_1", "id": "tweet26", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary27_0", "id": "summary27", "model": "grok", "task": "summary", "pass": false, "reason": "Misstates 30 additional sites as a 30-site limit and implies unsupported causation."}
+{"alias": "summary27_1", "id": "summary27", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence within 25 words; preserves the finding and weekday/weekend limitation."}
+{"alias": "tweet27_0", "id": "tweet27", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet27_1", "id": "tweet27", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary28_0", "id": "summary28", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence within 25 words; accurately states the finding and limitation."}
+{"alias": "summary28_1", "id": "summary28", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence within 25 words; accurately states the finding and limitation."}
+{"alias": "tweet28_0", "id": "tweet28", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet28_1", "id": "tweet28", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary29_0", "id": "summary29", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence, exactly 25 words; preserves the finding and weekday/weekend limitation."}
+{"alias": "summary29_1", "id": "summary29", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence within 25 words; accurately states the finding and limitation."}
+{"alias": "tweet29_0", "id": "tweet29", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet29_1", "id": "tweet29", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary30_0", "id": "summary30", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation."}
+{"alias": "summary30_1", "id": "summary30", "model": "qwen", "task": "summary", "pass": false, "reason": "Misstates expansion to 33 additional sites as expansion to 33 sites."}
+{"alias": "tweet30_0", "id": "tweet30", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet30_1", "id": "tweet30", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary31_0", "id": "summary31", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation."}
+{"alias": "summary31_1", "id": "summary31", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekend limitation."}
+{"alias": "tweet31_0", "id": "tweet31", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet31_1", "id": "tweet31", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary32_0", "id": "summary32", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation."}
+{"alias": "summary32_1", "id": "summary32", "model": "qwen", "task": "summary", "pass": false, "reason": "Misstates expansion to 35 additional sites as expansion to 35 sites."}
+{"alias": "tweet32_0", "id": "tweet32", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet32_1", "id": "tweet32", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary33_0", "id": "summary33", "model": "grok", "task": "summary", "pass": false, "reason": "Adds an unsupported causal link and describes 36 additional sites as 36 sites."}
+{"alias": "summary33_1", "id": "summary33", "model": "qwen", "task": "summary", "pass": false, "reason": "Misstates expansion to 36 additional sites as expansion to 36 sites."}
+{"alias": "tweet33_0", "id": "tweet33", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet33_1", "id": "tweet33", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary34_0", "id": "summary34", "model": "grok", "task": "summary", "pass": false, "reason": "Adds an unsupported causal link and describes 37 additional sites as 37 sites."}
+{"alias": "summary34_1", "id": "summary34", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekend limitation."}
+{"alias": "tweet34_0", "id": "tweet34", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet34_1", "id": "tweet34", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary35_0", "id": "summary35", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation."}
+{"alias": "summary35_1", "id": "summary35", "model": "qwen", "task": "summary", "pass": false, "reason": "Expansion to 38 sites misstates the planned addition of 38 sites."}
+{"alias": "tweet35_0", "id": "tweet35", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet35_1", "id": "tweet35", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary36_0", "id": "summary36", "model": "qwen", "task": "summary", "pass": false, "reason": "Expansion to 39 sites misstates the planned addition of 39 sites."}
+{"alias": "summary36_1", "id": "summary36", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation."}
+{"alias": "tweet36_0", "id": "tweet36", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet36_1", "id": "tweet36", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary37_0", "id": "summary37", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation."}
+{"alias": "summary37_1", "id": "summary37", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekend limitation."}
+{"alias": "tweet37_0", "id": "tweet37", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet37_1", "id": "tweet37", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary38_0", "id": "summary38", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation."}
+{"alias": "summary38_1", "id": "summary38", "model": "qwen", "task": "summary", "pass": false, "reason": "'Failed weekends' overstates unchanged weekend performance; 'improved weekday processing' also obscures the processing-time reduction."}
+{"alias": "tweet38_0", "id": "tweet38", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet38_1", "id": "tweet38", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary39_0", "id": "summary39", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation."}
+{"alias": "summary39_1", "id": "summary39", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words accurately states the reduction and weekday/weekend limitation."}
+{"alias": "tweet39_0", "id": "tweet39", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet39_1", "id": "tweet39", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary40_0", "id": "summary40", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation."}
+{"alias": "summary40_1", "id": "summary40", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation."}
+{"alias": "tweet40_0", "id": "tweet40", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "tweet40_1", "id": "tweet40", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "summary41_0", "id": "summary41", "model": "grok", "task": "summary", "pass": false, "reason": "Misstates 44 additional sites as expansion to 44 sites and introduces unsupported causality with 'so'."}
+{"alias": "summary41_1", "id": "summary41", "model": "qwen", "task": "summary", "pass": false, "reason": "Misstates expansion to 44 additional sites as expansion to 44 sites."}
+{"alias": "tweet41_0", "id": "tweet41", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings faithfully preserved, including 101%."}
+{"alias": "tweet41_1", "id": "tweet41", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "summary42_0", "id": "summary42", "model": "qwen", "task": "summary", "pass": false, "reason": "Misstates expansion to 45 additional sites as expansion to 45 sites."}
+{"alias": "summary42_1", "id": "summary42", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation."}
+{"alias": "tweet42_0", "id": "tweet42", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "tweet42_1", "id": "tweet42", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "summary43_0", "id": "summary43", "model": "grok", "task": "summary", "pass": false, "reason": "Exceeds 25 words, introduces unsupported causality, and misstates 46 additional sites as expansion to 46 sites."}
+{"alias": "summary43_1", "id": "summary43", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation."}
+{"alias": "tweet43_0", "id": "tweet43", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "tweet43_1", "id": "tweet43", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "summary44_0", "id": "summary44", "model": "qwen", "task": "summary", "pass": false, "reason": "Misstates expansion to 47 additional sites as expansion to 47 sites."}
+{"alias": "summary44_1", "id": "summary44", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words faithfully states the reduction and weekday/weekend limitation."}
+{"alias": "tweet44_0", "id": "tweet44", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "tweet44_1", "id": "tweet44", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "summary45_0", "id": "summary45", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence, 24 words; preserves the main finding and weekday/weekend limitation."}
+{"alias": "summary45_1", "id": "summary45", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence, 23 words; preserves the main finding and weekday/weekend limitation."}
+{"alias": "tweet45_0", "id": "tweet45", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet45_1", "id": "tweet45", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary46_0", "id": "summary46", "model": "grok", "task": "summary", "pass": true, "reason": "One concise sentence within 25 words; accurately states the reduction and lack of weekend improvement."}
+{"alias": "summary46_1", "id": "summary46", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence within 25 words; preserves the main finding and weekday/weekend limitation."}
+{"alias": "tweet46_0", "id": "tweet46", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet46_1", "id": "tweet46", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary47_0", "id": "summary47", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence, 22 words; accurately states the reduction applies only on weekdays."}
+{"alias": "summary47_1", "id": "summary47", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence, 25 words; preserves the main finding and lack of weekend improvement."}
+{"alias": "tweet47_0", "id": "tweet47", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet47_1", "id": "tweet47", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary48_0", "id": "summary48", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence within 25 words; accurately states the reduction and weekday/weekend limitation."}
+{"alias": "summary48_1", "id": "summary48", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence, 23 words; preserves the main finding and lack of weekend improvement."}
+{"alias": "tweet48_0", "id": "tweet48", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet48_1", "id": "tweet48", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary49_0", "id": "summary49", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence within 25 words; accurately states the reduction and lack of weekend improvement."}
+{"alias": "summary49_1", "id": "summary49", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence within 25 words; preserves the main finding and weekday/weekend limitation."}
+{"alias": "tweet49_0", "id": "tweet49", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "tweet49_1", "id": "tweet49", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relations preserved."}
+{"alias": "summary50_0", "id": "summary50", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation."}
+{"alias": "summary50_1", "id": "summary50", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words states the reduction and weekday/weekend limitation faithfully."}
+{"alias": "tweet50_0", "id": "tweet50", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet50_1", "id": "tweet50", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary51_0", "id": "summary51", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation."}
+{"alias": "summary51_1", "id": "summary51", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation."}
+{"alias": "tweet51_0", "id": "tweet51", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet51_1", "id": "tweet51", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary52_0", "id": "summary52", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation."}
+{"alias": "summary52_1", "id": "summary52", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation."}
+{"alias": "tweet52_0", "id": "tweet52", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet52_1", "id": "tweet52", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary53_0", "id": "summary53", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation."}
+{"alias": "summary53_1", "id": "summary53", "model": "qwen", "task": "summary", "pass": false, "reason": "Incorrectly states a 53-week pilot; the source says 65 weeks."}
+{"alias": "tweet53_0", "id": "tweet53", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet53_1", "id": "tweet53", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary54_0", "id": "summary54", "model": "qwen", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation."}
+{"alias": "summary54_1", "id": "summary54", "model": "grok", "task": "summary", "pass": true, "reason": "One sentence under 25 words preserves the main finding and weekday/weekend limitation."}
+{"alias": "tweet54_0", "id": "tweet54", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "tweet54_1", "id": "tweet54", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, with exactly one hashtag and all numerical findings and relations preserved."}
+{"alias": "summary55_0", "id": "summary55", "model": "grok", "task": "summary", "pass": true, "reason": "One clear sentence of 22 words preserves the main finding and weekday-only limitation."}
+{"alias": "summary55_1", "id": "summary55", "model": "qwen", "task": "summary", "pass": true, "reason": "One clear sentence of 23 words states the reduction and lack of weekend improvement."}
+{"alias": "tweet55_0", "id": "tweet55", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "tweet55_1", "id": "tweet55", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "summary56_0", "id": "summary56", "model": "qwen", "task": "summary", "pass": true, "reason": "One clear sentence of 23 words states the reduction and lack of weekend improvement."}
+{"alias": "summary56_1", "id": "summary56", "model": "grok", "task": "summary", "pass": true, "reason": "One clear sentence under 25 words faithfully states the main finding and weekday/weekend limitation."}
+{"alias": "tweet56_0", "id": "tweet56", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "tweet56_1", "id": "tweet56", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "summary57_0", "id": "summary57", "model": "qwen", "task": "summary", "pass": false, "reason": "'Limited weekend performance' does not faithfully convey that weekend performance did not improve."}
+{"alias": "summary57_1", "id": "summary57", "model": "grok", "task": "summary", "pass": true, "reason": "One clear sentence under 25 words faithfully states the main finding and weekday/weekend limitation."}
+{"alias": "tweet57_0", "id": "tweet57", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "tweet57_1", "id": "tweet57", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "summary58_0", "id": "summary58", "model": "qwen", "task": "summary", "pass": true, "reason": "One clear sentence under 25 words states the reduction and lack of weekend improvement."}
+{"alias": "summary58_1", "id": "summary58", "model": "grok", "task": "summary", "pass": true, "reason": "One clear sentence under 25 words faithfully states the main finding and weekday/weekend limitation."}
+{"alias": "tweet58_0", "id": "tweet58", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "tweet58_1", "id": "tweet58", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "summary59_0", "id": "summary59", "model": "grok", "task": "summary", "pass": false, "reason": "Contains 30 words, exceeding the 25-word limit."}
+{"alias": "summary59_1", "id": "summary59", "model": "qwen", "task": "summary", "pass": false, "reason": "Invents a nationwide rollout; the source describes extending the pilot instead of launching citywide."}
+{"alias": "tweet59_0", "id": "tweet59", "model": "grok", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
+{"alias": "tweet59_1", "id": "tweet59", "model": "qwen", "task": "tweet", "pass": true, "reason": "Under 280 characters, exactly one hashtag, and all numerical findings and relationships preserved."}
