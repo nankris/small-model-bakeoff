@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "grades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "alias": {"type": "string"},
+          "pass": {"type": "boolean"},
+          "reason": {"type": "string"}
+        },
+        "required": ["alias", "pass", "reason"]
+      }
+    }
+  },
+  "required": ["grades"]
+}
